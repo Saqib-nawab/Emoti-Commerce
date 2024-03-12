@@ -1,0 +1,143 @@
+.footer {
+    width: 100%;
+    background: #25262A;
+    color: #251414;
+    padding: 50px 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container h3::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    background: #110303;
+    margin-top: 20px;
+}
+
+.container li a:hover {
+    color: #e701e7;
+    transition: all 0.5s ease;
+}
+
+.col-1 {
+    flex-basis: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.col-1 img {
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.col-1 p {
+    color: #332b2b;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.col-2,
+.col-3,
+.col-4 {
+    flex-basis: 20%;
+    /* Adjust as needed */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.col-2 h3,
+.col-3 h3,
+.col-4 h3 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.col-2 ul,
+.col-3 ul,
+.col-4 ul {
+    list-style: none;
+}
+
+.col-2 ul li,
+.col-3 ul li,
+.col-4 ul li {
+    margin-bottom: 10px;
+}
+
+.col-2 ul li a,
+.col-3 ul li a,
+.col-4 ul li a {
+    color: #150f0f;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1c1515;
+    padding-bottom: 20px;
+}
+
+form .far {
+    color: #261a1a;
+    margin-right: 10px;
+}
+
+form input {
+    background: transparent;
+    width: 100%;
+    border: none;
+    color: #241818;
+    outline: none;
+}
+
+form button {
+    background: transparent;
+    border: none;
+    color: #090505;
+    cursor: pointer;
+    outline: none;
+}
+
+.social-icons {
+    margin-top: 50px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #110a0a;
+    color: #25262A;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+.social-icons a:hover {
+    background: #e701e7;
+    color: #080404;
+    transition: all 0.5s ease;
+}
+
+.footer-2 {
+    width: 100%;
+    background: #25262A;
+    color: #0d0707;
+    padding-top: 20px;
+    text-align: center;
+}
