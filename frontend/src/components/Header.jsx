@@ -30,7 +30,7 @@ const Header = () => {
   };
 
   return (
-    <header style={{ marginBottom: '20px' }}> {/* Adjust margin as needed */}
+    <header > {/* Adjust margin as needed */}
       <Navbar bg='primary' variant='dark' expand='lg' collapseOnSelect style={{ height: '80px' }}>
         <Container style={{ display: 'flex', alignItems: 'center' }}>
           <LinkContainer to='/'>
@@ -40,7 +40,7 @@ const Header = () => {
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='ms-auto'>
+            <Nav className='ms-auto' style={{ marginBottom: '-25px' }}>
               <SearchBox />
               <LinkContainer to='/cart'>
                 <Nav.Link>

@@ -1,11 +1,11 @@
 .footer {
     width: 100%;
-    background: #25262A;
-    color: #251414;
+    background: #3C4C5D;
+    color: black;
     padding: 50px 20px;
 }
 
-.container {
+.footer-container {
     width: 90%;
     margin: auto;
     display: flex;
@@ -14,16 +14,16 @@
     flex-wrap: wrap;
 }
 
-.container h3::after {
+.footer-container h3::after {
     content: "";
     display: block;
     height: 2px;
     width: 50px;
-    background: #110303;
+    background: #3C4C5D;
     margin-top: 20px;
 }
 
-.container li a:hover {
+.footer-container li a:hover {
     color: #e701e7;
     transition: all 0.5s ease;
 }
@@ -118,7 +118,7 @@ form button {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: #110a0a;
+    background: #3C4C5D;
     color: #25262A;
     text-align: center;
     line-height: 40px;
@@ -129,14 +129,14 @@ form button {
 }
 
 .social-icons a:hover {
-    background: #e701e7;
+    background: #ffffff;
     color: #080404;
     transition: all 0.5s ease;
 }
 
 .footer-2 {
     width: 100%;
-    background: #25262A;
+    background: #5a5f73;
     color: #0d0707;
     padding-top: 20px;
     text-align: center;

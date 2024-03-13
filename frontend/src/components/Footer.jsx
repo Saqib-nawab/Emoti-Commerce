@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import '../app.css'
 
 
@@ -8,8 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-
-        <div className="container">
+        <div className="footer-container">
           <div className="col-1">
             <img src="/logo.png" alt="" />
             <p>
