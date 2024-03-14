@@ -1,4 +1,6 @@
 import { Container } from 'react-bootstrap';
+import logo from '../assets/logo.png';
+
 import '../app.css'
 
 
@@ -10,11 +12,9 @@ const Footer = () => {
       <Container>
         <div className="footer-container">
           <div className="col-1">
-            <img src="/logo.png" alt="" />
+            <img src={logo} alt='ProShop' />
             <p>
-              Follow my instagram channel named mubashar_dev to see more of such
-              projects and other posts. Also Like and share these posts.Also follow me
-              on Github and Linkedin. I hope you will like my content.
+              Intelli-Commerce, Steps you into the future of retail with our automated tech store! Powered by AI and ML, we offer personalized recommendations for the latest iPhones, AirPods, and more. Experience seamless shopping tailored to your preferences.
             </p>
           </div>
           <div className="col-2">
@@ -73,23 +73,21 @@ const Footer = () => {
               </button>
             </form>
             <div className="social-icons">
-              <a href="#">
-                <i className="fab fa-facebook-f" />
+              <a href="https://github.com/Saqib-nawab" target="_blank">
+                <i className="fa-brands fa-github"></i>
               </a>
-              <a href="#">
-                <i className="fab fa-twitter" />
-              </a>
-              <a href="#">
+              <a href="https://www.instagram.com/shahabe.saqib.33/" target="_blank">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/saqib-nawab-06aa411b9/" target="_blank">
                 <i className="fab fa-linkedin-in" />
               </a>
+
             </div>
           </div>
         </div>
         <div className="footer-2">
-          <p>© {currentYear} | Made with ❤️ by Mubashar Dev. All Rights Reserved.</p>
+          <p>© {currentYear} | Saqib Nawab, Intelli-Commerce. All Rights Reserved.</p>
         </div>
       </Container>
     </footer>
