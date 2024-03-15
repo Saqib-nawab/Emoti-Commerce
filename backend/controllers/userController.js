@@ -1,10 +1,46 @@
 import asyncHandler from '../middleware/asyncHandler.js';
 import generateToken from '../utils/generateToken.js';
 import User from '../models/userModel.js';
+import Subscriber from '../models/subscribers.js';
+
+
+
+
+//controller for subscribers
+const subscribeUser = asyncHandler(async (req, res) => {
+  // Get the name and email of the logged-in user from the request object
+  const { name, email } = req.user;
+
+  try {
+    // Check if the user is already subscribed
+    const existingSubscriber = await Subscriber.findOne({ email });
+
+    if (existingSubscriber) {
+      res.status(400);
+      throw new Error('User is already subscribed');
+    }
+
+    // Create a new subscriber
+    const subscriber = new Subscriber({
+      name,
+      email
+    });
+
+    // Save the subscriber to the database
+    await subscriber.save();
+
+    res.status(201).json({ message: 'Subscriber added successfully' });
+  } catch (error) {
+    console.error('Error adding subscriber:', error);
+    res.status(500).json({ error: 'An error occurred while adding the subscriber' });
+  }
+});
+
 
 // @desc    Auth user & get token
 // @route   POST /api/users/auth
 // @access  Public
+
 const authUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
 
@@ -144,6 +180,7 @@ const deleteUser = asyncHandler(async (req, res) => {
 // @desc    Get user by ID
 // @route   GET /api/users/:id
 // @access  Private/Admin
+
 const getUserById = asyncHandler(async (req, res) => {
   const user = await User.findById(req.params.id).select('-password');
 
@@ -189,4 +226,5 @@ export {
   deleteUser,
   getUserById,
   updateUser,
+  subscribeUser
 };

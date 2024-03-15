@@ -116,8 +116,22 @@ form button {
     outline: none;
 }
 
+form button:hover {
+    color: #000000;
+    transition: all 0.5s ease;
+    font-size: 25px;
+    
+}
+
 .social-icons {
     margin-top: 50px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.3);
+    /* Increase the size to 110% on hover */
+    transition: transform 0.3s ease;
+    /* Add transition for smooth effect */
 }
 
 .social-icons a {

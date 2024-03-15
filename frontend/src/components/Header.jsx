@@ -30,7 +30,7 @@ const Header = () => {
   };
 
   return (
-    <header > {/* Adjust margin as needed */}
+    <header >
       <Navbar bg='primary' variant='dark' expand='lg' collapseOnSelect style={{ height: '80px' }}>
         <Container style={{ display: 'flex', alignItems: 'center' }}>
           <LinkContainer to='/'>
