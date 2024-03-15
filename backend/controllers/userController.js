@@ -6,7 +6,6 @@ import Subscriber from '../models/subscribers.js';
 
 
 
-//controller for subscribers
 const subscribeUser = asyncHandler(async (req, res) => {
   // Get the name and email of the logged-in user from the request object
   const { name, email } = req.user;
@@ -16,25 +15,22 @@ const subscribeUser = asyncHandler(async (req, res) => {
     const existingSubscriber = await Subscriber.findOne({ email });
 
     if (existingSubscriber) {
-      res.status(400);
-      throw new Error('User is already subscribed');
+      // If user is already subscribed, remove them from the subscribers list
+      await Subscriber.deleteOne({ email });
+      res.json({ message: 'Unsubscribed successfully' });
+    } else {
+      // If user is not subscribed, add them to the subscribers list
+      const subscriber = new Subscriber({ name, email }); // Include name when creating subscriber
+      await subscriber.save();
+      res.status(201).json({ message: 'Subscribed successfully' });
     }
-
-    // Create a new subscriber
-    const subscriber = new Subscriber({
-      name,
-      email
-    });
-
-    // Save the subscriber to the database
-    await subscriber.save();
-
-    res.status(201).json({ message: 'Subscriber added successfully' });
   } catch (error) {
-    console.error('Error adding subscriber:', error);
-    res.status(500).json({ error: 'An error occurred while adding the subscriber' });
+    console.error('Error subscribing/unsubscribing user:', error);
+    res.status(500).json({ error: 'An error occurred while subscribing/unsubscribing user' });
   }
 });
+
+
 
 
 // @desc    Auth user & get token

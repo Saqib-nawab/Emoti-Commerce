@@ -7,6 +7,8 @@ import '../app.css'
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const [email, setEmail] = useState('');
+  const [subscribed, setSubscribed] = useState(false);
+  // State to track subscription status
 
 
   const handleLogoClick = () => {
@@ -23,29 +25,67 @@ const Footer = () => {
     //window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+
+  //   try {
+  //     const response = await fetch('/api/users/subscribe', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //         Authorization: `Bearer ${localStorage.getItem('token')}`,
+  //         // Include user's JWT token for authentication
+  //       },
+  //       body: JSON.stringify({ email: email }),
+  //     });
+
+  //     if (response.ok) {
+  //       // Subscription successful, handle accordingly (e.g., show success message)
+  //       console.log('Subscription successful');
+  //     } else {
+  //       // Subscription failed, handle accordingly (e.g., show error message)
+  //       console.error('Subscription failed');
+  //     }
+  //   } catch (error) {
+  //     console.error('Error subscribing:', error);
+  //   }
+  // };
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    let subscriptionAction; // Declare subscriptionAction outside the try block
+
     try {
-      const response = await fetch('/api/users/subscribe', {
+      // Toggle subscription status
+      setSubscribed(!subscribed);
+
+      // Determine the subscription action based on the current state
+      subscriptionAction = subscribed ? 'unsubscribe' : 'subscribe';
+
+      const response = await fetch(`/api/users/${subscriptionAction}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${localStorage.getItem('token')}`,
-          // Include user's JWT token for authentication
         },
-        body: JSON.stringify({ email: email }),
+        body: JSON.stringify({ email }),
       });
 
       if (response.ok) {
-        // Subscription successful, handle accordingly (e.g., show success message)
-        console.log('Subscription successful');
+        // Subscription/unsubscription successful, handle accordingly
+        console.log(`User ${subscriptionAction}d successfully`);
       } else {
-        // Subscription failed, handle accordingly (e.g., show error message)
-        console.error('Subscription failed');
+        // Subscription/unsubscription failed, handle accordingly
+        console.error(`Error ${subscriptionAction}ing`);
+        // Revert subscription status if there was an error
+        setSubscribed(!subscribed);
       }
     } catch (error) {
-      console.error('Error subscribing:', error);
+      console.error(`Error ${subscriptionAction}ing:`, error);
+      // Revert subscription status if there was an error
+      setSubscribed(!subscribed);
     }
   };
 
@@ -101,21 +141,18 @@ const Footer = () => {
               <li>
                 <a href="#">React</a>
               </li>
-              <li>
-                <a href="#">Python</a>
-              </li>
-              <li>
-                <a href="#">C++</a>
-              </li>
             </ul>
           </div>
           <div className="col-4">
             <h3>Subscribtion</h3>
             <form onSubmit={handleSubmit}>
-              <i className="far fa-envelope" />
+              {/* <i className="far fa-envelope" />
               <input type="email" placeholder="Enter your email" required="" />
               <button type="submit" >
                 <i className="fas fa-arrow-right" />
+              </button> */}
+              <button type="submit" className={`btn ${subscribed ? 'btn-dark' : 'btn-danger'}`}>
+                {subscribed ? 'Subscribed' : 'Subscribe'}
               </button>
             </form>
             <div className="social-icons">

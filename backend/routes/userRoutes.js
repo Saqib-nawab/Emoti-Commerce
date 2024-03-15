@@ -29,5 +29,5 @@ router
   .put(protect, admin, updateUser);
 // Subscriber route
 router.post('/subscribe', protect, subscribeUser);
-
+router.post('/unsubscribe', protect, subscribeUser);
 export default router;
