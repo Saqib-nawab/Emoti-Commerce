@@ -32,9 +32,12 @@ import UserEditScreen from './screens/admin/UserEditScreen';
 import store from './store';
 import { Provider } from 'react-redux';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+import EmailForm from './components/EmailForm';
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+
     <Route path='/' element={<App />}>
       <Route index={true} path='/' element={<HomeScreen />} />
       <Route path='/search/:keyword' element={<HomeScreen />} />
@@ -67,6 +70,8 @@ const router = createBrowserRouter(
         <Route path='/admin/product/:id/edit' element={<ProductEditScreen />} />
         <Route path='/admin/user/:id/edit' element={<UserEditScreen />} />
       </Route>
+      {/* Services */}
+      <Route path="/services" element={<EmailForm />} />
     </Route>
   )
 );

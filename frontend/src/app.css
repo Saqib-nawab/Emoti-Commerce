@@ -24,7 +24,7 @@
 }
 
 .footer-container li a:hover {
-    color: #000000;
+    color: #007bff;
     transition: all 0.5s ease;
     font-size: 25px;
     font-weight: bold;
@@ -87,7 +87,7 @@
     text-decoration: none;
 }
 
-form {
+.form-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,10 +95,7 @@ form {
     padding-bottom: 20px;
 }
 
-form .far {
-    color: #261a1a;
-    margin-right: 10px;
-}
+
 
 form input {
     background: transparent;

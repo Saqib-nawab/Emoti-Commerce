@@ -31,8 +31,6 @@ const subscribeUser = asyncHandler(async (req, res) => {
 });
 
 
-
-
 // @desc    Auth user & get token
 // @route   POST /api/users/auth
 // @access  Public

@@ -2,56 +2,35 @@ import { Container } from 'react-bootstrap';
 import logo from '../assets/logo.png';
 import { useState } from 'react';
 import '../app.css'
+import { useNavigate, Link } from 'react-router-dom';
+import EmailForm from './EmailForm';
 
 
 const Footer = () => {
+  const navigate = useNavigate();
   const currentYear = new Date().getFullYear();
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
-  // State to track subscription status
 
-
-  const handleLogoClick = () => {
-    // Reload the page
-    //window.location.reload();
-    // OR scroll to the top of the page
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const handleHomeClick = () => {
-    // Reload the page
-    window.location.reload();
-    // OR scroll to the top of the page
-    //window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-
-  //   try {
-  //     const response = await fetch('/api/users/subscribe', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //         Authorization: `Bearer ${localStorage.getItem('token')}`,
-  //         // Include user's JWT token for authentication
-  //       },
-  //       body: JSON.stringify({ email: email }),
-  //     });
-
-  //     if (response.ok) {
-  //       // Subscription successful, handle accordingly (e.g., show success message)
-  //       console.log('Subscription successful');
-  //     } else {
-  //       // Subscription failed, handle accordingly (e.g., show error message)
-  //       console.error('Subscription failed');
-  //     }
-  //   } catch (error) {
-  //     console.error('Error subscribing:', error);
-  //   }
+  // const handleHomeClick = () => {
+  //   // Reload the page
+  //   window.location.reload();
+  //   // OR scroll to the top of the page
+  //   //window.scrollTo({ top: 0, behavior: 'smooth' });
   // };
 
+  const handleHomeClick = () => {
+    //   // Reload the page
+    //   window.location.reload();
+    //   // OR scroll to the top of the page
+    //   //window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Or Just Navigate to the home page
+    navigate('/');
+  };
 
+
+
+  // State to track subscription status
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -96,7 +75,7 @@ const Footer = () => {
       <Container>
         <div className="footer-container">
           <div className="col-1">
-            <a href="#" onClick={handleLogoClick}> {/* Wrap logo in an anchor tag */}
+            <a href="#" onClick={handleHomeClick}> {/* Wrap logo in an anchor tag */}
               <img src={logo} alt='ProShop' />
             </a>
             <p>
@@ -122,7 +101,7 @@ const Footer = () => {
                 <a href="#">Contact</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <Link to="/services">Services</Link>
               </li>
             </ul>
           </div>
@@ -145,7 +124,7 @@ const Footer = () => {
           </div>
           <div className="col-4">
             <h3>Subscribtion</h3>
-            <form onSubmit={handleSubmit}>
+            <form className="form-footer" onSubmit={handleSubmit}>
               {/* <i className="far fa-envelope" />
               <input type="email" placeholder="Enter your email" required="" />
               <button type="submit" >
