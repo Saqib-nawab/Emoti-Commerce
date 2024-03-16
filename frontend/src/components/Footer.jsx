@@ -12,12 +12,12 @@ const Footer = () => {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  // const handleHomeClick = () => {
-  //   // Reload the page
-  //   window.location.reload();
-  //   // OR scroll to the top of the page
-  //   //window.scrollTo({ top: 0, behavior: 'smooth' });
-  // };
+  const handleScroll = () => {
+    // Reload the page
+    //window.location.reload();
+    // OR scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const handleHomeClick = () => {
     //   // Reload the page
@@ -98,10 +98,10 @@ const Footer = () => {
                 <a href="#">Blog</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <Link to="/email-us" onClick={handleScroll}>Email Us</Link>
               </li>
               <li>
-                <Link to="/services">Services</Link>
+                <Link to="/services" onClick={handleScroll}>Services</Link>
               </li>
             </ul>
           </div>

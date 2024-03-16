@@ -1,0 +1,45 @@
+/* EmailForm.css */
+
+.emailForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.emailForm input[type="text"],
+.emailForm input[type="email"],
+.emailForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.emailForm textarea {
+    resize: vertical;
+}
+
+.emailForm button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.emailForm button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.emailForm button.clicked {
+    background-color: #3C4C5D;
+    /* Change to desired color */
+    /* Add any additional styles for the clicked state */
+}

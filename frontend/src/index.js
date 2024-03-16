@@ -71,7 +71,7 @@ const router = createBrowserRouter(
         <Route path='/admin/user/:id/edit' element={<UserEditScreen />} />
       </Route>
       {/* Services */}
-      <Route path="/services" element={<EmailForm />} />
+      <Route path="/email-us" element={<EmailForm />} />
     </Route>
   )
 );
