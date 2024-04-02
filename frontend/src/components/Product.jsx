@@ -16,12 +16,14 @@ const Product = ({ product }) => {
           </Card.Title>
         </Link>
 
-        <Card.Text as='div'>
-          <Rating
-            value={product.rating}
-            text={`${product.numReviews} reviews`}
-          />
-        </Card.Text>
+        <Link to={`/product/${product._id}`}>
+          <Card.Text as='div'>
+            <Rating
+              value={product.rating}
+              text={`${product.numReviews} Reviews`}
+            />
+          </Card.Text>
+        </Link>
 
         <Card.Text as='h3'>${product.price}</Card.Text>
       </Card.Body>
