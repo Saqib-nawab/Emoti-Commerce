@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import logo from '../assets/logo.png';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '../app.css'
 import { useNavigate, Link } from 'react-router-dom';
 import EmailForm from './EmailForm';
@@ -20,28 +20,48 @@ const Footer = () => {
   };
 
   const handleHomeClick = () => {
-    //   // Reload the page
-    //   window.location.reload();
-    //   // OR scroll to the top of the page
-    //   //window.scrollTo({ top: 0, behavior: 'smooth' });
-    // Or Just Navigate to the home page
     navigate('/');
   };
 
 
 
+  useEffect(() => {
+    const token = localStorage.getItem('token'); // Retrieve the token from localStorage
+    console.log('Retrieved token:', token); // Log the retrieved token
+
+    const fetchSubscriptionStatus = async () => {
+      try {
+        const response = await fetch('/api/users/subscriptionStatus', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+          },
+        });
+
+        if (response.ok) {
+          const { subscribed: isSubscribed } = await response.json();
+          setSubscribed(isSubscribed);
+        } else {
+          console.error('Failed to fetch subscription status');
+        }
+      } catch (error) {
+        console.error('Error fetching subscription status:', error);
+      }
+    };
+
+    fetchSubscriptionStatus();
+  }, []); // Empty dependency array to run effect only once on mount
+
+
   // State to track subscription status
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     let subscriptionAction; // Declare subscriptionAction outside the try block
-
     try {
-      // Toggle subscription status
-      setSubscribed(!subscribed);
+      setSubscribed(!subscribed); // Toggle subscription status
 
-      // Determine the subscription action based on the current state
-      subscriptionAction = subscribed ? 'unsubscribe' : 'subscribe';
+      subscriptionAction = subscribed ? 'unsubscribe' : 'subscribe';// Determine the subscription action based on the current state
 
       const response = await fetch(`/api/users/${subscriptionAction}`, {
         method: 'POST',

@@ -57,6 +57,7 @@ const ProductScreen = () => {
         productId,
         rating,
         comment,
+        //todo: Sent the comment for sentiment analysis
       }).unwrap();
       refetch();
       toast.success('Review created successfully');

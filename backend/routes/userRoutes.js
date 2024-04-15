@@ -9,7 +9,8 @@ import {
   deleteUser,
   getUserById,
   updateUser,
-  subscribeUser
+  subscribeUser,
+  getSubscriptionStatus
 } from '../controllers/userController.js';
 import { protect, admin } from '../middleware/authMiddleware.js';
 
@@ -29,5 +30,6 @@ router
   .put(protect, admin, updateUser);
 // Subscriber route
 router.post('/subscribe', protect, subscribeUser);
-router.post('/unsubscribe', protect, subscribeUser);
+router.delete('/unsubscribe', protect, subscribeUser);
+router.get('/subscriptionStatus', protect, getSubscriptionStatus);
 export default router;

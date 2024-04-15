@@ -5,7 +5,7 @@ import Subscriber from '../models/subscribers.js';
 
 
 
-
+// for adding only to the database
 const subscribeUser = asyncHandler(async (req, res) => {
   // Get the name and email of the logged-in user from the request object
   const { name, email } = req.user;
@@ -31,6 +31,23 @@ const subscribeUser = asyncHandler(async (req, res) => {
 });
 
 
+// Get subscription status (retrieving subscription status)
+const getSubscriptionStatus = asyncHandler(async (req, res) => {
+  const { email } = req.user;
+
+  try {
+    const existingSubscriber = await Subscriber.findOne({ email });
+    if (existingSubscriber) {
+      res.json({ subscribed: true });
+    } else {
+      res.json({ subscribed: false });
+    }
+  } catch (error) {
+    console.error('Error getting subscription status:', error);
+    res.status(500).json({ error: 'An error occurred while getting subscription status' });
+  }
+});
+
 // @desc    Auth user & get token
 // @route   POST /api/users/auth
 // @access  Public
@@ -54,6 +71,8 @@ const authUser = asyncHandler(async (req, res) => {
     throw new Error('Invalid email or password');
   }
 });
+
+
 
 // @desc    Register a new user
 // @route   POST /api/users
@@ -220,5 +239,6 @@ export {
   deleteUser,
   getUserById,
   updateUser,
-  subscribeUser
+  subscribeUser,
+  getSubscriptionStatus
 };
