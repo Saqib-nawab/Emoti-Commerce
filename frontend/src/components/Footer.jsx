@@ -13,21 +13,15 @@ const Footer = () => {
   const [subscribed, setSubscribed] = useState(false);
 
   const handleScroll = () => {
-    // Reload the page
-    //window.location.reload();
-    // OR scroll to the top of the page
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
   const handleHomeClick = () => {
     navigate('/');
   };
 
-
-
   useEffect(() => {
     const token = localStorage.getItem('token'); // Retrieve the token from localStorage
-    console.log('Retrieved token:', token); // Log the retrieved token
+    //console.log('Retrieved token:', token); // Log the retrieved token
 
     const fetchSubscriptionStatus = async () => {
       try {
@@ -129,16 +123,16 @@ const Footer = () => {
             <h3>Services</h3>
             <ul>
               <li>
-                <a href="#">HTML</a>
+                <a href="#">Service 1</a>
               </li>
               <li>
-                <a href="#">CSS</a>
+                <a href="#">Service 2</a>
               </li>
               <li>
-                <a href="#">JavaScript</a>
+                <a href="#">Service 3</a>
               </li>
               <li>
-                <a href="#">React</a>
+                <a href="#">Service 4</a>
               </li>
             </ul>
           </div>
