@@ -1,1 +1,21 @@
 node_modules
+<<<<<<< HEAD
+
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Python cached files
+__pycache__/
+
+
+# Ignore any other generated or temporary files
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.log
+=======
+>>>>>>> parent of 03ccb181 (added textual sentiment analysis code)

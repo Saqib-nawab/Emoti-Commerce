@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import axios from 'axios';
 import {
   Row,
   Col,
@@ -27,16 +28,17 @@ const ProductScreen = () => {
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
   const [qty, setQty] = useState(1);
   const [rating, setRating] = useState(0);
   const [comment, setComment] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [sentimentState, setSentiment] = useState('');
+  const [detail_sentimentState, setDetailSentiment] = useState('');
 
   const addToCartHandler = () => {
     dispatch(addToCart({ ...product, qty }));
     navigate('/cart');
   };
-
   const {
     data: product,
     isLoading,
@@ -51,18 +53,42 @@ const ProductScreen = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-
+    setLoading(true);
     try {
+      let sentimentResponse;
+
+      // Perform sentiment analysis request
+      try {
+        sentimentResponse = await axios.post('http://127.0.0.1:3000/analyze_sentiment', { comment });
+      } catch (sentimentError) {
+        throw new Error('Sentiment analysis request failed');
+      }
+
+      const { sentiment, detail_sentiment } = sentimentResponse.data;
+      setSentiment(sentiment);
+      setDetailSentiment(detail_sentiment);
+      console.log(sentiment);
+      console.log(detail_sentiment);
+
+      // Wait for sentiment analysis to complete
+      if (!sentiment || !detail_sentiment) {
+        throw new Error('Sentiment analysis incomplete');
+      }
       await createReview({
         productId,
         rating,
         comment,
-        //todo: Sent the comment for sentiment analysis
+        sentiment,
+        detail_sentiment
       }).unwrap();
+
+      // Refetch the product details and show success message
       refetch();
       toast.success('Review created successfully');
     } catch (err) {
-      toast.error(err?.data?.message || err.error);
+      toast.error(err?.response?.data?.message || err.message);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -159,7 +185,7 @@ const ProductScreen = () => {
               </Card>
             </Col>
           </Row>
-          <Row className='review'>
+          <Row className='review'> {/*printing created reviews alongside sentiments*/}
             <Col md={6}>
               <h2>Reviews</h2>
               {product.reviews.length === 0 && <Message>No Reviews</Message>}
@@ -170,13 +196,31 @@ const ProductScreen = () => {
                     <Rating value={review.rating} />
                     <p>{review.createdAt.substring(0, 10)}</p>
                     <p>{review.comment}</p>
+                    {/* Display sentiment and detail_sentiment */}
+                    {(review.sentiment && userInfo.isAdmin) && (
+                      <>
+                        <div>
+                          <strong>Sentiment Result:</strong> {review.sentiment}
+                        </div>
+                        {review.detail_sentiment.length > 0 && (
+                          <div>
+                            <strong>Detail Sentiment:</strong>
+                            <ul>
+                              {review.detail_sentiment[0].map((sentimentItem, index) => (
+                                <li key={index}>
+                                  <strong>{sentimentItem.label}</strong>: {sentimentItem.score}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </>
+                    )}
                   </ListGroup.Item>
                 ))}
                 <ListGroup.Item>
                   <h2>Write a Customer Review</h2>
-
                   {loadingProductReview && <Loader />}
-
                   {userInfo ? (
                     <Form onSubmit={submitHandler}>
                       <Form.Group className='my-2' controlId='rating'>
@@ -212,6 +256,7 @@ const ProductScreen = () => {
                       >
                         Submit
                       </Button>
+                      {loading && <Loader />} {/* show loading when the sentiment anaylsis is under fetched */}
                     </Form>
                   ) : (
                     <Message>

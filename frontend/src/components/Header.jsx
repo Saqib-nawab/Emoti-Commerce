@@ -6,8 +6,10 @@ import { useNavigate } from 'react-router-dom';
 import { useLogoutMutation } from '../slices/usersApiSlice';
 import { logout } from '../slices/authSlice';
 import SearchBox from './SearchBox';
+// import Chatbot from './Chatbot';
 import logo from '../assets/logo.png';
 import { resetCart } from '../slices/cartSlice';
+import { Form, Button } from 'react-bootstrap';
 
 const Header = () => {
   const { cartItems } = useSelector((state) => state.cart);
@@ -42,6 +44,13 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto' >
               <SearchBox />
+              <LinkContainer to='/call'>
+                <Form className='d-flex'>
+                  <Button type='submit' variant='outline-success' className='p-2 mx-2'>
+                    Call Us
+                  </Button>
+                </Form>
+              </LinkContainer>
               <LinkContainer to='/cart'>
                 <Nav.Link>
                   <FaShoppingCart /> Cart

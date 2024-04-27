@@ -3,8 +3,6 @@ import logo from '../assets/logo.png';
 import { useState, useEffect } from 'react';
 import '../app.css'
 import { useNavigate, Link } from 'react-router-dom';
-import EmailForm from './EmailForm';
-
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -18,35 +16,6 @@ const Footer = () => {
   const handleHomeClick = () => {
     navigate('/');
   };
-
-  useEffect(() => {
-    const token = localStorage.getItem('token'); // Retrieve the token from localStorage
-    //console.log('Retrieved token:', token); // Log the retrieved token
-
-    const fetchSubscriptionStatus = async () => {
-      try {
-        const response = await fetch('/api/users/subscriptionStatus', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${token}`, // Include the token in the Authorization header
-          },
-        });
-
-        if (response.ok) {
-          const { subscribed: isSubscribed } = await response.json();
-          setSubscribed(isSubscribed);
-        } else {
-          console.error('Failed to fetch subscription status');
-        }
-      } catch (error) {
-        console.error('Error fetching subscription status:', error);
-      }
-    };
-
-    fetchSubscriptionStatus();
-  }, []); // Empty dependency array to run effect only once on mount
-
 
   // State to track subscription status
   const handleSubmit = async (e) => {
@@ -103,19 +72,10 @@ const Footer = () => {
                 <a href="#" onClick={handleHomeClick}>Home</a>
               </li>
               <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Categories</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
-              <li>
                 <Link to="/email-us" onClick={handleScroll}>Email Us</Link>
               </li>
               <li>
-                <Link to="/services" onClick={handleScroll}>Services</Link>
+                <Link to="/FAQ's" onClick={handleScroll}>FAQ's</Link>
               </li>
             </ul>
           </div>
@@ -123,27 +83,25 @@ const Footer = () => {
             <h3>Services</h3>
             <ul>
               <li>
-                <a href="#">Service 1</a>
+                <a href="#">Product Catalog</a>
               </li>
               <li>
-                <a href="#">Service 2</a>
+                <a href="#">Payment Gateway Integration</a>
               </li>
               <li>
-                <a href="#">Service 3</a>
+                <a href="#">Automated FAQ's</a>
               </li>
               <li>
-                <a href="#">Service 4</a>
+                <a href="#">Interactive Call Bot</a>
+              </li>
+              <li>
+                <a href="#">Sentimental Reviews and Ratings</a>
               </li>
             </ul>
           </div>
           <div className="col-4">
             <h3>Subscribtion</h3>
             <form className="form-footer" onSubmit={handleSubmit}>
-              {/* <i className="far fa-envelope" />
-              <input type="email" placeholder="Enter your email" required="" />
-              <button type="submit" >
-                <i className="fas fa-arrow-right" />
-              </button> */}
               <button type="submit" className={`btn ${subscribed ? 'btn-dark' : 'btn-danger'}`}>
                 {subscribed ? 'Subscribed' : 'Subscribe'}
               </button>

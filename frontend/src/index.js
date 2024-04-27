@@ -17,6 +17,7 @@ import AdminRoute from './components/AdminRoute';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
+import CallScreen from './screens/CallScreen';
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import ShippingScreen from './screens/ShippingScreen';
@@ -33,6 +34,7 @@ import store from './store';
 import { Provider } from 'react-redux';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 import EmailForm from './components/EmailForm';
+import Chatbot from './components/Chatbot';
 
 
 const router = createBrowserRouter(
@@ -48,6 +50,7 @@ const router = createBrowserRouter(
       />
       <Route path='/product/:id' element={<ProductScreen />} />
       <Route path='/cart' element={<CartScreen />} />
+      <Route path='/call' element={<CallScreen />} />
       <Route path='/login' element={<LoginScreen />} />
       <Route path='/register' element={<RegisterScreen />} />
       {/* Registered users */}
@@ -72,6 +75,7 @@ const router = createBrowserRouter(
       </Route>
       {/* Services */}
       <Route path="/email-us" element={<EmailForm />} />
+      <Route path="/FAQ'S" element={<Chatbot />} />
     </Route>
   )
 );

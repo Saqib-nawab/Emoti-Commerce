@@ -1,0 +1,220 @@
+
+.callscreen-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.callscreen-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 82vh;
+    background-color: #2f3c4a;
+    /* Full height */
+}
+
+.callscreen-header,
+.callscreen-footer {
+    background-color: #1f2a35;
+    /* Dark blueish header and footer */
+    color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.callscreen-footer-mid {
+    display: flex;
+    flex-direction: row;
+    /* Ensures items are displayed horizontally */
+    justify-content: baseline;
+    align-items: center;
+}
+
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile-image img {
+    width: 140px !important;
+    /* Example size, adjust as needed */
+    height: 140px !important;
+    /* Example size, adjust as needed */
+    border-radius: 50% !important;
+    /* Ensures the image is round */
+    object-fit: cover;
+    /* Ensures the image covers the area without stretching */
+}
+
+@keyframes ripple-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow:
+            0 0 0 15px rgba(0, 123, 255, 0.4),
+                0 0 0 30px rgba(0, 123, 255, 0.3),
+                0 0 0 45px rgba(0, 123, 255, 0.2),
+                0 0 0 60px rgba(0, 123, 255, 0.1),
+                0 0 0 75px rgba(0, 123, 255, 0);
+    }
+}
+
+.connected img {
+    animation: ripple-animation 1s infinite ease-out;
+}
+.left-content,
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    /* position: relative; */
+    top: 20px;
+    left: 20px;
+}
+
+.name,
+.phone {
+    margin-right: 15px;
+}
+
+.status {
+    font-size: 16px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #3498db;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.genreal-button{
+        background-color: #ffffff;
+            /* Green color for start call */
+            color: rgb(0, 0, 0);
+}
+
+.genreal-off-button {
+    background-color: #000000;
+        /* Green color for start call */
+        color: rgb(255, 255, 255);
+}
+
+.call-button {
+    background-color: #2ecc71;
+    /* Green color for start call */
+    color: white;
+}
+/* Style for the hover text */
+.call-button::after {
+    content: "Start Call";
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -10px;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.speaking::after {
+    content: "Start Call";
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -10px;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.call-button:hover::after {
+    opacity: 1;
+}
+
+.end-call-button {
+    background-color: #e74c3c;
+    /* Red color for end call */
+    color: white;
+}
+
+/* Style for the hover text */
+.end-call-button::after {
+    content: "End Call";
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -10px;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.end-call-button:hover::after {
+    opacity: 1;
+}
+
+
+.vibrant-follow-us-button {
+    background: linear-gradient(45deg, #ff006e, #8338ec, #3a86ff);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.vibrant-followed-button {
+    background: #3a86ff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}

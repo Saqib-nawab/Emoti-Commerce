@@ -51,26 +51,19 @@ const getSubscriptionStatus = asyncHandler(async (req, res) => {
 // @desc    Auth user & get token
 // @route   POST /api/users/auth
 // @access  Public
-
 const authUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
 
   const user = await User.findOne({ email });
 
   if (user && (await user.matchPassword(password))) {
-    // Generate token
-    const token = generateToken(user._id);
-    console.log(token)
-
-    // Save token to local storage
-    res.cookie('jwt', token, { httpOnly: true });
+    generateToken(res, user._id);
 
     res.json({
       _id: user._id,
       name: user.name,
       email: user.email,
       isAdmin: user.isAdmin,
-      token: token // Optionally include token in the response
     });
   } else {
     res.status(401);

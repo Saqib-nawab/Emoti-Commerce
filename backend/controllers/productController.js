@@ -10,11 +10,11 @@ const getProducts = asyncHandler(async (req, res) => {
 
   const keyword = req.query.keyword
     ? {
-        name: {
-          $regex: req.query.keyword,
-          $options: 'i',
-        },
-      }
+      name: {
+        $regex: req.query.keyword,
+        $options: 'i',
+      },
+    }
     : {};
 
   const count = await Product.countDocuments({ ...keyword });
@@ -108,7 +108,8 @@ const deleteProduct = asyncHandler(async (req, res) => {
 // @route   POST /api/products/:id/reviews
 // @access  Private
 const createProductReview = asyncHandler(async (req, res) => {
-  const { rating, comment } = req.body;
+  // console.log(req.body);
+  const { rating, comment, sentiment, detail_sentiment } = req.body;
 
   const product = await Product.findById(req.params.id);
 
@@ -127,8 +128,10 @@ const createProductReview = asyncHandler(async (req, res) => {
       rating: Number(rating),
       comment,
       user: req.user._id,
+      sentiment,
+      detail_sentiment,
     };
-
+    console.log(review);
     product.reviews.push(review);
 
     product.numReviews = product.reviews.length;
