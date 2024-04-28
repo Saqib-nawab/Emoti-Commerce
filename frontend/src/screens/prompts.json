@@ -70,14 +70,7 @@
         "who create you",
         "creators",
         "who made you",
-        "who designed you"
-      ],
-      "responses": ["Made By: Team Emoti-Commerce Author Saqib Nawab"],
-      "context_set": ""
-    },
-    {
-      "tag": "name",
-      "questions": [
+        "who designed you",
         "name",
         "your name",
         "do you have a name",
@@ -93,9 +86,7 @@
         "what are you"
       ],
       "responses": [
-        "You can call me Emoti-Commerce.",
-        "I am your Emoti-Commerce Agent",
-        "I am your Emoti-Commerce Agent and i am here to assist you in your shopping"
+        "I am your Emoti-Commerce Agent and i am here to assist you in your shopping, Made By: Team Emoti-Commerce, Saqib Nawab"
       ],
       "context_set": ""
     },
@@ -147,41 +138,76 @@
       ],
       "context_set": ""
     },
-
     {
-      "tag": "playstation_5_description",
+      "tag": "playstation_5_general_description",
       "questions": [
         "Playstation 5?",
         "PS5",
         "Sony PS5",
-        "Description",
-        "Features",
-        "Details",
         "What is Playstation 5?",
-        "What can you tell me about PS5?",
         "Describe Sony Playstation 5.",
+        "Tell me about the Playstation 5 gaming console.",
+        "What can you tell me about PS5?"
+      ],
+      "responses": [
+        "The PlayStation 5, also known as PS5, is Sony's latest gaming console. It features cutting-edge technology to deliver enhanced gaming experiences, including high-definition graphics, fast processing speeds, and a new generation of exciting games."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "playstation_5_features_specifications",
+      "questions": [
         "What are the features of Playstation 5?",
         "Can you give me details about Sony PS5?",
-        "Tell me about the Playstation 5 gaming console.",
         "What sets Sony Playstation 5 apart?",
-        "Is Playstation 5 available?",
-        "Where can I find Playstation 5?",
-        "Playstation 5 in stock?",
-        "Price of Playstation 5?",
-        "Is PS5 compatible with PS4 games?",
         "Does PS5 support 4K gaming?",
-        "How many controllers come with PS5?",
-        "What accessories are compatible with Playstation 5?",
-        "Are there any exclusive games for PS5?",
+        "What are the specifications of Sony Playstation 5?",
         "What is the storage capacity of Playstation 5?",
         "Can you tell me about the design of PS5?",
-        "What are the specifications of Sony Playstation 5?",
-        "Tell me about PS5's backward compatibility.",
-        "Is PS5 backward compatible with PS3 games?",
         "Does PS5 have a disc drive?"
       ],
       "responses": [
-        "The Sony Playstation 5 is a next-generation gaming console featuring powerful hardware, lightning-fast load times, immersive 3D audio, and an innovative DualSense controller for enhanced gameplay experiences."
+        "The PS5 supports 4K gaming and features a high-speed SSD with up to 825 GB of storage, providing quick load times and a smooth gaming experience. It has a sleek, vertical design and is available with or without a disc drive, accommodating both physical and digital game formats."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "playstation_5_availability_purchasing",
+      "questions": [
+        "Is Playstation 5 available?",
+        "Where can I find Playstation 5?",
+        "Playstation 5 in stock?",
+        "Price of Playstation 5?"
+      ],
+      "responses": [
+        "Availability of the PlayStation 5 varies by region due to high demand. For current pricing and stock information, please check with local retailers or Sony's official online store."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "playstation_5_compatibility_accessories",
+      "questions": [
+        "Is PS5 compatible with PS4 games?",
+        "How many controllers come with PS5?",
+        "What accessories are compatible with Playstation 5?",
+        "Are there any exclusive games for PS5?",
+        "Tell me about PS5's backward compatibility.",
+        "Is PS5 backward compatible with PS3 games?"
+      ],
+      "responses": [
+        "The PS5 is backward compatible with most PS4 games, enhancing them with improved loading times and graphical performance. It comes with one DualSense controller in the box, and supports a range of PS5-specific accessories, including additional controllers, a charging station, and a headset. Exclusive games like 'Demon's Souls' and 'Ratchet & Clank: Rift Apart' are available. The PS5 is not compatible with PS3 games."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "playstation_5_enhancements_updates",
+      "questions": [
+        "What new features does the PS5 introduce over the PS4?",
+        "How does the PS5 enhance gaming experiences compared to older consoles?",
+        "What updates have been made to the PlayStation user interface with PS5?"
+      ],
+      "responses": [
+        "The PS5 introduces significant enhancements over the PS4, including a custom SSD for faster load times, support for up to 120 fps for smoother gameplay, and ray tracing for realistic lighting and reflections. The user interface has been completely revamped to provide a more intuitive and immersive experience, with new features that leverage the console's capabilities for a next-gen feel."
       ],
       "context_set": ""
     },
@@ -192,20 +218,12 @@
         "Echo Dot?",
         "Amazon Echo Dot",
         "Echo Dot 3rd Generation",
-        "Description",
-        "Features",
-        "Details",
         "What is Echo Dot?",
         "What can you tell me about Amazon Echo Dot?",
         "Describe Echo Dot 3rd Generation.",
         "What are the features of Echo Dot?",
         "Can you give me details about Amazon Echo Dot?",
         "Tell me about the Echo Dot smart speaker.",
-        "Is Echo Dot available?",
-        "Where can I find Echo Dot?",
-        "Echo Dot in stock?",
-        "Price of Echo Dot?",
-        "Is Echo Dot compatible with Alexa?",
         "What can Echo Dot do?",
         "How does Echo Dot work?",
         "Does Echo Dot support voice commands?",
@@ -219,46 +237,161 @@
         "Does Echo Dot have a built-in speaker?"
       ],
       "responses": [
-        "The Amazon Echo Dot 3rd Generation is a smart speaker powered by Alexa, offering voice control for music, news, weather, and more. It features a compact design, improved speaker quality, and compatibility with various smart home devices."
+        "Echo Dot, including the 3rd Generation model, is Amazon's compact smart speaker powered by Alexa. It offers features like voice control for music streaming, smart home device integration, and much more. It comes with a microphone array, a built-in speaker, and is available in various colors."
       ],
       "context_set": ""
     },
 
     {
-      "tag": "eos_80d_description",
+      "tag": "echo_dot_3rd_gen_availability",
+      "questions": [
+        "Is Echo Dot available?",
+        "Where can I find Echo Dot?",
+        "Echo Dot in stock?"
+      ],
+      "responses": [
+        "The Echo Dot 3rd Generation is typically in stock and available for purchase through Amazon and authorized retailers. For the most accurate information on availability, please check with your local retailers or Amazon directly."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "echo_dot_3rd_gen_compatibility",
+      "questions": [
+        "Is Echo Dot compatible with Alexa?",
+        "What can Echo Dot do with Alexa?"
+      ],
+      "responses": [
+        "Yes, the Echo Dot is designed to be fully compatible with Alexa, enabling voice control over music playback, smart home devices, setting alarms, and accessing real-time information like news and weather."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "eos_80d_general_description",
       "questions": [
         "Canon EOS 80D?",
         "EOS 80D",
         "Canon 80D DSLR",
-        "Description",
-        "Features",
-        "Details",
         "What is Canon EOS 80D?",
-        "What can you tell me about the Canon 80D DSLR camera?",
         "Describe the EOS 80D.",
-        "What are the features of the Canon EOS 80D?",
-        "Can you give me details about the EOS 80D DSLR camera?",
         "Tell me about the Canon 80D digital camera.",
+        "What can you tell me about the Canon 80D DSLR camera?"
+      ],
+      "responses": [
+        "The Canon EOS 80D DSLR Camera is a robust and versatile camera designed for hobbyists and professionals alike, featuring a 24.2-megapixel APS-C CMOS sensor and DIGIC 6 image processor for high-quality images and videos."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "eos_80d_availability_purchasing",
+      "questions": [
         "Is the Canon EOS 80D available?",
         "Where can I find the Canon EOS 80D?",
         "Is the EOS 80D in stock?",
-        "Price of Canon EOS 80D?",
+        "Price of Canon EOS 80D?"
+      ],
+      "responses": [
+        "The Canon EOS 80D DSLR Camera is available at major electronics retailers and online stores. For pricing and stock availability, please visit our website or contact local retailers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "eos_80d_specifications_features",
+      "questions": [
+        "What are the features of the Canon EOS 80D?",
+        "Can you give me details about the EOS 80D DSLR camera?",
         "What are the specs of the Canon 80D?",
-        "What lenses are compatible with the EOS 80D?",
         "Does the EOS 80D support 4K video recording?",
         "What autofocus system does the Canon 80D have?",
         "Can the Canon EOS 80D connect to Wi-Fi?",
         "What is the resolution of the Canon 80D's sensor?",
         "Does the Canon 80D have a touchscreen?",
-        "Tell me about the design of the Canon EOS 80D.",
-        "What accessories come with the Canon 80D?",
-        "Is the Canon 80D weather-sealed?",
-        "Does the Canon EOS 80D have image stabilization?",
         "What type of memory card does the Canon 80D use?",
-        "Can you tell me about the battery life of the Canon EOS 80D?"
+        "Can you tell me about the battery life of the Canon EOS 80D?",
+        "Is the Canon 80D weather-sealed?",
+        "Does the Canon EOS 80D have image stabilization?"
       ],
       "responses": [
-        "The Canon EOS 80D DSLR Camera is a versatile and powerful camera, featuring a 24.2-megapixel APS-C CMOS sensor, DIGIC 6 image processor, 45-point all cross-type AF system, and Full HD 1080p video recording capability. It offers built-in Wi-Fi and NFC connectivity, a vari-angle touchscreen LCD, and robust construction suitable for various photography needs."
+        "The Canon EOS 80D features a 24.2-megapixel APS-C CMOS sensor, DIGIC 6 processor, Full HD 1080p video recording, not 4K. It has a 45-point all cross-type AF system, built-in Wi-Fi, and an articulating touchscreen. It supports SD cards, has an impressive battery life, is weather-sealed, but lacks in-body image stabilization."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "eos_80d_compatibility_accessories",
+      "questions": [
+        "What lenses are compatible with the EOS 80D?",
+        "What accessories come with the Canon 80D?",
+        "Tell me about the design of the Canon EOS 80D."
+      ],
+      "responses": [
+        "The Canon EOS 80D is compatible with Canon EF and EF-S lenses. It typically comes with a battery, charger, neck strap, and body cap. Its design features a durable body with weather-sealing to handle various shooting conditions."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "iphone_13_pro_security",
+      "questions": [
+        "What security features does the iPhone 13 Pro have?",
+        "How secure is the Face ID on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro offer any new security enhancements?",
+        "Can I use two-factor authentication with the iPhone 13 Pro?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro offers advanced security features, including Face ID, which uses sophisticated facial recognition technology to secure your device. It supports two-factor authentication and iOS 15 introduces even more security enhancements to protect user privacy and data."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_networking",
+      "questions": [
+        "Does the iPhone 13 Pro support Wi-Fi 6?",
+        "What 5G bands are available on the iPhone 13 Pro?",
+        "How fast is the 5G on the iPhone 13 Pro?",
+        "Can the iPhone 13 Pro connect to multiple Bluetooth devices simultaneously?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro supports Wi-Fi 6 for faster wireless networking and comprehensive 5G coverage with various bands for enhanced mobile speeds. It allows Bluetooth connections to multiple devices simultaneously, providing a seamless and efficient connectivity experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_environmental",
+      "questions": [
+        "Is the iPhone 13 Pro environmentally friendly?",
+        "What materials are used in the iPhone 13 Pro?",
+        "Does Apple use recycled materials for the iPhone 13 Pro?",
+        "What is Apple's environmental policy for iPhone manufacturing?"
+      ],
+      "responses": [
+        "Apple is committed to reducing the environmental impact of its products. The iPhone 13 Pro uses recycled materials for many of its components, including rare earth elements and metals. Apple also utilizes renewable energy for all of its manufacturing processes as part of its goal to become carbon neutral across its entire business."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_accessibility",
+      "questions": [
+        "What accessibility features does the iPhone 13 Pro have?",
+        "Can visually impaired users easily use the iPhone 13 Pro?",
+        "What features assist hearing-impaired users on the iPhone 13 Pro?",
+        "Are there mobility accessibility options on the iPhone 13 Pro?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro includes a range of accessibility features such as VoiceOver for the visually impaired, closed captioning and Made for iPhone hearing aids for the hearing impaired, and switch control for those with limited mobility. Apple continuously improves accessibility across its device ecosystem to ensure inclusivity for all users."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_accessibility",
+      "questions": [
+        "What accessibility features does the iPhone 13 Pro have?",
+        "Can visually impaired users easily use the iPhone 13 Pro?",
+        "What features assist hearing-impaired users on the iPhone 13 Pro?",
+        "Are there mobility accessibility options on the iPhone 13 Pro?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro includes a range of accessibility features such as VoiceOver for the visually impaired, closed captioning and Made for iPhone hearing aids for the hearing impaired, and switch control for those with limited mobility. Apple continuously improves accessibility across its device ecosystem to ensure inclusivity for all users."
       ],
       "context_set": ""
     },
@@ -270,17 +403,12 @@
         "iPhone 13 Pro 256GB",
         "Describe iphone 13",
         "Features of iphone",
-        "Details",
         "What is iPhone 13 Pro?",
         "What can you tell me about the iPhone 13 Pro 256GB?",
         "Describe the iPhone 13 Pro.",
         "What are the features of the iPhone 13 Pro?",
         "Can you give me details about the iPhone 13 Pro 256GB?",
         "Tell me about the iPhone 13 Pro smartphone.",
-        "Is the iPhone 13 Pro available?",
-        "Where can I find the iPhone 13 Pro?",
-        "Is the iPhone 13 Pro in stock?",
-        "Price of iPhone 13 Pro?",
         "What colors does the iPhone 13 Pro come in?",
         "What is the storage capacity of the iPhone 13 Pro?",
         "Does the iPhone 13 Pro support 5G?",
@@ -296,45 +424,257 @@
         "What operating system does the iPhone 13 Pro run on?"
       ],
       "responses": [
-        "The iPhone 13 Pro is a premium smartphone from Apple, featuring a stunning Super Retina XDR display, A15 Bionic chip, advanced camera system with ProRAW and ProRes video recording capabilities, and up to 256GB of storage. It offers 5G connectivity, Face ID for secure authentication, and a sleek design available in various colors."
+        "The iPhone 13 Pro is a premium smartphone from Apple, featuring a Super Retina XDR display, A15 Bionic chip, advanced camera system with ProRAW and ProRes video recording, and 5G connectivity. It comes with Face ID, is available in various colors and storage capacities, supports wireless charging, is water-resistant, and runs on the latest iOS."
       ],
       "context_set": ""
     },
-
     {
-      "tag": "logitech_gaming_mouse_description",
+      "tag": "iphone_13_pro_availability_pricing",
+      "questions": [
+        "Is the iPhone 13 Pro available?",
+        "Where can I find the iPhone 13 Pro?",
+        "Is the iPhone 13 Pro in stock?",
+        "Price of iPhone 13 Pro?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro's availability can vary by location. To find out if it is in stock and its current price, please visit our official website or check with authorized Apple retailers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_camera_features",
+      "questions": [
+        "What is the camera configuration of the iPhone 13 Pro?",
+        "Can the iPhone 13 Pro shoot in Dolby Vision?",
+        "Tell me about the iPhone 13 Pro's photographic capabilities.",
+        "Does the iPhone 13 Pro have a night mode for photography?",
+        "What kind of video can I record on the iPhone 13 Pro?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro features an advanced camera system with 12MP ultra-wide, wide, and telephoto lenses. It supports Dolby Vision recording, Night mode, and Deep Fusion for exceptional photo and video quality. You can record up to 4K HDR video with ProRes support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_battery_charging",
+      "questions": [
+        "What is the battery life of the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro support wireless charging?",
+        "How long does the iPhone 13 Pro battery last on a single charge?",
+        "Can I use MagSafe with the iPhone 13 Pro?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro offers all-day battery life and is compatible with MagSafe wireless charging. The exact battery duration depends on usage, but you can expect up to 75 hours of audio playback. It also supports fast charging with a 20W adapter or higher."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_display_design",
+      "questions": [
+        "What is the screen size of the iPhone 13 Pro?",
+        "Can you tell me about the design of the iPhone 13 Pro?",
+        "What are the dimensions of the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro have an OLED display?",
+        "What is the refresh rate of the iPhone 13 Pro's screen?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro has a 6.1-inch Super Retina XDR display with ProMotion technology supporting an adaptive refresh rate up to 120Hz. Its design features Ceramic Shield front cover, surgical-grade stainless steel, and is available in various colors with a premium finish."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "iphone_13_pro_software_performance",
+      "questions": [
+        "What operating system does the iPhone 13 Pro run on?",
+        "How powerful is the A15 Bionic chip in the iPhone 13 Pro?",
+        "Can I run multiple apps simultaneously on the iPhone 13 Pro?",
+        "What enhancements does iOS bring to the iPhone 13 Pro?"
+      ],
+      "responses": [
+        "The iPhone 13 Pro runs on iOS, which provides a seamless and fluid experience. It's powered by the A15 Bionic chip, enabling smooth operation of multiple apps and advanced tasks. iOS brings latest updates in privacy, FaceTime, and more to the iPhone 13 Pro."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_general",
       "questions": [
         "Logitech G-Series Gaming Mouse?",
         "Gaming Mouse",
         "Logitech G Mouse",
-        "Describe logitech",
-        "Features of logitech",
-        "Details of logitech",
-        "mouse",
         "What is Logitech G-Series Gaming Mouse?",
+        "Tell me about the Logitech Gaming Mouse."
+      ],
+      "responses": [
+        "The Logitech G-Series Gaming Mouse is tailored for gamers seeking performance and customization. It features a high DPI sensor and ergonomic design for comfort."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_features",
+      "questions": [
         "What can you tell me about the Logitech G-Series Gaming Mouse?",
         "Describe the Logitech G-Series Gaming Mouse.",
         "What are the features of the Logitech G-Series Gaming Mouse?",
         "Can you give me details about the Logitech G-Series Gaming Mouse?",
-        "Tell me about the Logitech Gaming Mouse.",
-        "Is the Logitech G-Series Gaming Mouse available?",
-        "Where can I find the Logitech G-Series Gaming Mouse?",
-        "Is the Gaming Mouse in stock?",
-        "Price of Logitech G-Series Gaming Mouse?",
         "What is the DPI of the Logitech G-Series Gaming Mouse?",
         "Does the Logitech Gaming Mouse have customizable RGB lighting?",
         "What is the polling rate of the Logitech G-Series Gaming Mouse?",
         "How many buttons does the Logitech G-Series Gaming Mouse have?",
         "Is the Logitech Gaming Mouse suitable for FPS gaming?",
         "Does the Logitech G-Series Gaming Mouse come with software for customization?",
-        "What is the weight of the Logitech G-Series Gaming Mouse?",
-        "Can you tell me about the design of the Logitech Gaming Mouse?",
         "What type of sensor does the Logitech G-Series Gaming Mouse use?",
-        "Does the Logitech Gaming Mouse support onboard memory?",
+        "Does the Logitech Gaming Mouse support onboard memory?"
+      ],
+      "responses": [
+        "The Logitech G-Series Gaming Mouse features a high DPI sensor, customizable RGB lighting, a fast polling rate, and multiple programmable buttons. It's ideal for FPS gaming and comes with software for various customizations, using a precise sensor and supporting onboard memory for profile storage."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_design_accessories",
+      "questions": [
+        "Can you tell me about the design of the Logitech Gaming Mouse?",
+        "What is the weight of the Logitech G-Series Gaming Mouse?",
         "What accessories come with the Logitech G-Series Gaming Mouse?"
       ],
       "responses": [
-        "The Logitech G-Series Gaming Mouse offers high performance and customization for gamers, featuring a high DPI sensor, customizable RGB lighting, programmable buttons, and ergonomic design for comfort during long gaming sessions."
+        "The Logitech G-Series Gaming Mouse boasts an ergonomic design for comfortable gameplay, weighs optimally for precise movement, and typically comes with additional accessories like weights for balance adjustment and grips for personalization."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_compatibility",
+      "questions": [
+        "What operating systems are compatible with the Logitech G-Series Mouse?",
+        "Can I use the Logitech Gaming Mouse on a Mac?",
+        "Is the Logitech mouse compatible with console gaming?",
+        "Does the Logitech Gaming Mouse work with all types of games?",
+        "How do I configure the Logitech Gaming Mouse settings?"
+      ],
+      "responses": [
+        "The Logitech G-Series Gaming Mouse is compatible with Windows and Mac operating systems. It offers customizable settings for all game genres and can be tailored for console gaming if supported by the console. Configuration can be done via the Logitech G HUB software."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_durability",
+      "questions": [
+        "How durable is the Logitech G-Series Gaming Mouse?",
+        "What is the warranty period for the Logitech Gaming Mouse?",
+        "Can the Logitech Gaming Mouse withstand heavy use?"
+      ],
+      "responses": [
+        "The Logitech G-Series Gaming Mouse is built to last with high-quality materials suitable for intense gaming sessions. It typically comes with a 2-year limited hardware warranty."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_user_experience",
+      "questions": [
+        "What have users said about the Logitech G-Series Gaming Mouse?",
+        "Where can I find reviews for the Logitech Gaming Mouse?",
+        "What is the user satisfaction rate with the Logitech G-Series Mouse?"
+      ],
+      "responses": [
+        "Users have highly rated the Logitech G-Series Gaming Mouse for its precision, customizable buttons, and comfortable grip. Reviews can be found on our official website, tech forums, and online retail platforms."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_purchase",
+      "questions": [
+        "Where can I buy the Logitech G-Series Gaming Mouse?",
+        "Are there any deals on the Logitech Gaming Mouse?",
+        "What is the price of the Logitech G-Series Mouse?"
+      ],
+      "responses": [
+        "The Logitech G-Series Gaming Mouse can be purchased directly from our website, electronic stores, or reputable online retailers. For special offers and current pricing, please check the latest on our website or sign up for our newsletter."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_support",
+      "questions": [
+        "Who do I contact for technical support with my Logitech Gaming Mouse?",
+        "What should I do if my Logitech G-Series Mouse isn't working?",
+        "How to troubleshoot issues with the Logitech Gaming Mouse?"
+      ],
+      "responses": [
+        "For technical support with the Logitech G-Series Gaming Mouse, contact our customer care team or visit the support section on our website. We provide comprehensive troubleshooting guides and direct assistance for any issues."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "logitech_gaming_mouse_availability_and_pricing",
+      "questions": [
+        "Is the Logitech G-Series Gaming Mouse available?",
+        "Where can I find the Logitech G-Series Gaming Mouse?",
+        "Is the Gaming Mouse in stock?",
+        "Price of Logitech G-Series Gaming Mouse?"
+      ],
+      "responses": [
+        "For current availability and pricing of the Logitech G-Series Gaming Mouse, please visit our official website and check the stock or contact our nearest store. Our team is always ready to help you with the latest information on our products."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_environmental",
+      "questions": [
+        "Is the Logitech G-Series Gaming Mouse environmentally friendly?",
+        "Does Logitech use recycled materials in their gaming mice?",
+        "What is Logitech's policy on sustainability?"
+      ],
+      "responses": [
+        "Logitech is committed to reducing its environmental impact. The Logitech G-Series Gaming Mouse uses recycled plastics and comes in responsible packaging. Logitech aims to improve the carbon footprint of its products and has goals to use more sustainable materials across all product lines."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_international",
+      "questions": [
+        "Is the Logitech G-Series Gaming Mouse available internationally?",
+        "Can I get support for my Logitech Gaming Mouse outside the USA?",
+        "Are there international versions of the Logitech G-Series Gaming Mouse?"
+      ],
+      "responses": [
+        "The Logitech G-Series Gaming Mouse is available in many countries around the world. International support is available through local Logitech offices or partners. While the core specifications remain the same, some regional versions may have different warranty terms."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_software_updates",
+      "questions": [
+        "How do I update the software for my Logitech G-Series Gaming Mouse?",
+        "Are there firmware updates available for the Logitech Gaming Mouse?",
+        "How often does Logitech release updates for the G-Series mouse software?"
+      ],
+      "responses": [
+        "Software and firmware updates for the Logitech G-Series Gaming Mouse can be downloaded from the Logitech G HUB application, which provides the latest updates, drivers, and customization tools. Logitech regularly releases updates to enhance functionality and fix bugs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_gift",
+      "questions": [
+        "Is the Logitech G-Series Gaming Mouse a good gift for gamers?",
+        "Can I buy the Logitech Gaming Mouse as a gift from your store?",
+        "What should I include with a Logitech G-Series Mouse gift purchase?"
+      ],
+      "responses": [
+        "The Logitech G-Series Gaming Mouse is an excellent gift for gamers, known for its precision and customization. When purchasing as a gift from our store, consider including a gift receipt and looking into our gift wrapping options. You might also consider bundling it with a Logitech gaming keyboard or mouse pad."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "logitech_gaming_mouse_educational_business",
+      "questions": [
+        "Can the Logitech G-Series Gaming Mouse be used for educational purposes?",
+        "Is the Logitech Gaming Mouse suitable for professional office use?",
+        "Do you offer bulk discounts for educational institutions or businesses?"
+      ],
+      "responses": [
+        "While designed for gaming, the Logitech G-Series Gaming Mouse is also suitable for educational and professional office environments, offering precision and reliability for various applications. Bulk discounts may be available for educational institutions and businesses upon request."
       ],
       "context_set": ""
     },
@@ -376,81 +716,317 @@
       ],
       "context_set": ""
     },
-
     {
-      "tag": "playstation_5_price",
+      "tag": "airpods_features",
       "questions": [
-        "PS5 price?",
-        "How much does Playstation 5 cost?",
-        "Price of Playstation 5?",
-        "What is the price of PS5?",
-        "How expensive is Playstation 5?",
-        "What's the cost of Playstation 5?",
-        "Can you tell me the price of Playstation 5?",
-        "What's the price tag on Playstation 5?",
-        "Playstation 5 - how much?",
-        "What's the price range for Playstation 5?",
-        "I'm interested in Playstation 5, what's the pricing?",
-        "How affordable is Playstation 5?",
-        "Is Playstation 5 expensive?",
-        "What's the price point for Playstation 5?",
-        "I need to know the price of Playstation 5, can you help?",
-        "Playstation 5 pricing, please?",
-        "What's the pricing like for Playstation 5?",
-        "Do you have any information on Playstation 5 pricing?",
-        "Price for Playstation 5, please?",
-        "Can you give me a quote for Playstation 5?",
-        "How much do I need to budget for Playstation 5?",
-        "Playstation 5 - how much does it go for?",
-        "Playstation 5 - what's the cost?",
-        "What's the market price for Playstation 5?",
-        "How much money should I prepare for Playstation 5?",
-        "What's the current price for Playstation 5?",
-        "Can you provide pricing details for Playstation 5?",
-        "Playstation 5 - how much will it set me back?"
+        "What features do AirPods offer?",
+        "Tell me about AirPods' audio quality.",
+        "Do AirPods have a built-in microphone?",
+        "What makes AirPods different from other wireless headphones?"
       ],
-      "responses": ["The price of Sony Playstation 5 is $399.99."],
+      "responses": [
+        "AirPods come with high-quality AAC audio for an immersive listening experience and include a built-in microphone for taking calls. Their unique design provides a comfortable fit while offering the convenience of wireless connectivity with compatible devices."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "airpods_compatibility",
+      "questions": [
+        "Are AirPods compatible with all smartphones?",
+        "Can I connect AirPods to my laptop?",
+        "Do AirPods work with non-Apple devices?"
+      ],
+      "responses": [
+        "AirPods utilize Bluetooth technology to connect with both Apple and non-Apple devices, including smartphones and laptops that support Bluetooth."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "airpods_battery_life",
+      "questions": [
+        "How long do AirPods last on a single charge?",
+        "What is the battery life of AirPods with the charging case?",
+        "How do I check the battery level on my AirPods?"
+      ],
+      "responses": [
+        "AirPods offer several hours of listening time on a single charge, and with the charging case, you can expect multiple additional charges, giving you all-day use. Battery levels can be checked on your connected device or by opening the charging case near your device."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "airpods_connectivity_controls",
+      "questions": [
+        "How do I pair my AirPods with my phone?",
+        "Can I control music and calls directly from my AirPods?",
+        "Do AirPods automatically connect to my devices?"
+      ],
+      "responses": [
+        "AirPods can be paired with your phone by placing them close to your device and following the on-screen instructions. Once paired, they connect automatically. You can manage music playback and answer calls with simple gestures on the AirPods themselves."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "airpods_troubleshooting",
+      "questions": [
+        "What should I do if my AirPods won't connect?",
+        "Why is one AirPod not charging?",
+        "How can I reset my AirPods?"
+      ],
+      "responses": [
+        "If your AirPods won't connect, ensure they're charged and within range of your device, and Bluetooth is on. If one AirPod isn't charging, check for debris in the charging case or on the AirPod. To reset AirPods, press and hold the setup button on the charging case for a few seconds until the status light flashes white."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "playstation_5_general_features",
+      "questions": [
+        "What can you tell me about PS5?",
+        "Describe Sony PlayStation 5.",
+        "What are the features of PlayStation 5?",
+        "Can you give me details about Sony PS5?",
+        "Tell me about the PlayStation 5 gaming console.",
+        "What sets Sony PlayStation 5 apart?"
+      ],
+      "responses": [
+        "The PlayStation 5 features a custom RDNA 2 GPU that powers incredible graphical performance, including support for ray tracing and 4K resolution at up to 120 frames per second. It's designed with a high-speed SSD for rapid load times, and an innovative DualSense controller that offers haptic feedback and adaptive triggers to enhance the gaming experience."
+      ],
       "context_set": ""
     },
 
     {
-      "tag": "echo_dot_3rd_gen_price",
+      "tag": "playstation_5_comparative_pricing",
+      "questions": [
+        "How expensive is Playstation 5?",
+        "PS5 price?",
+        "Price of Playstation 5?",
+        "What is the price of PS5?",
+        "How much does Playstation 5 cost?",
+        "Can you tell me the price of Playstation 5?",
+        "Price for Playstation 5, please?",
+        "What's the cost of Playstation 5?",
+        "Playstation 5 - how much?",
+        "I need to know the price of Playstation 5, can you help?",
+        "How affordable is Playstation 5?",
+        "Is Playstation 5 expensive?",
+        "What's the price range for Playstation 5?",
+        "What's the price point for Playstation 5?",
+        "How much money should I prepare for Playstation 5?",
+        "Can you give me a quote for Playstation 5?",
+        "What's the pricing like for Playstation 5?",
+        "Do you have any information on Playstation 5 pricing?",
+        "I'm interested in Playstation 5, what's the pricing?",
+        "Playstation 5 pricing, please?",
+        "What's the current price for Playstation 5?",
+        "Can you provide pricing details for Playstation 5?",
+        "Playstation 5 - how much will it set me back?",
+        "How much do I need to budget for Playstation 5?",
+        "What's the market price for Playstation 5?"
+      ],
+      "responses": [
+        "The PlayStation 5 is considered a premium gaming console priced at $399.99. It offers significant value through its advanced features and performance capabilities.",
+        "The current market price for the PlayStation 5 typically starts at $399.99, although special editions and bundles may be priced higher. Prices can fluctuate based on availability and retailer promotions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "playstation_5_compatibility",
+      "questions": [
+        "Is PS5 compatible with PS4 games?",
+        "Tell me about PS5's backward compatibility.",
+        "Is PS5 backward compatible with PS3 games?",
+        "What accessories are compatible with PlayStation 5?",
+        "Does PS5 support old PlayStation games?"
+      ],
+      "responses": [
+        "The PlayStation 5 boasts extensive backward compatibility with most PlayStation 4 titles, offering enhanced gameplay features and improved load times on the new console. However, it does not natively support PlayStation 3 games. PS5 is compatible with PS4 controllers for playing PS4 games and introduces a range of new accessories like the Pulse 3D wireless headset and HD camera for an immersive gaming experience."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "playstation_5_technical_specifications",
+      "questions": [
+        "What are the specifications of Sony PlayStation 5?",
+        "Does PS5 support 4K gaming?",
+        "What is the storage capacity of PlayStation 5?",
+        "Can you tell me about the design of PS5?",
+        "Does PS5 have a disc drive?"
+      ],
+      "responses": [
+        "The PlayStation 5 is equipped with a powerful 8-core AMD Zen 2 processor, a custom AMD RDNA 2 GPU, and 16GB of GDDR6 memory. It offers a base storage of 825GB on an ultra-fast NVMe SSD. The console supports both digital and physical media with its Ultra HD Blu-ray disc drive. Its sleek, vertical design features a striking white and black color scheme that stands out in any entertainment setup."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "echo_dot_3rd_gen_general_pricing",
       "questions": [
         "Echo Dot price?",
-        "How much is Echo Dot?",
         "Price of Echo Dot?",
         "What is the price of Echo Dot?",
-        "How expensive is Echo Dot?",
-        "What's the cost of Echo Dot?",
         "Can you tell me the price of Echo Dot?",
-        "What's the price tag on Echo Dot?",
+        "What's the cost of Echo Dot?",
         "Echo Dot - how much?",
+        "I need to know the price of Echo Dot, can you help?",
+        "Price for Echo Dot, please?",
+        "What's the current price for Echo Dot?",
+        "Can you provide pricing details for Echo Dot?",
+        "Echo Dot - how much will it set me back?"
+      ],
+      "responses": [
+        "The price of Amazon Echo Dot 3rd Generation is $29.99. Prices may vary based on promotions and availability."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_comparative_pricing",
+      "questions": [
+        "How much is Echo Dot?",
+        "How expensive is Echo Dot?",
+        "What's the price tag on Echo Dot?",
         "What's the price range for Echo Dot?",
         "I'm interested in Echo Dot, what's the pricing?",
         "How affordable is Echo Dot?",
         "Is Echo Dot expensive?",
         "What's the price point for Echo Dot?",
-        "I need to know the price of Echo Dot, can you help?",
         "Echo Dot pricing, please?",
         "What's the pricing like for Echo Dot?",
         "Do you have any information on Echo Dot pricing?",
-        "Price for Echo Dot, please?",
         "Can you give me a quote for Echo Dot?",
         "How much do I need to budget for Echo Dot?",
         "Echo Dot - how much does it go for?",
-        "Echo Dot - what's the cost?",
         "What's the market price for Echo Dot?",
-        "How much money should I prepare for Echo Dot?",
-        "What's the current price for Echo Dot?",
-        "Can you provide pricing details for Echo Dot?",
-        "Echo Dot - how much will it set me back?"
+        "How much money should I prepare for Echo Dot?"
       ],
-      "responses": ["The price of Amazon Echo Dot 3rd Generation is $29.99."],
+      "responses": [
+        "The Amazon Echo Dot 3rd Generation is priced at $29.99, making it an affordable option among smart speakers. Keep in mind that prices might be lower during sales events or depending on the retailer."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_features",
+      "questions": [
+        "What can the Echo Dot do?",
+        "What are the main features of Echo Dot?",
+        "How does Echo Dot work?",
+        "Can Echo Dot control smart home devices?",
+        "What voice commands does Echo Dot recognize?"
+      ],
+      "responses": [
+        "The Amazon Echo Dot 3rd Generation is a smart speaker that supports voice interaction using Alexa. It can play music, answer questions, set alarms, control smart home devices, and more through voice commands. It’s equipped with a speaker for audio playback and a microphone array for voice detection."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_setup",
+      "questions": [
+        "How do I set up my Echo Dot?",
+        "What are the steps to install Echo Dot?",
+        "Do I need an app to use Echo Dot?",
+        "How to connect Echo Dot to WiFi?"
+      ],
+      "responses": [
+        "To set up your Amazon Echo Dot, download the Alexa app on your smartphone, plug in your Echo Dot, and follow the in-app instructions to connect it to WiFi and configure your settings. You’ll need the Alexa app to manage device settings and functionalities."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_troubleshooting",
+      "questions": [
+        "Why won't my Echo Dot connect to WiFi?",
+        "What to do if my Echo Dot isn’t responding?",
+        "How to reset Echo Dot?",
+        "Echo Dot troubleshooting steps?"
+      ],
+      "responses": [
+        "If your Echo Dot isn’t connecting to WiFi, check your internet connection and router settings. Ensure your Echo Dot is within range of your router. If it isn’t responding, try unplugging it and plugging it back in. To reset, press and hold the Action button for 25 seconds until the light ring turns orange, then blue."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_compatibility",
+      "questions": [
+        "Is Echo Dot compatible with iPhone?",
+        "Can Echo Dot work with Android phones?",
+        "What smart home devices can Echo Dot control?",
+        "What accessories can enhance my Echo Dot experience?"
+      ],
+      "responses": [
+        "Echo Dot is compatible with both iPhone and Android smartphones through the Alexa app. It can control a wide range of smart home devices including lights, thermostats, and security systems. Accessories like the Echo Dot wall mount or external speakers can enhance your experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_updates",
+      "questions": [
+        "Are there any new updates for Echo Dot?",
+        "How do I update my Echo Dot?",
+        "What enhancements are available for Echo Dot?"
+      ],
+      "responses": [
+        "Amazon periodically releases updates for the Echo Dot to enhance functionality and security. Updates are automatically downloaded and installed when connected to WiFi. New skills and features are regularly added to the Alexa app, improving user experience and device capabilities."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_audio",
+      "questions": [
+        "What audio quality does the Echo Dot offer?",
+        "Can Echo Dot be used as a stereo speaker?",
+        "Is the audio from Echo Dot clear for music and podcasts?",
+        "How do I connect Echo Dot to other speakers?",
+        "Can Echo Dot stream music from Spotify?"
+      ],
+      "responses": [
+        "The Echo Dot 3rd Generation offers improved sound quality over its predecessors, with clearer and louder audio suitable for music, podcasts, and daily interactions. It can connect to other speakers via Bluetooth or a 3.5mm audio cable for a stereo sound experience. Yes, it can stream music from services like Spotify, Amazon Music, and others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_usage_tips",
+      "questions": [
+        "Best uses for Echo Dot?",
+        "Tips for getting the most out of my Echo Dot?",
+        "How can I use Echo Dot in the kitchen?",
+        "Can Echo Dot help me with fitness routines?",
+        "Echo Dot features for morning routines?"
+      ],
+      "responses": [
+        "Echo Dot is versatile and can assist in many daily activities. In the kitchen, it can set timers, read recipes, and play music. For fitness routines, it can set timers, play workout music, or connect you with fitness apps. Use it in your morning routine to get weather updates, news briefings, and control smart home devices as you start your day."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_service_integration",
+      "questions": [
+        "Can Echo Dot control YouTube?",
+        "Integration of Echo Dot with smart TVs?",
+        "How does Echo Dot work with smart home hubs?",
+        "Can I make phone calls through Echo Dot?",
+        "Using Echo Dot with external services like Uber or Domino's?"
+      ],
+      "responses": [
+        "Echo Dot can control smart TVs and devices via voice commands if they are compatible with Alexa. While it can't directly control YouTube, it can interact with devices that do. You can make hands-free calls through Echo Dot to most numbers in the US, Canada, and Mexico. It also integrates with services like Uber and Domino's for easy access to transportation and food orders."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_privacy_security",
+      "questions": [
+        "What privacy features does Echo Dot have?",
+        "Can I turn off the microphone on Echo Dot?",
+        "How secure is my data with Echo Dot?",
+        "Does Echo Dot store my voice recordings?",
+        "How can I delete my voice recordings from Echo Dot?"
+      ],
+      "responses": [
+        "Echo Dot is designed with privacy in mind. You can physically turn off the microphone with a button on the device. Your voice recordings are stored to improve your experience, but you can review, listen to, and delete them anytime via the Alexa app. Amazon is committed to protecting the privacy and security of your personal information."
+      ],
       "context_set": ""
     },
 
     {
-      "tag": "eos_80d_price",
+      "tag": "eos_80d_pricing",
       "questions": [
         "Canon EOS 80D price?",
         "How much does EOS 80D cost?",
@@ -481,7 +1057,109 @@
         "Can you provide pricing details for Canon EOS 80D?",
         "Canon EOS 80D - how much will it set me back?"
       ],
-      "responses": ["The price of Canon EOS 80D DSLR Camera is $929.99."],
+      "responses": [
+        "The Canon EOS 80D DSLR Camera is typically priced at $929.99, but prices can vary based on retailer, sales promotions, and availability."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "eos_80d_general_info",
+      "questions": [
+        "Canon EOS 80D?",
+        "EOS 80D",
+        "Canon 80D DSLR",
+        "Description",
+        "Features",
+        "Details",
+        "What can you tell me about the Canon 80D DSLR camera?",
+        "Describe the EOS 80D.",
+        "What are the features of the Canon EOS 80D?",
+        "Can you give me details about the EOS 80D DSLR camera?",
+        "Tell me about the Canon 80D digital camera."
+      ],
+      "responses": [
+        "The Canon EOS 80D DSLR Camera features a 24.2 MP APS-C CMOS sensor, 45-point all cross-type autofocus system, and can shoot up to 7 frames per second. It includes built-in Wi-Fi and NFC, allowing for easy sharing and remote camera control. The EOS 80D is well-suited for both photography and videography, thanks to its versatile feature set and robust build."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "eos_80d_specific_features",
+      "questions": [
+        "What are the specs of the Canon 80D?",
+        "What lenses are compatible with the EOS 80D?",
+        "Does the EOS 80D support 4K video recording?",
+        "What autofocus system does the Canon 80D have?",
+        "Can the Canon EOS 80D connect to Wi-Fi?",
+        "What is the resolution of the Canon 80D's sensor?",
+        "Does the Canon 80D have a touchscreen?",
+        "Tell me about the design of the Canon EOS 80D.",
+        "What accessories come with the Canon 80D?",
+        "Is the Canon 80D weather-sealed?",
+        "Does the Canon EOS 80D have image stabilization?",
+        "What type of memory card does the Canon 80D use?",
+        "Can you tell me about the battery life of the Canon EOS 80D?"
+      ],
+      "responses": [
+        "The Canon EOS 80D does not support 4K video but offers excellent Full HD video capabilities. It features a weather-sealed body, touchscreen LCD, and an APS-C sensor with a resolution of 24.2 megapixels. Compatible with EF and EF-S lenses, it uses SD/SDHC/SDXC memory cards and provides a sturdy build with up to 960 shots per battery charge."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "eos_80d_troubleshooting",
+      "questions": [
+        "Why won't my Canon EOS 80D turn on?",
+        "How do I fix autofocus issues on my EOS 80D?",
+        "What should I do if my Canon 80D is overheating?",
+        "Why are my EOS 80D photos blurry?",
+        "How to resolve error messages on my Canon EOS 80D?"
+      ],
+      "responses": [
+        "If your Canon EOS 80D won't turn on, check the battery's charge level and ensure it's properly inserted. For autofocus issues, clean the lens contacts and check the autofocus settings. Overheating may occur during extended use; allow the camera to cool down. If photos are blurry, adjust the focus mode or check for lens issues. Resolve error messages by consulting the manual or resetting the camera settings."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "eos_80d_advanced_usage",
+      "questions": [
+        "How do I optimize settings for sports photography on the EOS 80D?",
+        "Best settings for landscape photos with the Canon 80D?",
+        "Tips for using the Canon 80D in low light conditions?",
+        "How can I extend battery life while shooting outdoors with the EOS 80D?",
+        "Advanced video features of the Canon EOS 80D?"
+      ],
+      "responses": [
+        "For sports photography, set your EOS 80D to a fast shutter speed and use continuous shooting mode. For landscapes, use a small aperture and a tripod. In low light, increase ISO carefully and use a wider aperture. Extend battery life by minimizing live view use and turning off unnecessary features. Explore manual video controls to adjust focus, exposure, and frame rate for cinematic effects."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "eos_80d_software_updates",
+      "questions": [
+        "How do I update the firmware on my Canon EOS 80D?",
+        "Latest software updates for the Canon 80D?",
+        "Benefits of updating my EOS 80D firmware?",
+        "Where can I download the latest Canon 80D software?"
+      ],
+      "responses": [
+        "To update the firmware of your Canon EOS 80D, download the latest firmware version from the official Canon website, transfer it to your camera's memory card, and select 'Firmware Update' from the settings menu. Updating your firmware can improve performance, add new features, and fix bugs. Always ensure your battery is fully charged before starting an update."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "eos_80d_promotions",
+      "questions": [
+        "Are there any current promotions for the Canon EOS 80D?",
+        "Where can I find discounts on the EOS 80D?",
+        "Canon 80D bundle offers available?",
+        "Upcoming sales for Canon EOS 80D?"
+      ],
+      "responses": [
+        "Check our website regularly for promotions and discounts on the Canon EOS 80D. Bundle offers might include additional lenses or accessories at a discounted price. Keep an eye on seasonal sales and special photography events for potential savings."
+      ],
       "context_set": ""
     },
 
@@ -600,38 +1278,73 @@
       ],
       "context_set": ""
     },
+
     {
-      "tag": "Payment Methods",
+      "tag": "payment_methods_general",
       "questions": [
         "How can I pay?",
         "What payment methods do you accept?",
-        "Do you accept PayPal?",
-        "Can I pay with cash on delivery?",
         "What are my payment options?",
+        "What online payment methods are available?",
+        "Are all credit cards accepted for payment?",
+        "Do you accept PayPal?",
         "Is PayPal accepted for transactions?",
         "Can I use credit/debit cards for payment?",
-        "Do you offer payment plans?",
-        "What currencies do you accept?",
         "Can I pay using mobile payment apps?",
-        "Do you accept bank transfers?",
-        "Do you accept international payments?",
-        "Can I split payment between multiple methods?",
-        "Are digital wallets accepted for payment?",
-        "What online payment methods are available?",
-        "Can I use multiple payment methods for one transaction?",
-        "Are all credit cards accepted for payment?",
-        "Do you take checks or money orders?",
-        "Can I use prepaid cards to make a purchase?",
-        "Is it possible to pay in installments?",
-        "Do you support contactless payments?",
-        "Are there any payment methods you don't accept?",
-        "How secure are the payment transactions on your site?"
+        "Are digital wallets accepted for payment?"
       ],
       "responses": [
-        "We offer various payment methods including PayPal, credit/debit cards, selected mobile apps, and cash on delivery for certain locations."
+        "We accept a variety of payment methods including major credit/debit cards, PayPal, and selected digital wallets. Mobile payment apps like Apple Pay and Google Pay are also accepted."
       ],
       "context_set": ""
     },
+
+    {
+      "tag": "payment_methods_specific_conditions",
+      "questions": [
+        "Can I pay with cash on delivery?",
+        "Do you offer payment plans?",
+        "Can I split payment between multiple methods?",
+        "Can I use multiple payment methods for one transaction?",
+        "Is it possible to pay in installments?",
+        "Do you take checks or money orders?",
+        "Can I use prepaid cards to make a purchase?",
+        "Do you accept bank transfers?",
+        "Do you accept international payments?",
+        "Are there any payment methods you don't accept?"
+      ],
+      "responses": [
+        "We offer cash on delivery in selected locations. Payment can be split across multiple methods for some orders. We accept bank transfers and international payments but do not accept checks or money orders. Installment payments and the use of prepaid cards are available for specific products. Please check our website or contact customer service for more details on payment options and restrictions."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "payment_methods_security",
+      "questions": [
+        "How secure are the payment transactions on your site?",
+        "Do you support contactless payments?",
+        "What security measures are in place for online transactions?",
+        "Is my credit card information safe on your website?",
+        "How do you protect against payment fraud?",
+        "Are online payments on your platform encrypted?",
+        "Can I trust your website with my payment details?",
+        "What technology do you use to secure online payments?",
+        "Do you comply with PCI DSS for payment security?",
+        "Are there any additional security features for payment processing?",
+        "How do you handle payment data security?",
+        "What are your safeguards against unauthorized transactions?",
+        "Is there risk of data theft during payment processing?",
+        "Can I use biometric payments for added security?",
+        "Does your site offer two-factor authentication for payments?",
+        "Are contactless payments processed securely?"
+      ],
+      "responses": [
+        "Our payment transactions are secured with industry-standard encryption, and we comply with PCI DSS standards to ensure your data is protected. We support contactless and biometric payment options for safe and efficient transactions. Additional security measures include two-factor authentication and continuous monitoring to prevent fraud and unauthorized access."
+      ],
+      "context_set": ""
+    },
+
     {
       "tag": "Payment Policies",
       "questions": [
@@ -680,6 +1393,79 @@
       "responses": [
         "Simply go to your cart, review your items, and press 'Checkout' to select a payment method and finalize your purchase."
       ]
+    },
+    {
+      "tag": "order_processing",
+      "questions": [
+        "What shipping options do you offer?",
+        "How long will it take to receive my order?",
+        "Can I get an update on my order number 12345?",
+        "Can I change the size in my order before it ships?"
+      ],
+      "responses": [
+        "We offer standard, expedited, and overnight shipping options. Delivery times can vary from 2 to 7 business days depending on the option chosen. For order updates or changes, please log in to your account or contact our customer service immediately if your order has not yet been shipped."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "returns_exchanges_electronics",
+      "questions": [
+        "What is your return policy on electronics?",
+        "How do I return a defective item?",
+        "How long does it take to get a refund?",
+        "Can I exchange this item for a different color?",
+        "What if I received an electronic item as a gift and want to return it?",
+        "Are there restocking fees for returning electronics?"
+      ],
+      "responses": [
+        "Our return policy for electronics allows for returns within 30 days of receipt, provided the items are unused and in their original packaging. For defective items, please use the prepaid return label provided and follow the detailed instructions on our returns page. Refunds typically take 5-10 business days to process once we've received the item. Exchanges are subject to item availability and can be arranged through our customer service. Gift returns can be processed if you have a gift receipt. Please note, certain electronic items may be subject to a restocking fee if returned opened but non-defective."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "account_management",
+      "questions": [
+        "How do I create an account?",
+        "I forgot my password, how can I reset it?",
+        "How do you protect my personal information?",
+        "How can I view my past orders?"
+      ],
+      "responses": [
+        "You can create an account by clicking on 'Sign Up' on our website and entering the required information. If you've forgotten your password, click 'Forgot Password?' at the login screen to reset it. We protect your personal information using advanced encryption and security protocols. View past orders by logging into your account and visiting the 'Orders' section."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "website_navigation",
+      "questions": ["How do I search for products in your store?"],
+      "responses": [
+        "To search for products in our store, use the search bar at the top of our homepage. Simply enter a keyword, product name, or category, and our site will display relevant results. You can also use filters to refine your search by price, brand, or rating."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "checkout_problems",
+      "questions": ["I’m having trouble checking out, what should I do?"],
+      "responses": [
+        "If you're experiencing issues during checkout, please ensure all required fields are filled correctly and that your payment information is up-to-date. Clearing your browser's cache or trying a different browser may also resolve the issue. If problems persist, please contact our customer support for immediate assistance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "error_messages",
+      "questions": ["I'm getting an error message when I try to log in."],
+      "responses": [
+        "If you receive an error message while trying to log in, check to ensure your username and password are entered correctly. If you've forgotten your password, use the 'Forgot Password' link to reset it. For persistent issues, clearing your browser cache or attempting to log in from another browser may help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "browser_compatibility",
+      "questions": ["Which browsers does your website support?"],
+      "responses": [
+        "Our website is designed to work best with the latest versions of major browsers such as Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. For optimal performance and security, we recommend keeping your browser up to date."
+      ],
+      "context_set": ""
     }
   ]
 }

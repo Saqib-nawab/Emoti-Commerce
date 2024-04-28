@@ -19,3 +19,5 @@ __pycache__/
 *.log
 =======
 >>>>>>> parent of 03ccb181 (added textual sentiment analysis code)
+
+chatbot.pth/

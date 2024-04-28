@@ -70,6 +70,9 @@ const Header = () => {
                     <NavDropdown.Item onClick={logoutHandler} style={{ fontSize: '12px' }}>
                       Logout
                     </NavDropdown.Item>
+                    <NavDropdown.Item onClick={logoutHandler} style={{ fontSize: '12px' }}>
+                      Recieved Emails
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </>
               ) : (

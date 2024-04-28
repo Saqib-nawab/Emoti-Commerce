@@ -1,4 +1,3 @@
-#textual_sentiment imports || common import
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from transformers import pipeline
@@ -15,16 +14,6 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 import math,json, random
-
-
-#callbot imports
-import torch
-from transformers import BertTokenizer, BertForSequenceClassification
-import speech_recognition as sr
-from gtts import gTTS
-from playsound import playsound
-import json, random, os
-
 
 app = Flask(__name__)
 CORS(app, resources={r"/analyze_sentiment": {"origins": "http://localhost:3001"}})
@@ -226,45 +215,6 @@ def chat_endpoint():
     label, response = chatbot(user_input)
     return jsonify({"label": label, "response": response})
 
-
-
-
-
-#callbot code started
-# Setup device for model
-# device = "cuda" if torch.cuda.is_available() else "cpu"
-
-# # Load the data
-# with open("prompts.json") as f:
-#     data = json.load(f)
-
-# tags = [i['tag'] for i in data['intents']]
-# prompts = [(j.lower().strip("?. "), i['tag']) for i in data['intents'] for j in i['questions']]
-
-# labelsToid = {label: id for id, label in enumerate(tags)}
-# idTolabels = {id: label for label in labelsToid}
-
-# # Load tokenizer and model
-# model_name = "bert-base-uncased"
-# tokenizer = BertTokenizer.from_pretrained(model_name)
-# model = BertForSequenceClassification.from_pretrained(model_name, num_labels=len(tags)).to(device)
-# model_path = "chatbot.pth"
-# model.load_state_dict(torch.load(model_path, map_location=device))
-
-# @app.route('/callbot', methods=['POST'])
-# def chatbot():
-#     # Get the prompt from JSON request
-#     prompt = request.json.get('prompt')
-#     if not prompt:
-#         return "No prompt provided", 400
-
-#     inputs = tokenizer(prompt, return_tensors='pt', padding=True, truncation=True)
-#     inputs = inputs.to(device)
-#     with torch.no_grad():
-#         logits = model(**inputs).logits
-#     pred = logits.argmax(1).item()
-#     response = random.choice(data['intents'][pred]['responses'])
-#     return jsonify(response=response)
  
 
 if __name__ == '__main__':
