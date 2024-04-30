@@ -44,7 +44,7 @@ def analyze_sentiment_route():
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-with open("prompts.json") as f:
+with open("prompts-old.json") as f:
   data = json.load(f)
 
 tags = []

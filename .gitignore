@@ -3,8 +3,8 @@ node_modules
 
 
 # Ignore virtual environment
-venv/
-env/
+venv
+env
 
 # Ignore Python cached files
 __pycache__/
@@ -20,4 +20,5 @@ __pycache__/
 =======
 >>>>>>> parent of 03ccb181 (added textual sentiment analysis code)
 
-chatbot.pth/
+chatbot.pth
+chatbotnew.pth

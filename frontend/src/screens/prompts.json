@@ -95,7 +95,7 @@
       "questions": [
         "products?",
         "What products do you offer?",
-        "What can i buy?",
+        "What can I buy?",
         "What items are available in your store?",
         "Can you tell me about the products you sell?",
         "What kind of products do you have?",
@@ -104,7 +104,22 @@
         "Tell me about the items in your shop.",
         "What do you have in stock?",
         "What products can I find on your website?",
-        "List your available products, please."
+        "List your available products, please.",
+        "What types of electronics do you carry?",
+        "Can you provide a list of the latest products in your store?",
+        "What new items have you added to your inventory recently?",
+        "Can I see all the products you offer?",
+        "What are the top-selling items right now?",
+        "Are there any special deals on products at the moment?",
+        "Can you recommend some products from your latest collection?",
+        "What merchandise is available from your featured brands?",
+        "Could you show me products that are on sale?",
+        "What is the most popular product you have?",
+        "Do you carry any exclusive products?",
+        "What gadgets can I purchase from your online store?",
+        "Where can I find product reviews?",
+        "What are your newest arrivals in the tech category?",
+        "Are there any upcoming product launches I should know about?"
       ],
       "responses": [
         "We offer a variety of products including Airpods Wireless Bluetooth Headphones, Sony Playstation 5, Amazon Echo Dot 3rd Generation, Cannon EOS 80D DSLR Camera, iPhone 13 Pro 256GB Memory, and Logitech G-Series Gaming Mouse.",
@@ -131,10 +146,20 @@
         "What are the features of Airpods?",
         "Can you give me details about Wireless Airpods?",
         "What is the description of Bluetooth Airpods?",
-        "Give me information about Airpods Wireless Headphones."
+        "Give me information about Airpods Wireless Headphones.",
+        "How do Airpods work?",
+        "What technology is used in Airpods?",
+        "Are Airpods compatible with all devices?",
+        "How long does the battery last on Airpods?",
+        "What are the advantages of using Airpods?",
+        "Are Airpods water resistant?",
+        "Can you control music with Airpods?",
+        "What colors do Airpods come in?",
+        "How do I charge Airpods?",
+        "Do Airpods come with a warranty?"
       ],
       "responses": [
-        "Airpods Wireless Bluetooth Headphones feature Bluetooth technology for wireless connectivity, high-quality AAC audio for an immersive listening experience, and a built-in microphone for taking calls while on the go."
+        "Airpods Wireless Bluetooth Headphones feature Bluetooth technology for wireless connectivity, high-quality AAC audio for an immersive listening experience, and a built-in microphone for taking calls while on the go. They are compatible with all Bluetooth-enabled devices, offer touch controls for music and calls, and come with a portable charging case that provides multiple charges for more than 24 hours of listening time. Additionally, Airpods are available in multiple colors and come with a standard one-year warranty."
       ],
       "context_set": ""
     },
@@ -147,10 +172,28 @@
         "What is Playstation 5?",
         "Describe Sony Playstation 5.",
         "Tell me about the Playstation 5 gaming console.",
-        "What can you tell me about PS5?"
+        "What can you tell me about PS5?",
+        "What makes the PS5 different from other consoles?",
+        "Who manufactures the PS5?",
+        "When was the PS5 released?",
+        "What are the main features of the PS5?",
+        "Why is the PS5 considered innovative?",
+        "How does the PS5 improve on previous consoles?",
+        "What gaming experience does PS5 offer?",
+        "What are the capabilities of the PS5?",
+        "Can you explain the technology behind PS5?",
+        "What makes PS5 suitable for modern gaming?",
+        "What are the benefits of owning a PS5?",
+        "How does PS5 handle backward compatibility?",
+        "What is the target audience for PS5?",
+        "How has PS5 been received by the gaming community?",
+        "What are the graphic capabilities of the PS5?",
+        "Does the PS5 offer virtual reality support?",
+        "Can PS5 handle multiple players?",
+        "What are the entertainment options on PS5?"
       ],
       "responses": [
-        "The PlayStation 5, also known as PS5, is Sony's latest gaming console. It features cutting-edge technology to deliver enhanced gaming experiences, including high-definition graphics, fast processing speeds, and a new generation of exciting games."
+        "The PlayStation 5, also known as PS5, is Sony's latest gaming console, released to bring cutting-edge technology and a new generation of gaming. It features high-definition graphics, fast processing speeds, enhanced user interface and user experience, backward compatibility with many PS4 games, and support for both virtual reality and multi-player gaming. The PS5 has been highly praised for its advanced capabilities and provides a diverse range of entertainment options beyond just gaming."
       ],
       "context_set": ""
     },
@@ -164,10 +207,27 @@
         "What are the specifications of Sony Playstation 5?",
         "What is the storage capacity of Playstation 5?",
         "Can you tell me about the design of PS5?",
-        "Does PS5 have a disc drive?"
+        "Does PS5 have a disc drive?",
+        "How does the SSD enhance gaming on PS5?",
+        "What audio features does the PS5 have?",
+        "Are there any accessibility features on the PS5?",
+        "What are the cooling systems like in the PS5?",
+        "How is the controller designed for the PS5?",
+        "Does the PS5 support older PlayStation games?",
+        "What video output options does the PS5 offer?",
+        "What are the network capabilities of the PS5?",
+        "How energy efficient is the PS5?",
+        "What ports are available on the PS5?",
+        "Is there support for additional storage?",
+        "How customizable is the PS5 software?",
+        "What are the safety features of the PS5?",
+        "How does the PS5 compare to its competitors?",
+        "What warranty comes with the PS5?",
+        "Can the PS5 be used for media streaming?",
+        "What are the parental control options on the PS5?"
       ],
       "responses": [
-        "The PS5 supports 4K gaming and features a high-speed SSD with up to 825 GB of storage, providing quick load times and a smooth gaming experience. It has a sleek, vertical design and is available with or without a disc drive, accommodating both physical and digital game formats."
+        "The PS5 supports 4K gaming and features a high-speed SSD with up to 825 GB of storage, providing quick load times and a smooth gaming experience. It has a sleek, vertical design and is available with or without a disc drive, accommodating both physical and digital game formats. Additional features include advanced cooling systems, dual audio support, extensive network capabilities, options for further storage expansion, and robust parental controls, making it a versatile home entertainment system."
       ],
       "context_set": ""
     },
@@ -177,13 +237,35 @@
         "Is Playstation 5 available?",
         "Where can I find Playstation 5?",
         "Playstation 5 in stock?",
-        "Price of Playstation 5?"
+        "Price of Playstation 5?",
+        "How can I purchase a PS5?",
+        "Are there any bundles available for PS5?",
+        "Where is the best place to buy a PS5?",
+        "Are there any discounts on PS5?",
+        "When will the PS5 be restocked?",
+        "Can I pre-order the PS5?",
+        "Is the PS5 sold internationally?",
+        "What are the shipping options for PS5?",
+        "Can I buy PS5 directly from Sony?",
+        "What retailers carry the PS5?",
+        "Are there any special editions of the PS5 available?",
+        "What comes included with the PS5?",
+        "Are there financing options for purchasing a PS5?",
+        "Is there a return policy for the PS5?",
+        "What accessories are recommended with the PS5?",
+        "How often does Sony release new PS5 units?",
+        "What warranty is offered with the PS5?",
+        "Can I trade in my old console for a PS5?",
+        "How does PS5 handle supply shortages?",
+        "What has affected the availability of the PS5?",
+        "Can I get notified when PS5 is back in stock?"
       ],
       "responses": [
-        "Availability of the PlayStation 5 varies by region due to high demand. For current pricing and stock information, please check with local retailers or Sony's official online store."
+        "Availability of the PlayStation 5 varies by region due to high demand. For current pricing and stock information, please check with local retailers or Sony's official online store. The console is sold internationally, and various bundles and special editions are often available. Sony and other retailers offer notifications for restocking, financing options, and a standard warranty for the console."
       ],
       "context_set": ""
     },
+
     {
       "tag": "playstation_5_compatibility_accessories",
       "questions": [
@@ -192,26 +274,32 @@
         "What accessories are compatible with Playstation 5?",
         "Are there any exclusive games for PS5?",
         "Tell me about PS5's backward compatibility.",
-        "Is PS5 backward compatible with PS3 games?"
+        "Is PS5 backward compatible with PS3 games?",
+        "What are the recommended storage options for PS5?",
+        "Can I use my existing PS4 controllers with PS5?",
+        "Are there any VR accessories for PS5?",
+        "Does PS5 support external hard drives?",
+        "What are the benefits of using a SSD with PS5?",
+        "Is PS5 compatible with HDMI 2.1?",
+        "Does PS5 have USB-C ports?",
+        "Can I connect my PSVR headset to PS5?",
+        "Is there a PS5 camera accessory?",
+        "Are there any third-party controller options for PS5?",
+        "Can I use my existing PS4 headset with PS5?",
+        "What internet speed is recommended for optimal PS5 performance?",
+        "Are there any upcoming firmware updates for PS5?",
+        "How does PS5 handle game patches and updates?",
+        "What are the system requirements for using PS5 Share Play feature?",
+        "Does PS5 support 8K resolution?",
+        "Is PS5 compatible with my existing PlayStation Plus subscription?",
+        "Are there any parental control features on PS5?",
+        "Can I customize the controller settings on PS5?"
       ],
       "responses": [
-        "The PS5 is backward compatible with most PS4 games, enhancing them with improved loading times and graphical performance. It comes with one DualSense controller in the box, and supports a range of PS5-specific accessories, including additional controllers, a charging station, and a headset. Exclusive games like 'Demon's Souls' and 'Ratchet & Clank: Rift Apart' are available. The PS5 is not compatible with PS3 games."
+        "The PS5 is backward compatible with most PS4 games, enhancing them with improved loading times and graphical performance. It comes with one DualSense controller in the box, and supports a range of PS5-specific accessories, including additional controllers, a charging station, and a headset. Exclusive games like 'Demon's Souls' and 'Ratchet & Clank: Rift Apart' are available. The PS5 is not compatible with PS3 games. Regarding storage options, PS5 supports internal SSD expansion and external USB drives for game storage. Additionally, it's recommended to use HDMI 2.1 for the best gaming experience, and PS5 has USB-C ports for various peripherals. You can also connect your PSVR headset to PS5, and there are third-party controller options available. For optimal performance, a high-speed internet connection is recommended, and firmware updates are regularly released to enhance features and stability. PS5 supports features like Share Play and offers parental controls for a safe gaming environment. You can customize controller settings to suit your preferences."
       ],
       "context_set": ""
     },
-    {
-      "tag": "playstation_5_enhancements_updates",
-      "questions": [
-        "What new features does the PS5 introduce over the PS4?",
-        "How does the PS5 enhance gaming experiences compared to older consoles?",
-        "What updates have been made to the PlayStation user interface with PS5?"
-      ],
-      "responses": [
-        "The PS5 introduces significant enhancements over the PS4, including a custom SSD for faster load times, support for up to 120 fps for smoother gameplay, and ray tracing for realistic lighting and reflections. The user interface has been completely revamped to provide a more intuitive and immersive experience, with new features that leverage the console's capabilities for a next-gen feel."
-      ],
-      "context_set": ""
-    },
-
     {
       "tag": "echo_dot_3rd_gen_description",
       "questions": [
@@ -241,13 +329,109 @@
       ],
       "context_set": ""
     },
+    {
+      "tag": "playstation_5_enhancements_updates",
+      "questions": [
+        "What new features does the PS5 introduce over the PS4?",
+        "How does the PS5 enhance gaming experiences compared to older consoles?",
+        "What updates have been made to the PlayStation user interface with PS5?",
+        "Can you explain the benefits of the PS5's custom SSD?",
+        "What is the significance of the PS5's support for up to 120 fps?",
+        "How does ray tracing improve graphics on the PS5?",
+        "Are there any improvements to the PS5 controller compared to the DualShock 4?",
+        "Can you describe the improvements in audio quality on the PS5?",
+        "What changes have been made to the PS5's cooling system?",
+        "Is there any new technology introduced in PS5's power management?",
+        "What advancements have been made in PS5's network capabilities?",
+        "Can you explain the improvements in system storage management on PS5?",
+        "Are there any new accessibility features introduced in PS5?",
+        "What improvements have been made to the PS5's user interface customization options?",
+        "Has the PS5 introduced any new social features for gaming communities?",
+        "Are there any updates to the PS5's streaming and sharing capabilities?",
+        "Can you elaborate on any enhancements made to the PS5's system software?",
+        "What is the impact of PS5's backward compatibility on gaming experiences?",
+        "How does PS5's performance mode affect gameplay?",
+        "Are there any changes to the PS5's trophy system compared to PS4?",
+        "What improvements have been made to the PS5's system stability and reliability?",
+        "Can you discuss any upcoming firmware updates and their anticipated improvements?",
+        "What are the expectations for future enhancements and updates to the PS5?"
+      ],
+      "responses": [
+        "The PS5 introduces significant enhancements over the PS4, including a custom SSD for faster load times, support for up to 120 fps for smoother gameplay, and ray tracing for realistic lighting and reflections. The user interface has been completely revamped to provide a more intuitive and immersive experience, with new features that leverage the console's capabilities for a next-gen feel. Additionally, the PS5 boasts improvements in various aspects such as controller design, audio quality, cooling system, power management, network capabilities, storage management, accessibility features, user interface customization, social features, streaming, sharing, system software, backward compatibility, performance mode, trophy system, system stability, and reliability. Sony continuously releases firmware updates to enhance the PS5's features and address user feedback."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "echo_dot_3rd_gen_description",
+      "questions": [
+        "Echo Dot?",
+        "Amazon Echo Dot",
+        "Echo Dot 3rd Generation",
+        "What is Echo Dot?",
+        "What can you tell me about Amazon Echo Dot?",
+        "Describe Echo Dot 3rd Generation.",
+        "What are the features of Echo Dot?",
+        "Can you give me details about Amazon Echo Dot?",
+        "Tell me about the Echo Dot smart speaker.",
+        "What can Echo Dot do?",
+        "How does Echo Dot work?",
+        "Does Echo Dot support voice commands?",
+        "What music services are compatible with Echo Dot?",
+        "Can Echo Dot control smart home devices?",
+        "What is the size of Echo Dot?",
+        "Can you tell me about the design of Echo Dot?",
+        "What are the specifications of Amazon Echo Dot 3rd Generation?",
+        "Tell me about Echo Dot's microphone array.",
+        "What colors does Echo Dot come in?",
+        "Does Echo Dot have a built-in speaker?",
+        "Explain the functionality of Echo Dot.",
+        "Give me information about Amazon's Echo Dot.",
+        "Detail the features of Echo Dot 3rd Generation.",
+        "Can you provide an overview of Echo Dot?",
+        "Discuss the capabilities of the Echo Dot smart speaker.",
+        "How does Echo Dot differ from other Amazon devices?",
+        "Describe the Echo Dot's voice control abilities.",
+        "What streaming services work with Echo Dot?",
+        "Can Echo Dot be used to control home automation?",
+        "Tell me about the size of the Echo Dot.",
+        "What is unique about Echo Dot's design?",
+        "Elaborate on the technical specifications of Echo Dot 3rd Generation.",
+        "Explain the technology behind Echo Dot's microphone array.",
+        "What options are available for Echo Dot's color?",
+        "Detail the audio capabilities of Echo Dot, including its built-in speaker."
+      ],
+      "responses": [
+        "Echo Dot, including the 3rd Generation model, is Amazon's compact smart speaker powered by Alexa. It offers features like voice control for music streaming, smart home device integration, and much more. It comes with a microphone array, a built-in speaker, and is available in various colors."
+      ],
+      "context_set": ""
+    },
 
     {
       "tag": "echo_dot_3rd_gen_availability",
       "questions": [
         "Is Echo Dot available?",
         "Where can I find Echo Dot?",
-        "Echo Dot in stock?"
+        "Echo Dot in stock?",
+        "How can I purchase Echo Dot?",
+        "Where can I buy Echo Dot?",
+        "Is Echo Dot sold out?",
+        "Can I purchase Echo Dot online?",
+        "Is Echo Dot available for delivery?",
+        "Can I buy Echo Dot from a physical store?",
+        "Are there any discounts available for Echo Dot?",
+        "Is Echo Dot available internationally?",
+        "How quickly can I get Echo Dot delivered?",
+        "Is there a waiting list for Echo Dot?",
+        "Can I preorder Echo Dot?",
+        "Are there any special offers for Echo Dot?",
+        "Where can I find the best deals on Echo Dot?",
+        "Is Echo Dot restocked regularly?",
+        "Can I check Echo Dot availability online?",
+        "Are there any limited editions of Echo Dot available?",
+        "Can I track the availability of Echo Dot?",
+        "Are there any payment options available for Echo Dot?",
+        "Can I reserve Echo Dot for pickup?",
+        "Is there a notification system for Echo Dot restocking?"
       ],
       "responses": [
         "The Echo Dot 3rd Generation is typically in stock and available for purchase through Amazon and authorized retailers. For the most accurate information on availability, please check with your local retailers or Amazon directly."
@@ -259,7 +443,29 @@
       "tag": "echo_dot_3rd_gen_compatibility",
       "questions": [
         "Is Echo Dot compatible with Alexa?",
-        "What can Echo Dot do with Alexa?"
+        "What can Echo Dot do with Alexa?",
+        "Does Echo Dot work with Alexa?",
+        "How does Echo Dot interact with Alexa?",
+        "Can Echo Dot be used with other smart assistants?",
+        "What voice commands can Echo Dot understand?",
+        "Does Echo Dot support voice recognition?",
+        "How does Echo Dot respond to voice commands?",
+        "Can Echo Dot understand multiple users?",
+        "Are there any limitations to Echo Dot's compatibility with Alexa?",
+        "Does Echo Dot require an internet connection to work with Alexa?",
+        "Can Echo Dot control smart home devices from different brands?",
+        "How reliable is Echo Dot's compatibility with Alexa?",
+        "Are there any setup requirements for Echo Dot to work with Alexa?",
+        "Can Echo Dot understand different accents?",
+        "Does Echo Dot support third-party skills?",
+        "How customizable are Echo Dot's voice commands?",
+        "Can Echo Dot interact with other smart devices?",
+        "Are there any privacy concerns with Echo Dot's interaction with Alexa?",
+        "Can Echo Dot learn new voice commands?",
+        "Does Echo Dot have a voice training feature?",
+        "How does Echo Dot handle voice commands in noisy environments?",
+        "Is there a limit to the number of voice commands Echo Dot can understand?",
+        "Can Echo Dot differentiate between voices for personalized responses?"
       ],
       "responses": [
         "Yes, the Echo Dot is designed to be fully compatible with Alexa, enabling voice control over music playback, smart home devices, setting alarms, and accessing real-time information like news and weather."
@@ -276,26 +482,64 @@
         "What is Canon EOS 80D?",
         "Describe the EOS 80D.",
         "Tell me about the Canon 80D digital camera.",
-        "What can you tell me about the Canon 80D DSLR camera?"
+        "What can you tell me about the Canon 80D DSLR camera?",
+        "What are the key features of Canon EOS 80D?",
+        "Can you provide an overview of Canon EOS 80D's specifications?",
+        "Discuss the capabilities of Canon EOS 80D.",
+        "What sets Canon EOS 80D apart from other DSLR cameras?",
+        "Explain the advantages of using Canon EOS 80D for photography.",
+        "Detail the functionalities of Canon EOS 80D's CMOS sensor.",
+        "Can you elaborate on Canon EOS 80D's image processor?",
+        "What types of photography is Canon EOS 80D suitable for?",
+        "Is Canon EOS 80D weather-sealed?",
+        "How does Canon EOS 80D perform in low-light conditions?",
+        "What autofocus system does Canon EOS 80D use?",
+        "Does Canon EOS 80D have built-in Wi-Fi connectivity?",
+        "What are the available lens options for Canon EOS 80D?",
+        "Is Canon EOS 80D compatible with third-party accessories?",
+        "Are there any limitations to Canon EOS 80D's video recording capabilities?",
+        "Can Canon EOS 80D shoot in RAW format?",
+        "Is Canon EOS 80D suitable for beginners or advanced photographers?"
       ],
       "responses": [
         "The Canon EOS 80D DSLR Camera is a robust and versatile camera designed for hobbyists and professionals alike, featuring a 24.2-megapixel APS-C CMOS sensor and DIGIC 6 image processor for high-quality images and videos."
       ],
       "context_set": ""
     },
+
     {
       "tag": "eos_80d_availability_purchasing",
       "questions": [
         "Is the Canon EOS 80D available?",
         "Where can I find the Canon EOS 80D?",
         "Is the EOS 80D in stock?",
-        "Price of Canon EOS 80D?"
+        "Price of Canon EOS 80D?",
+        "Can I purchase Canon EOS 80D online?",
+        "Are there any discounts available for Canon EOS 80D?",
+        "Can I pre-order Canon EOS 80D?",
+        "What is the warranty period for Canon EOS 80D?",
+        "Does Canon EOS 80D come with any bundled accessories?",
+        "Are there any financing options available for Canon EOS 80D?",
+        "Is Canon EOS 80D eligible for international shipping?",
+        "Can I trade in my old camera for Canon EOS 80D?",
+        "What payment methods are accepted for purchasing Canon EOS 80D?",
+        "Can I reserve Canon EOS 80D for pickup?",
+        "Are there any exclusive deals for purchasing Canon EOS 80D?",
+        "Does Canon EOS 80D come with a memory card?",
+        "What is the return policy for Canon EOS 80D?",
+        "Is there an installment plan available for purchasing Canon EOS 80D?",
+        "Can I check the availability of Canon EOS 80D in local stores?",
+        "Does Canon EOS 80D come with free shipping?",
+        "Are there any promotional offers for Canon EOS 80D?",
+        "Can I get notified when Canon EOS 80D is back in stock?",
+        "What accessories are recommended to purchase along with Canon EOS 80D?"
       ],
       "responses": [
         "The Canon EOS 80D DSLR Camera is available at major electronics retailers and online stores. For pricing and stock availability, please visit our website or contact local retailers."
       ],
       "context_set": ""
     },
+
     {
       "tag": "eos_80d_specifications_features",
       "questions": [
@@ -310,19 +554,49 @@
         "What type of memory card does the Canon 80D use?",
         "Can you tell me about the battery life of the Canon EOS 80D?",
         "Is the Canon 80D weather-sealed?",
-        "Does the Canon EOS 80D have image stabilization?"
+        "Does the Canon EOS 80D have image stabilization?",
+        "Explain the technical specifications of the Canon EOS 80D.",
+        "Detail the features that set Canon EOS 80D apart from other DSLR cameras.",
+        "Discuss the video recording capabilities of Canon EOS 80D.",
+        "Can you elaborate on the autofocus performance of Canon EOS 80D?",
+        "Explain the connectivity options available on Canon EOS 80D.",
+        "What are the advantages of Canon EOS 80D's sensor resolution?",
+        "Describe the user interface of Canon EOS 80D's touchscreen.",
+        "Discuss the compatibility of Canon EOS 80D with various memory cards.",
+        "What factors affect the battery life of Canon EOS 80D?",
+        "Can you explain the weather-sealing features of Canon EOS 80D?",
+        "Detail the role of image stabilization in Canon EOS 80D's photography."
       ],
       "responses": [
-        "The Canon EOS 80D features a 24.2-megapixel APS-C CMOS sensor, DIGIC 6 processor, Full HD 1080p video recording, not 4K. It has a 45-point all cross-type AF system, built-in Wi-Fi, and an articulating touchscreen. It supports SD cards, has an impressive battery life, is weather-sealed, but lacks in-body image stabilization."
+        "The Canon EOS 80D features a 24.2-megapixel APS-C CMOS sensor, DIGIC 6 processor, Full HD 1080p video recording (not 4K). It has a 45-point all cross-type AF system, built-in Wi-Fi, and an articulating touchscreen. It supports SD cards, has an impressive battery life, is weather-sealed, but lacks in-body image stabilization."
       ],
       "context_set": ""
     },
+
     {
       "tag": "eos_80d_compatibility_accessories",
       "questions": [
         "What lenses are compatible with the EOS 80D?",
         "What accessories come with the Canon 80D?",
-        "Tell me about the design of the Canon EOS 80D."
+        "Tell me about the design of the Canon EOS 80D.",
+        "Can you recommend compatible lenses for Canon EOS 80D?",
+        "What additional accessories are available for Canon EOS 80D?",
+        "Are there any lens bundles available for Canon EOS 80D?",
+        "How does the design of Canon EOS 80D enhance usability?",
+        "What protective accessories are recommended for Canon EOS 80D?",
+        "Can you suggest accessory kits for Canon EOS 80D?",
+        "Are there any third-party accessories compatible with Canon EOS 80D?",
+        "What lens options are available for Canon EOS 80D for different photography needs?",
+        "Does Canon EOS 80D have compatibility with telephoto lenses?",
+        "Are there any accessories specifically designed for videography with Canon EOS 80D?",
+        "How does the ergonomic design of Canon EOS 80D contribute to shooting comfort?",
+        "Can you elaborate on the build quality of Canon EOS 80D and its impact on accessory compatibility?",
+        "Are there any recommended filters for Canon EOS 80D lenses?",
+        "What accessories can enhance the audio recording capabilities of Canon EOS 80D?",
+        "Is there a recommended carrying case for Canon EOS 80D?",
+        "What lens accessories are essential for beginners using Canon EOS 80D?",
+        "Does Canon EOS 80D support lens adapters for compatibility with other lens brands?",
+        "Can you describe any specialty accessories available for macro photography with Canon EOS 80D?"
       ],
       "responses": [
         "The Canon EOS 80D is compatible with Canon EF and EF-S lenses. It typically comes with a battery, charger, neck strap, and body cap. Its design features a durable body with weather-sealing to handle various shooting conditions."
@@ -331,38 +605,123 @@
     },
 
     {
+      "tag": "iphone_13_pro_price",
+      "questions": [
+        "iPhone 13 Pro price?",
+        "How much is iPhone 13 Pro?",
+        "Price of iPhone 13 Pro?",
+        "What is the price of iPhone 13 Pro?",
+        "How expensive is iPhone 13 Pro?",
+        "What's the cost of iPhone 13 Pro?",
+        "Can you tell me the price of iPhone 13 Pro?",
+        "What's the price tag on iPhone 13 Pro?",
+        "iPhone 13 Pro - how much?",
+        "What's the price range for iPhone 13 Pro?",
+        "I'm interested in iPhone 13 Pro, what's the pricing?",
+        "How affordable is iPhone 13 Pro?",
+        "Is iPhone 13 Pro expensive?",
+        "What's the price point for iPhone 13 Pro?",
+        "I need to know the price of iPhone 13 Pro, can you help?",
+        "iPhone 13 Pro pricing, please?",
+        "What's the pricing like for iPhone 13 Pro?",
+        "Do you have any information on iPhone 13 Pro pricing?",
+        "Price for iPhone 13 Pro, please?",
+        "Can you give me a quote for iPhone 13 Pro?",
+        "How much do I need to budget for iPhone 13 Pro?",
+        "iPhone 13 Pro - how much does it go for?",
+        "iPhone 13 Pro - what's the cost?",
+        "What's the market price for iPhone 13 Pro?",
+        "How much money should I prepare for iPhone 13 Pro?",
+        "What's the current price for iPhone 13 Pro?",
+        "Can you provide pricing details for iPhone 13 Pro?",
+        "iPhone 13 Pro - how much will it set me back?"
+      ],
+      "responses": ["The price of iPhone 13 Pro 256GB Memory is $599.99."],
+      "context_set": ""
+    },
+    {
       "tag": "iphone_13_pro_security",
       "questions": [
         "What security features does the iPhone 13 Pro have?",
         "How secure is the Face ID on the iPhone 13 Pro?",
         "Does the iPhone 13 Pro offer any new security enhancements?",
-        "Can I use two-factor authentication with the iPhone 13 Pro?"
+        "Can I use two-factor authentication with the iPhone 13 Pro?",
+        "Are there any privacy settings on the iPhone 13 Pro?",
+        "How does the iPhone 13 Pro protect user data?",
+        "Can I encrypt data on the iPhone 13 Pro?",
+        "What measures does the iPhone 13 Pro take to prevent unauthorized access?",
+        "Is the iPhone 13 Pro resistant to hacking?",
+        "Can I remotely wipe data from the iPhone 13 Pro in case of theft?",
+        "What security protocols does the iPhone 13 Pro use for internet browsing?",
+        "Are there any privacy features unique to the iPhone 13 Pro?",
+        "How does the iPhone 13 Pro protect against malware?",
+        "Can I set up a passcode on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro have a secure enclave for storing sensitive information?",
+        "What authentication methods does the iPhone 13 Pro support?",
+        "Is there a guest mode on the iPhone 13 Pro?",
+        "Can I control app permissions on the iPhone 13 Pro?",
+        "How does the iPhone 13 Pro handle data encryption during backups?",
+        "Does the iPhone 13 Pro offer protection against phishing attacks?"
       ],
       "responses": [
         "The iPhone 13 Pro offers advanced security features, including Face ID, which uses sophisticated facial recognition technology to secure your device. It supports two-factor authentication and iOS 15 introduces even more security enhancements to protect user privacy and data."
       ],
       "context_set": ""
     },
+
     {
       "tag": "iphone_13_pro_networking",
       "questions": [
         "Does the iPhone 13 Pro support Wi-Fi 6?",
         "What 5G bands are available on the iPhone 13 Pro?",
         "How fast is the 5G on the iPhone 13 Pro?",
-        "Can the iPhone 13 Pro connect to multiple Bluetooth devices simultaneously?"
+        "Can the iPhone 13 Pro connect to multiple Bluetooth devices simultaneously?",
+        "What networking features does the iPhone 13 Pro offer?",
+        "Is there a difference in network performance between iPhone 13 Pro models?",
+        "Can I prioritize Wi-Fi networks on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro support VPN connections?",
+        "How does the iPhone 13 Pro optimize network performance?",
+        "Are there any network-related settings I should be aware of on the iPhone 13 Pro?",
+        "Can I set up a personal hotspot on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro have a built-in network firewall?",
+        "What security measures does the iPhone 13 Pro take for wireless connections?",
+        "Can I limit data usage on the iPhone 13 Pro?",
+        "How does the iPhone 13 Pro handle network switching between Wi-Fi and cellular data?",
+        "Are there any network-related accessories compatible with the iPhone 13 Pro?",
+        "Can I monitor network usage on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro support carrier aggregation for faster speeds?",
+        "What network troubleshooting tools are available on the iPhone 13 Pro?",
+        "Can I use the iPhone 13 Pro as a Wi-Fi analyzer?"
       ],
       "responses": [
         "The iPhone 13 Pro supports Wi-Fi 6 for faster wireless networking and comprehensive 5G coverage with various bands for enhanced mobile speeds. It allows Bluetooth connections to multiple devices simultaneously, providing a seamless and efficient connectivity experience."
       ],
       "context_set": ""
     },
+
     {
       "tag": "iphone_13_pro_environmental",
       "questions": [
         "Is the iPhone 13 Pro environmentally friendly?",
         "What materials are used in the iPhone 13 Pro?",
         "Does Apple use recycled materials for the iPhone 13 Pro?",
-        "What is Apple's environmental policy for iPhone manufacturing?"
+        "What is Apple's environmental policy for iPhone manufacturing?",
+        "How does Apple minimize the carbon footprint of iPhone 13 Pro production?",
+        "Can you provide details on the sustainable practices in iPhone 13 Pro manufacturing?",
+        "Are there any eco-friendly initiatives associated with the iPhone 13 Pro?",
+        "Does the packaging of iPhone 13 Pro use recyclable materials?",
+        "What steps has Apple taken to reduce electronic waste from iPhone 13 Pro?",
+        "Is the iPhone 13 Pro designed with longevity and repairability in mind?",
+        "Are there any environmental certifications associated with the iPhone 13 Pro?",
+        "Does Apple offer recycling programs for old iPhone 13 Pro units?",
+        "How does Apple ensure responsible sourcing of materials for iPhone 13 Pro?",
+        "Are there any energy-efficient features in the iPhone 13 Pro?",
+        "Can you elaborate on Apple's commitment to sustainability in iPhone 13 Pro production?",
+        "Does Apple publish reports on the environmental impact of iPhone 13 Pro?",
+        "What initiatives has Apple undertaken to promote renewable energy in iPhone manufacturing?",
+        "How does Apple address water conservation in iPhone 13 Pro production?",
+        "Does Apple provide information on the lifecycle assessment of iPhone 13 Pro?",
+        "Are there any restrictions on hazardous substances in iPhone 13 Pro manufacturing?"
       ],
       "responses": [
         "Apple is committed to reducing the environmental impact of its products. The iPhone 13 Pro uses recycled materials for many of its components, including rare earth elements and metals. Apple also utilizes renewable energy for all of its manufacturing processes as part of its goal to become carbon neutral across its entire business."
@@ -375,20 +734,23 @@
         "What accessibility features does the iPhone 13 Pro have?",
         "Can visually impaired users easily use the iPhone 13 Pro?",
         "What features assist hearing-impaired users on the iPhone 13 Pro?",
-        "Are there mobility accessibility options on the iPhone 13 Pro?"
-      ],
-      "responses": [
-        "The iPhone 13 Pro includes a range of accessibility features such as VoiceOver for the visually impaired, closed captioning and Made for iPhone hearing aids for the hearing impaired, and switch control for those with limited mobility. Apple continuously improves accessibility across its device ecosystem to ensure inclusivity for all users."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "iphone_13_pro_accessibility",
-      "questions": [
-        "What accessibility features does the iPhone 13 Pro have?",
-        "Can visually impaired users easily use the iPhone 13 Pro?",
-        "What features assist hearing-impaired users on the iPhone 13 Pro?",
-        "Are there mobility accessibility options on the iPhone 13 Pro?"
+        "Are there mobility accessibility options on the iPhone 13 Pro?",
+        "How does VoiceOver enhance accessibility on the iPhone 13 Pro?",
+        "Can you explain the benefits of closed captioning on the iPhone 13 Pro?",
+        "What is Made for iPhone hearing aids, and how do they work with the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro support Braille displays?",
+        "Are there any accessibility settings for color blindness on the iPhone 13 Pro?",
+        "Can users customize accessibility features on the iPhone 13 Pro?",
+        "Is there a dedicated accessibility menu on the iPhone 13 Pro?",
+        "How does switch control benefit users with limited mobility on the iPhone 13 Pro?",
+        "Are there any third-party accessibility apps recommended for the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro offer voice recognition for hands-free operation?",
+        "Can users adjust the speed and responsiveness of accessibility features on the iPhone 13 Pro?",
+        "What resources does Apple provide for learning about accessibility features on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro offer accessibility options for cognitive disabilities?",
+        "Are there any accessibility features specifically designed for seniors on the iPhone 13 Pro?",
+        "How does the iPhone 13 Pro support users with neurodiverse needs?",
+        "Can you provide examples of real-life scenarios where iPhone 13 Pro accessibility features are beneficial?"
       ],
       "responses": [
         "The iPhone 13 Pro includes a range of accessibility features such as VoiceOver for the visually impaired, closed captioning and Made for iPhone hearing aids for the hearing impaired, and switch control for those with limited mobility. Apple continuously improves accessibility across its device ecosystem to ensure inclusivity for all users."
@@ -428,19 +790,7 @@
       ],
       "context_set": ""
     },
-    {
-      "tag": "iphone_13_pro_availability_pricing",
-      "questions": [
-        "Is the iPhone 13 Pro available?",
-        "Where can I find the iPhone 13 Pro?",
-        "Is the iPhone 13 Pro in stock?",
-        "Price of iPhone 13 Pro?"
-      ],
-      "responses": [
-        "The iPhone 13 Pro's availability can vary by location. To find out if it is in stock and its current price, please visit our official website or check with authorized Apple retailers."
-      ],
-      "context_set": ""
-    },
+
     {
       "tag": "iphone_13_pro_camera_features",
       "questions": [
@@ -448,26 +798,59 @@
         "Can the iPhone 13 Pro shoot in Dolby Vision?",
         "Tell me about the iPhone 13 Pro's photographic capabilities.",
         "Does the iPhone 13 Pro have a night mode for photography?",
-        "What kind of video can I record on the iPhone 13 Pro?"
+        "What kind of video can I record on the iPhone 13 Pro?",
+        "How many lenses does the iPhone 13 Pro's camera system have?",
+        "What is the focal length range of the iPhone 13 Pro's camera lenses?",
+        "Can I capture wide-angle shots with the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro offer optical zoom capabilities?",
+        "Are there any advanced photography features unique to the iPhone 13 Pro?",
+        "Can I adjust exposure settings manually on the iPhone 13 Pro?",
+        "Is there a dedicated macro mode in the iPhone 13 Pro's camera?",
+        "Can I capture photos in RAW format with the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro offer portrait mode photography?",
+        "How does the iPhone 13 Pro's camera perform in low-light conditions?",
+        "Are there any special effects available for photos on the iPhone 13 Pro?",
+        "Can I shoot time-lapse videos with the iPhone 13 Pro?",
+        "What resolution and frame rates are supported for video recording on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro offer image stabilization for videos?",
+        "Can I capture slow-motion videos with the iPhone 13 Pro?"
       ],
       "responses": [
         "The iPhone 13 Pro features an advanced camera system with 12MP ultra-wide, wide, and telephoto lenses. It supports Dolby Vision recording, Night mode, and Deep Fusion for exceptional photo and video quality. You can record up to 4K HDR video with ProRes support."
       ],
       "context_set": ""
     },
+
     {
       "tag": "iphone_13_pro_battery_charging",
       "questions": [
         "What is the battery life of the iPhone 13 Pro?",
         "Does the iPhone 13 Pro support wireless charging?",
         "How long does the iPhone 13 Pro battery last on a single charge?",
-        "Can I use MagSafe with the iPhone 13 Pro?"
+        "Can I use MagSafe with the iPhone 13 Pro?",
+        "What is the typical screen-on time for the iPhone 13 Pro?",
+        "Does the battery life of the iPhone 13 Pro vary based on usage?",
+        "Can I charge the iPhone 13 Pro wirelessly with third-party chargers?",
+        "Is there a difference in charging speed between wired and wireless charging on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro support reverse wireless charging?",
+        "How does battery optimization work on the iPhone 13 Pro?",
+        "Can I monitor battery health on the iPhone 13 Pro?",
+        "Are there any power-saving features available on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro offer adaptive charging capabilities?",
+        "What is the recommended way to extend the battery life of the iPhone 13 Pro?",
+        "Can I use the iPhone 13 Pro while it's charging?",
+        "Does the iPhone 13 Pro have a low-power mode?",
+        "Are there any accessories available to enhance charging efficiency for the iPhone 13 Pro?",
+        "Can I charge the iPhone 13 Pro with a USB-C power delivery charger?",
+        "Does the iPhone 13 Pro support fast wireless charging?",
+        "How does the battery performance of the iPhone 13 Pro compare to previous models?"
       ],
       "responses": [
         "The iPhone 13 Pro offers all-day battery life and is compatible with MagSafe wireless charging. The exact battery duration depends on usage, but you can expect up to 75 hours of audio playback. It also supports fast charging with a 20W adapter or higher."
       ],
       "context_set": ""
     },
+
     {
       "tag": "iphone_13_pro_display_design",
       "questions": [
@@ -475,26 +858,63 @@
         "Can you tell me about the design of the iPhone 13 Pro?",
         "What are the dimensions of the iPhone 13 Pro?",
         "Does the iPhone 13 Pro have an OLED display?",
-        "What is the refresh rate of the iPhone 13 Pro's screen?"
+        "What is the refresh rate of the iPhone 13 Pro's screen?",
+        "How does the screen technology of the iPhone 13 Pro differ from previous models?",
+        "Is the display of the iPhone 13 Pro resistant to scratches?",
+        "Does the iPhone 13 Pro feature edge-to-edge display?",
+        "Are there any special features of the iPhone 13 Pro's display?",
+        "Can I adjust the color temperature of the iPhone 13 Pro's display?",
+        "Does the iPhone 13 Pro support HDR content playback?",
+        "What is the resolution of the iPhone 13 Pro's display?",
+        "Can I use the iPhone 13 Pro's display with gloves?",
+        "Are there any accessibility options related to the display on the iPhone 13 Pro?",
+        "Does the display of the iPhone 13 Pro support always-on functionality?",
+        "What is the maximum brightness of the iPhone 13 Pro's display?",
+        "Does the iPhone 13 Pro feature True Tone technology?",
+        "Can I customize the display settings on the iPhone 13 Pro?",
+        "Is the iPhone 13 Pro's display water-resistant?",
+        "Does the display of the iPhone 13 Pro have a fingerprint-resistant coating?"
       ],
       "responses": [
         "The iPhone 13 Pro has a 6.1-inch Super Retina XDR display with ProMotion technology supporting an adaptive refresh rate up to 120Hz. Its design features Ceramic Shield front cover, surgical-grade stainless steel, and is available in various colors with a premium finish."
       ],
       "context_set": ""
     },
+
     {
       "tag": "iphone_13_pro_software_performance",
       "questions": [
         "What operating system does the iPhone 13 Pro run on?",
         "How powerful is the A15 Bionic chip in the iPhone 13 Pro?",
         "Can I run multiple apps simultaneously on the iPhone 13 Pro?",
-        "What enhancements does iOS bring to the iPhone 13 Pro?"
+        "What enhancements does iOS bring to the iPhone 13 Pro?",
+        "What version of iOS is installed on the iPhone 13 Pro?",
+        "How does the performance of the A15 Bionic chip compare to previous iPhone models?",
+        "Are there any software optimizations specific to the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro support the latest iOS features?",
+        "Can I expect future iOS updates to improve the performance of the iPhone 13 Pro?",
+        "What benefits does the A15 Bionic chip offer for everyday tasks on the iPhone 13 Pro?",
+        "Does iOS on the iPhone 13 Pro support multitasking?",
+        "Can I customize the software experience on the iPhone 13 Pro?",
+        "What optimizations does iOS provide for battery efficiency on the iPhone 13 Pro?",
+        "Are there any unique software features tailored for the iPhone 13 Pro?",
+        "Does the A15 Bionic chip ensure smooth gaming performance on the iPhone 13 Pro?",
+        "Can I expect seamless app performance on the iPhone 13 Pro?",
+        "Does the iPhone 13 Pro support the latest security features in iOS?",
+        "Can I run demanding applications without performance issues on the iPhone 13 Pro?",
+        "How does iOS contribute to the overall user experience on the iPhone 13 Pro?",
+        "Are there any performance benchmarks available for the A15 Bionic chip in the iPhone 13 Pro?",
+        "Does iOS provide customization options for optimizing performance on the iPhone 13 Pro?",
+        "What performance improvements does iOS offer for camera functionality on the iPhone 13 Pro?",
+        "Can I utilize advanced productivity features on the iPhone 13 Pro?",
+        "What measures does iOS take to ensure data security on the iPhone 13 Pro?"
       ],
       "responses": [
         "The iPhone 13 Pro runs on iOS, which provides a seamless and fluid experience. It's powered by the A15 Bionic chip, enabling smooth operation of multiple apps and advanced tasks. iOS brings latest updates in privacy, FaceTime, and more to the iPhone 13 Pro."
       ],
       "context_set": ""
     },
+
     {
       "tag": "logitech_gaming_mouse_general",
       "questions": [
@@ -502,13 +922,34 @@
         "Gaming Mouse",
         "Logitech G Mouse",
         "What is Logitech G-Series Gaming Mouse?",
-        "Tell me about the Logitech Gaming Mouse."
+        "Tell me about the Logitech Gaming Mouse.",
+        "What features does the Logitech G-Series Gaming Mouse offer?",
+        "Can you describe the design of the Logitech G-Series Gaming Mouse?",
+        "Is the Logitech G-Series Gaming Mouse suitable for competitive gaming?",
+        "Does the Logitech G-Series Gaming Mouse support customizable buttons?",
+        "What makes the Logitech G-Series Gaming Mouse stand out from other gaming mice?",
+        "Can I adjust the DPI settings on the Logitech G-Series Gaming Mouse?",
+        "What types of games is the Logitech G-Series Gaming Mouse best suited for?",
+        "Does the Logitech G-Series Gaming Mouse have customizable RGB lighting?",
+        "How does the Logitech G-Series Gaming Mouse enhance gaming performance?",
+        "Are there any special software features available for the Logitech G-Series Gaming Mouse?",
+        "Can I program macros with the Logitech G-Series Gaming Mouse?",
+        "Does the Logitech G-Series Gaming Mouse feature onboard memory for saving settings?",
+        "Is the Logitech G-Series Gaming Mouse compatible with different grip styles?",
+        "What is the warranty period for the Logitech G-Series Gaming Mouse?",
+        "Can I use the Logitech G-Series Gaming Mouse for extended gaming sessions comfortably?",
+        "Does the Logitech G-Series Gaming Mouse offer adjustable weight options?",
+        "How does the Logitech G-Series Gaming Mouse handle different surfaces?",
+        "What are some recommended accessories to complement the Logitech G-Series Gaming Mouse?",
+        "Can I expect durable build quality from the Logitech G-Series Gaming Mouse?",
+        "What is the polling rate of the Logitech G-Series Gaming Mouse?"
       ],
       "responses": [
-        "The Logitech G-Series Gaming Mouse is tailored for gamers seeking performance and customization. It features a high DPI sensor and ergonomic design for comfort."
+        "The Logitech G-Series Gaming Mouse is tailored for gamers seeking performance and customization. It features a high DPI sensor and ergonomic design for comfort. Additionally, it offers customizable buttons, adjustable DPI settings, and RGB lighting options, making it suitable for various gaming preferences and playstyles."
       ],
       "context_set": ""
     },
+
     {
       "tag": "logitech_gaming_mouse_features",
       "questions": [
@@ -535,7 +976,29 @@
       "questions": [
         "Can you tell me about the design of the Logitech Gaming Mouse?",
         "What is the weight of the Logitech G-Series Gaming Mouse?",
-        "What accessories come with the Logitech G-Series Gaming Mouse?"
+        "What accessories come with the Logitech G-Series Gaming Mouse?",
+        "Describe the design of the Logitech Gaming Mouse.",
+        "How does the Logitech Gaming Mouse optimize comfort during gameplay?",
+        "What makes the Logitech G-Series Gaming Mouse ergonomic?",
+        "Is the Logitech Gaming Mouse designed for precise movement?",
+        "Can I adjust the weight of the Logitech G-Series Gaming Mouse?",
+        "What customization options are available for the Logitech Gaming Mouse?",
+        "How does Logitech ensure comfort for long gaming sessions with the Gaming Mouse?",
+        "Are the grips on the Logitech G-Series Gaming Mouse customizable?",
+        "Does the Logitech Gaming Mouse feature textured grips?",
+        "What materials are used in crafting the Logitech Gaming Mouse?",
+        "Is the Logitech Gaming Mouse designed for ambidextrous use?",
+        "What role does weight distribution play in the design of the Logitech G-Series Gaming Mouse?",
+        "How does Logitech balance form and function in the design of the Gaming Mouse?",
+        "Can you provide insights into the durability of the Logitech Gaming Mouse?",
+        "What design features contribute to the durability of the Logitech G-Series Gaming Mouse?",
+        "Does Logitech incorporate user feedback into the design of the Gaming Mouse?",
+        "What aesthetic choices did Logitech make in designing the Gaming Mouse?",
+        "How does the design of the Logitech Gaming Mouse enhance gaming performance?",
+        "Does the Logitech Gaming Mouse have customizable RGB lighting?",
+        "What are the key design principles behind the Logitech G-Series Gaming Mouse?",
+        "Can you tell me about the size and shape options available for the Logitech Gaming Mouse?",
+        "Are there different versions of the Logitech G-Series Gaming Mouse available?"
       ],
       "responses": [
         "The Logitech G-Series Gaming Mouse boasts an ergonomic design for comfortable gameplay, weighs optimally for precise movement, and typically comes with additional accessories like weights for balance adjustment and grips for personalization."
@@ -549,7 +1012,26 @@
         "Can I use the Logitech Gaming Mouse on a Mac?",
         "Is the Logitech mouse compatible with console gaming?",
         "Does the Logitech Gaming Mouse work with all types of games?",
-        "How do I configure the Logitech Gaming Mouse settings?"
+        "How do I configure the Logitech Gaming Mouse settings?",
+        "Is the Logitech G-Series Gaming Mouse compatible with Linux?",
+        "Can I use the Logitech Gaming Mouse on a Chromebook?",
+        "Does the Logitech mouse work with older versions of Windows?",
+        "What gaming platforms support the Logitech G-Series Gaming Mouse?",
+        "Is the Logitech Gaming Mouse compatible with virtual reality (VR) gaming?",
+        "Can I connect the Logitech Gaming Mouse to a gaming laptop?",
+        "Does the Logitech Gaming Mouse support macOS Catalina?",
+        "Can I use the Logitech Gaming Mouse on a Windows 7 PC?",
+        "Is the Logitech G-Series Gaming Mouse compatible with Steam games?",
+        "Does Logitech provide drivers for the Gaming Mouse on all supported platforms?",
+        "What software do I need to download for Logitech Gaming Mouse compatibility?",
+        "Can I use the Logitech Gaming Mouse on a Linux-based gaming system?",
+        "Does the Logitech mouse work with Android devices?",
+        "Is the Logitech Gaming Mouse compatible with iOS devices?",
+        "What consoles support the Logitech G-Series Gaming Mouse?",
+        "Does Logitech provide technical support for the Gaming Mouse on all compatible platforms?",
+        "Can I use the Logitech Gaming Mouse with cloud gaming services like GeForce NOW?",
+        "Is the Logitech Gaming Mouse compatible with gaming emulators?",
+        "What steps do I need to take to connect the Logitech Gaming Mouse to my gaming platform?"
       ],
       "responses": [
         "The Logitech G-Series Gaming Mouse is compatible with Windows and Mac operating systems. It offers customizable settings for all game genres and can be tailored for console gaming if supported by the console. Configuration can be done via the Logitech G HUB software."
@@ -561,43 +1043,133 @@
       "questions": [
         "How durable is the Logitech G-Series Gaming Mouse?",
         "What is the warranty period for the Logitech Gaming Mouse?",
-        "Can the Logitech Gaming Mouse withstand heavy use?"
+        "Can the Logitech Gaming Mouse withstand heavy use?",
+        "Is the Logitech Gaming Mouse built to last?",
+        "How long is the warranty for the Logitech G-Series Gaming Mouse?",
+        "Is the Logitech Gaming Mouse durable?",
+        "Does the Logitech Gaming Mouse have a long lifespan?",
+        "What kind of wear and tear can the Logitech Gaming Mouse handle?",
+        "What materials are used to ensure the durability of the Logitech Gaming Mouse?",
+        "Is the Logitech Gaming Mouse resistant to damage from frequent use?",
+        "Does Logitech offer any guarantees on the durability of the Gaming Mouse?",
+        "What level of durability can I expect from the Logitech G-Series Gaming Mouse?",
+        "Is the Logitech Gaming Mouse designed to withstand gaming marathons?",
+        "How well does the Logitech Gaming Mouse hold up under intense gaming conditions?",
+        "Can the Logitech Gaming Mouse handle aggressive clicking and scrolling?",
+        "What measures does Logitech take to ensure the durability of the Gaming Mouse?",
+        "What impact does durability have on the overall performance of the Logitech Gaming Mouse?",
+        "Is the Logitech Gaming Mouse resilient to accidental drops and impacts?",
+        "Does Logitech conduct durability testing on the Gaming Mouse?",
+        "What factors contribute to the longevity of the Logitech G-Series Gaming Mouse?",
+        "How does the durability of the Logitech Gaming Mouse compare to other gaming mice?",
+        "Is the Logitech Gaming Mouse resistant to wear from extended use?",
+        "What steps can I take to prolong the lifespan of my Logitech Gaming Mouse?",
+        "Does Logitech provide any maintenance tips to ensure the durability of the Gaming Mouse?"
       ],
       "responses": [
         "The Logitech G-Series Gaming Mouse is built to last with high-quality materials suitable for intense gaming sessions. It typically comes with a 2-year limited hardware warranty."
       ],
       "context_set": ""
     },
+
     {
       "tag": "logitech_gaming_mouse_user_experience",
       "questions": [
         "What have users said about the Logitech G-Series Gaming Mouse?",
         "Where can I find reviews for the Logitech Gaming Mouse?",
-        "What is the user satisfaction rate with the Logitech G-Series Mouse?"
+        "What is the user satisfaction rate with the Logitech G-Series Mouse?",
+        "Are there any user testimonials available for the Logitech Gaming Mouse?",
+        "How do users rate the Logitech G-Series Gaming Mouse?",
+        "Where can I read about the experiences of other users with the Logitech Gaming Mouse?",
+        "Can you share some user feedback on the Logitech Gaming Mouse?",
+        "What do users like most about the Logitech G-Series Gaming Mouse?",
+        "Are there any common complaints from users about the Logitech Gaming Mouse?",
+        "What are users saying about the performance of the Logitech Gaming Mouse?",
+        "Is there a consensus among users regarding the comfort of the Logitech G-Series Gaming Mouse?",
+        "How satisfied are users with the customization options of the Logitech Gaming Mouse?",
+        "What are the overall impressions of users regarding the Logitech G-Series Gaming Mouse?",
+        "Where can I find user-generated content related to the Logitech Gaming Mouse?",
+        "Can I find user reviews for the Logitech Gaming Mouse on social media platforms?",
+        "How do users rate the build quality of the Logitech Gaming Mouse?",
+        "Are there any notable user experiences with the Logitech G-Series Gaming Mouse?",
+        "Where can I find user discussions about the Logitech Gaming Mouse?",
+        "What are users saying about the durability of the Logitech Gaming Mouse?",
+        "How reliable do users find the Logitech G-Series Gaming Mouse?",
+        "Are there any user recommendations for optimizing the use of the Logitech Gaming Mouse?",
+        "Where can I find unbiased user opinions about the Logitech Gaming Mouse?",
+        "How do users compare the Logitech Gaming Mouse to other gaming mice?",
+        "Are there any user-reported issues with the Logitech G-Series Gaming Mouse?",
+        "Can I trust user reviews to make an informed decision about the Logitech Gaming Mouse?"
       ],
       "responses": [
         "Users have highly rated the Logitech G-Series Gaming Mouse for its precision, customizable buttons, and comfortable grip. Reviews can be found on our official website, tech forums, and online retail platforms."
       ],
       "context_set": ""
     },
+
     {
       "tag": "logitech_gaming_mouse_purchase",
       "questions": [
         "Where can I buy the Logitech G-Series Gaming Mouse?",
         "Are there any deals on the Logitech Gaming Mouse?",
-        "What is the price of the Logitech G-Series Mouse?"
+        "What is the price of the Logitech G-Series Mouse?",
+        "Can I purchase the Logitech Gaming Mouse from physical stores?",
+        "Where can I find the best deals for the Logitech Gaming Mouse?",
+        "Is the Logitech G-Series Gaming Mouse available for purchase online?",
+        "Are there any discounts currently available for the Logitech Gaming Mouse?",
+        "What retailers carry the Logitech Gaming Mouse?",
+        "Can I buy the Logitech Gaming Mouse directly from the manufacturer?",
+        "Where can I find the most competitive prices for the Logitech Gaming Mouse?",
+        "Is the Logitech G-Series Gaming Mouse available for purchase internationally?",
+        "Are there any promotions or sales events for the Logitech Gaming Mouse?",
+        "Can I order the Logitech Gaming Mouse from third-party sellers?",
+        "What online platforms offer the Logitech Gaming Mouse for sale?",
+        "Are there any bundle deals available for the Logitech Gaming Mouse?",
+        "Where can I find information about the latest pricing for the Logitech G-Series Mouse?",
+        "Can I purchase the Logitech Gaming Mouse with expedited shipping?",
+        "What payment methods are accepted for purchasing the Logitech Gaming Mouse?",
+        "Are there any limited edition versions of the Logitech G-Series Mouse?",
+        "Where can I find verified sellers of the Logitech Gaming Mouse?",
+        "Is the Logitech G-Series Gaming Mouse eligible for free shipping?",
+        "Are there any financing options available for buying the Logitech Gaming Mouse?",
+        "Can I pre-order the Logitech Gaming Mouse before its release?",
+        "What are the shipping options for purchasing the Logitech G-Series Mouse?",
+        "Are there any loyalty programs or rewards for purchasing the Logitech Gaming Mouse?"
       ],
       "responses": [
         "The Logitech G-Series Gaming Mouse can be purchased directly from our website, electronic stores, or reputable online retailers. For special offers and current pricing, please check the latest on our website or sign up for our newsletter."
       ],
       "context_set": ""
     },
+
     {
       "tag": "logitech_gaming_mouse_support",
       "questions": [
         "Who do I contact for technical support with my Logitech Gaming Mouse?",
         "What should I do if my Logitech G-Series Mouse isn't working?",
-        "How to troubleshoot issues with the Logitech Gaming Mouse?"
+        "How to troubleshoot issues with the Logitech Gaming Mouse?",
+        "Where can I find help for troubleshooting my Logitech Gaming Mouse?",
+        "Who provides technical assistance for the Logitech G-Series Mouse?",
+        "What steps should I take if my Logitech Gaming Mouse encounters problems?",
+        "Is there a support hotline for Logitech Gaming Mouse issues?",
+        "What resources are available for resolving Logitech G-Series Mouse problems?",
+        "How can I get assistance with Logitech Gaming Mouse technical issues?",
+        "Are there troubleshooting tips available for the Logitech G-Series Mouse?",
+        "What do I do if my Logitech Gaming Mouse stops responding?",
+        "Where can I find guides for troubleshooting my Logitech Gaming Mouse?",
+        "Who can help me fix connectivity issues with my Logitech Gaming Mouse?",
+        "What are the common problems encountered with the Logitech G-Series Mouse?",
+        "Is there a community forum for discussing Logitech Gaming Mouse issues?",
+        "How can I reach out for technical support regarding my Logitech Gaming Mouse?",
+        "Are there any online resources for troubleshooting Logitech Gaming Mouse problems?",
+        "Where can I report issues with my Logitech G-Series Mouse?",
+        "What should I do if my Logitech Gaming Mouse is not recognized by my computer?",
+        "How do I get help if my Logitech Gaming Mouse is malfunctioning?",
+        "Are there any software updates available to fix Logitech Gaming Mouse issues?",
+        "Can I exchange my Logitech Gaming Mouse if it's defective?",
+        "What warranty coverage is provided for Logitech Gaming Mouse issues?",
+        "How do I submit a support ticket for my Logitech Gaming Mouse?",
+        "Where can I find information about known Logitech Gaming Mouse issues and solutions?"
       ],
       "responses": [
         "For technical support with the Logitech G-Series Gaming Mouse, contact our customer care team or visit the support section on our website. We provide comprehensive troubleshooting guides and direct assistance for any issues."
@@ -611,7 +1183,28 @@
         "Is the Logitech G-Series Gaming Mouse available?",
         "Where can I find the Logitech G-Series Gaming Mouse?",
         "Is the Gaming Mouse in stock?",
-        "Price of Logitech G-Series Gaming Mouse?"
+        "Price of Logitech G-Series Gaming Mouse?",
+        "Can I purchase the Logitech G-Series Gaming Mouse online?",
+        "Where can I check the availability of the Logitech Gaming Mouse?",
+        "Is the Logitech G-Series Gaming Mouse currently in high demand?",
+        "What is the current stock status of the Logitech Gaming Mouse?",
+        "Are there any discounts available for the Logitech G-Series Gaming Mouse?",
+        "How can I find out if the Logitech Gaming Mouse is available at a nearby store?",
+        "Is the Logitech G-Series Gaming Mouse available for international shipping?",
+        "Where can I find the best deals on the Logitech Gaming Mouse?",
+        "Does Logitech offer any promotions or sales events for the Gaming Mouse?",
+        "Can I reserve a Logitech Gaming Mouse if it's out of stock?",
+        "What is the usual price range for the Logitech G-Series Gaming Mouse?",
+        "Are there any special offers available for the Logitech Gaming Mouse?",
+        "How often does Logitech restock the G-Series Gaming Mouse?",
+        "Can I pre-order the Logitech Gaming Mouse before it's released?",
+        "Are there any limited edition versions of the Logitech G-Series Gaming Mouse?",
+        "What is the shipping cost for the Logitech Gaming Mouse?",
+        "Are there any financing options available for purchasing the Logitech Gaming Mouse?",
+        "What payment methods are accepted for buying the Logitech G-Series Gaming Mouse?",
+        "Can I track the availability status of the Logitech Gaming Mouse online?",
+        "Does Logitech offer any warranties or guarantees for the Gaming Mouse?",
+        "Where can I find the latest information on the Logitech Gaming Mouse availability and pricing?"
       ],
       "responses": [
         "For current availability and pricing of the Logitech G-Series Gaming Mouse, please visit our official website and check the stock or contact our nearest store. Our team is always ready to help you with the latest information on our products."
@@ -623,7 +1216,29 @@
       "questions": [
         "Is the Logitech G-Series Gaming Mouse environmentally friendly?",
         "Does Logitech use recycled materials in their gaming mice?",
-        "What is Logitech's policy on sustainability?"
+        "What is Logitech's policy on sustainability?",
+        "How eco-friendly is the Logitech Gaming Mouse?",
+        "Are Logitech Gaming Mice made from sustainable materials?",
+        "Does Logitech prioritize environmental sustainability in their products?",
+        "What steps has Logitech taken to reduce the environmental impact of their gaming mice?",
+        "Are there any eco-conscious initiatives associated with Logitech Gaming Mice?",
+        "Does Logitech have a sustainability program for their gaming peripherals?",
+        "What efforts has Logitech made towards environmental conservation with their gaming mice?",
+        "Are there any environmentally friendly alternatives to Logitech Gaming Mice?",
+        "What measures does Logitech take to ensure their gaming mice are environmentally responsible?",
+        "Is Logitech involved in any environmental protection projects related to their gaming mice?",
+        "How does Logitech address environmental concerns in the production of their gaming mice?",
+        "Are there any plans for Logitech to further improve the sustainability of their gaming mice?",
+        "What certifications does Logitech have regarding the environmental impact of their gaming mice?",
+        "Can consumers recycle their Logitech Gaming Mice after use?",
+        "What initiatives does Logitech undertake to minimize waste in the manufacturing of gaming mice?",
+        "Does Logitech conduct environmental assessments for their gaming mice?",
+        "How does Logitech ensure that their gaming mice adhere to sustainable practices throughout their lifecycle?",
+        "Are there any partnerships between Logitech and environmental organizations to promote sustainability in gaming mice?",
+        "What role does environmental consciousness play in Logitech's product development process for gaming mice?",
+        "Does Logitech provide information to consumers on how to dispose of their gaming mice responsibly?",
+        "Are there any ongoing efforts by Logitech to make their gaming mice more environmentally friendly?",
+        "How does Logitech integrate sustainability into the design and production of their gaming mice?"
       ],
       "responses": [
         "Logitech is committed to reducing its environmental impact. The Logitech G-Series Gaming Mouse uses recycled plastics and comes in responsible packaging. Logitech aims to improve the carbon footprint of its products and has goals to use more sustainable materials across all product lines."
@@ -635,7 +1250,29 @@
       "questions": [
         "Is the Logitech G-Series Gaming Mouse available internationally?",
         "Can I get support for my Logitech Gaming Mouse outside the USA?",
-        "Are there international versions of the Logitech G-Series Gaming Mouse?"
+        "Are there international versions of the Logitech G-Series Gaming Mouse?",
+        "Where can I purchase the Logitech Gaming Mouse internationally?",
+        "Does Logitech offer global warranty coverage for their gaming mice?",
+        "How can I contact Logitech support if I'm located outside the USA?",
+        "Are there any differences between the Logitech Gaming Mouse sold in different countries?",
+        "What countries is the Logitech G-Series Gaming Mouse available in?",
+        "Can I use a Logitech Gaming Mouse purchased internationally in my country?",
+        "Is there multilingual support available for Logitech Gaming Mouse users?",
+        "Are there any localization options for the Logitech Gaming Mouse software?",
+        "Does Logitech provide customer service in multiple languages for their gaming mice?",
+        "How does Logitech handle international shipping for their gaming mice?",
+        "Do international versions of Logitech Gaming Mice have different specifications?",
+        "Are there any regional variations in the packaging of Logitech Gaming Mice?",
+        "Can I return or exchange a Logitech Gaming Mouse purchased internationally?",
+        "What is the availability of Logitech Gaming Mice in non-English-speaking countries?",
+        "Does Logitech have distribution centers in multiple countries for their gaming mice?",
+        "Are there any import taxes or duties associated with purchasing Logitech Gaming Mice internationally?",
+        "What shipping options does Logitech offer for international orders of their gaming mice?",
+        "Are there any restrictions on where Logitech Gaming Mice can be shipped internationally?",
+        "Are there any authorized resellers of Logitech Gaming Mice in my country?",
+        "Can I purchase Logitech Gaming Mice from Logitech's international website?",
+        "Are there any differences in pricing for Logitech Gaming Mice between countries?",
+        "Does Logitech offer product manuals in multiple languages for their gaming mice?"
       ],
       "responses": [
         "The Logitech G-Series Gaming Mouse is available in many countries around the world. International support is available through local Logitech offices or partners. While the core specifications remain the same, some regional versions may have different warranty terms."
@@ -647,7 +1284,29 @@
       "questions": [
         "How do I update the software for my Logitech G-Series Gaming Mouse?",
         "Are there firmware updates available for the Logitech Gaming Mouse?",
-        "How often does Logitech release updates for the G-Series mouse software?"
+        "How often does Logitech release updates for the G-Series mouse software?",
+        "What steps should I follow to update my Logitech G-Series Gaming Mouse software?",
+        "Can you guide me on updating the firmware on my Logitech Gaming Mouse?",
+        "Where do I find the latest software updates for my Logitech G-Series Mouse?",
+        "What is the process for downloading software updates for the Logitech G-Series Mouse?",
+        "How can I check for firmware updates for my Logitech Gaming Mouse?",
+        "Is it necessary to regularly update my Logitech G-Series mouse software?",
+        "What are the benefits of updating the software on my Logitech Gaming Mouse?",
+        "Does updating the Logitech G-Series mouse software improve its performance?",
+        "Where can I access the latest updates for my Logitech G-Series Gaming Mouse?",
+        "How do I know if my Logitech Gaming Mouse needs a software update?",
+        "What features are added with the new updates for the Logitech G-Series mouse?",
+        "Are software updates for the Logitech Gaming Mouse free?",
+        "How do I install a new firmware update on my Logitech G-Series Mouse?",
+        "Can I update my Logitech Gaming Mouse software without the Logitech G HUB?",
+        "What should I do if my Logitech G-Series Mouse isn't working after an update?",
+        "How to troubleshoot issues during the software update process for Logitech G-Series?",
+        "What precautions should I take before updating my Logitech Gaming Mouse software?",
+        "How long does it take to update the software on the Logitech G-Series Mouse?",
+        "Do I need an internet connection to update my Logitech Gaming Mouse?",
+        "What happens if I don't update my Logitech G-Series mouse software?",
+        "Can the Logitech G-Series Gaming Mouse operate with outdated firmware?",
+        "Who should I contact if I have problems updating my Logitech Gaming Mouse?"
       ],
       "responses": [
         "Software and firmware updates for the Logitech G-Series Gaming Mouse can be downloaded from the Logitech G HUB application, which provides the latest updates, drivers, and customization tools. Logitech regularly releases updates to enhance functionality and fix bugs."
@@ -659,7 +1318,29 @@
       "questions": [
         "Is the Logitech G-Series Gaming Mouse a good gift for gamers?",
         "Can I buy the Logitech Gaming Mouse as a gift from your store?",
-        "What should I include with a Logitech G-Series Mouse gift purchase?"
+        "What should I include with a Logitech G-Series Mouse gift purchase?",
+        "What makes the Logitech G-Series Gaming Mouse a great gift for gaming enthusiasts?",
+        "How can I present the Logitech G-Series Gaming Mouse as a gift?",
+        "What accessories go well with the Logitech G-Series Gaming Mouse as a gift?",
+        "Is there a special gift package for the Logitech G-Series Gaming Mouse?",
+        "Can I get the Logitech Gaming Mouse gift-wrapped at your store?",
+        "What other Logitech products would pair well with the G-Series mouse as a gift?",
+        "How do I order a Logitech G-Series Gaming Mouse as a gift online?",
+        "Are there any discounts on the Logitech G-Series Gaming Mouse if purchased as a gift?",
+        "Can you recommend a gaming keyboard to bundle with the Logitech G-Series Mouse for a gift?",
+        "What warranty comes with the Logitech G-Series Gaming Mouse when buying as a gift?",
+        "Can I include a personalized message with a Logitech G-Series Gaming Mouse gift?",
+        "Is there a return policy for gift purchases of the Logitech G-Series Mouse?",
+        "How long does delivery take if I buy the Logitech G-Series Mouse as a gift?",
+        "What colors are available for the Logitech G-Series Gaming Mouse for gifting?",
+        "Do you offer engraving or customization options for the Logitech G-Series Mouse as a gift?",
+        "Can I send the Logitech G-Series Gaming Mouse directly to the gift recipient?",
+        "What payment options are available for purchasing the Logitech G-Series Gaming Mouse as a gift?",
+        "Are there any special promotions or gift cards available when purchasing the Logitech Gaming Mouse as a gift?",
+        "Can I schedule the delivery of the Logitech G-Series Gaming Mouse to coincide with a special occasion?",
+        "What is the best selling point of the Logitech G-Series Gaming Mouse for gift buyers?",
+        "How does the Logitech G-Series Gaming Mouse compare to other gaming mice as a gift choice?",
+        "What feedback have customers given about gifting the Logitech G-Series Gaming Mouse?"
       ],
       "responses": [
         "The Logitech G-Series Gaming Mouse is an excellent gift for gamers, known for its precision and customization. When purchasing as a gift from our store, consider including a gift receipt and looking into our gift wrapping options. You might also consider bundling it with a Logitech gaming keyboard or mouse pad."
@@ -671,7 +1352,29 @@
       "questions": [
         "Can the Logitech G-Series Gaming Mouse be used for educational purposes?",
         "Is the Logitech Gaming Mouse suitable for professional office use?",
-        "Do you offer bulk discounts for educational institutions or businesses?"
+        "Do you offer bulk discounts for educational institutions or businesses?",
+        "What features make the Logitech G-Series Mouse ideal for educational use?",
+        "How can a gaming mouse like the Logitech G-Series be beneficial in an office setting?",
+        "What are the advantages of using the Logitech G-Series Mouse in a professional environment?",
+        "Can the Logitech G-Series Mouse handle the demands of office software applications?",
+        "Are there ergonomic benefits to using the Logitech G-Series Gaming Mouse in an office?",
+        "What educational software is compatible with the Logitech G-Series Gaming Mouse?",
+        "How does the precision of the Logitech G-Series Mouse support professional tasks?",
+        "Can the Logitech Gaming Mouse be customized for different users in an educational setting?",
+        "Is the Logitech G-Series Mouse durable enough for high-use environments like schools and offices?",
+        "What support does Logitech provide for businesses and educational institutions using their gaming mice?",
+        "How do I set up the Logitech G-Series Gaming Mouse for multiple users in a business or school?",
+        "What warranty options are available for the Logitech G-Series Mouse when purchased in bulk?",
+        "Can the Logitech G-Series Mouse be integrated with other Logitech business solutions?",
+        "What bulk purchase options are available for the Logitech G-Series Gaming Mouse?",
+        "How can businesses or schools apply for a bulk discount on the Logitech G-Series Mouse?",
+        "Are there any special configurations of the Logitech G-Series Mouse for educational or business use?",
+        "What feedback have educational institutions provided about using the Logitech G-Series Mouse?",
+        "How does Logitech support the maintenance of their mice in educational and business settings?",
+        "Can the settings on the Logitech G-Series Gaming Mouse be locked for standardized use in schools?",
+        "What color options are available for the Logitech G-Series Mouse that might be suitable for professional settings?",
+        "How energy efficient is the Logitech G-Series Gaming Mouse for office use?",
+        "Are there any security features on the Logitech G-Series Gaming Mouse that are beneficial for businesses?"
       ],
       "responses": [
         "While designed for gaming, the Logitech G-Series Gaming Mouse is also suitable for educational and professional office environments, offering precision and reliability for various applications. Bulk discounts may be available for educational institutions and businesses upon request."
@@ -722,10 +1425,31 @@
         "What features do AirPods offer?",
         "Tell me about AirPods' audio quality.",
         "Do AirPods have a built-in microphone?",
-        "What makes AirPods different from other wireless headphones?"
+        "What makes AirPods different from other wireless headphones?",
+        "How long can I use AirPods before needing to recharge?",
+        "Are AirPods water resistant?",
+        "Can I control my music directly from AirPods?",
+        "What are the touch controls available on AirPods?",
+        "Do AirPods support noise cancellation?",
+        "What colors do AirPods come in?",
+        "Are AirPods compatible with the Siri voice assistant?",
+        "Can AirPods detect when they are in my ears?",
+        "How do AirPods handle phone calls?",
+        "Can you adjust the volume directly on AirPods?",
+        "Do AirPods come with a warranty?",
+        "How do I charge AirPods?",
+        "What's the weight of AirPods?",
+        "Do AirPods offer spatial audio?",
+        "Are there different sizes of AirPods available?",
+        "How secure are AirPods in your ears during activities?",
+        "What Bluetooth version do AirPods use?",
+        "Can AirPods connect to multiple devices simultaneously?",
+        "What is the range of AirPods' Bluetooth connection?",
+        "Do AirPods support wireless charging?",
+        "What is the latency of AirPods for gaming or videos?"
       ],
       "responses": [
-        "AirPods come with high-quality AAC audio for an immersive listening experience and include a built-in microphone for taking calls. Their unique design provides a comfortable fit while offering the convenience of wireless connectivity with compatible devices."
+        "AirPods come with high-quality AAC audio for an immersive listening experience and include a built-in microphone for taking calls. Their unique design provides a comfortable fit while offering the convenience of wireless connectivity with compatible devices. Features include water resistance, touch controls, noise cancellation, and support for spatial audio. AirPods also feature an easy charging case, both wireless and with a lightning connector, and are known for their quick access to Siri."
       ],
       "context_set": ""
     },
@@ -734,10 +1458,32 @@
       "questions": [
         "Are AirPods compatible with all smartphones?",
         "Can I connect AirPods to my laptop?",
-        "Do AirPods work with non-Apple devices?"
+        "Do AirPods work with non-Apple devices?",
+        "How do I pair AirPods with an Android phone?",
+        "Can AirPods be connected to a PC?",
+        "Are AirPods compatible with Windows laptops?",
+        "Can I use AirPods with both iOS and Android devices?",
+        "Is there a compatibility issue with older versions of smartphones?",
+        "Do AirPods work with tablets?",
+        "Can AirPods connect to devices without a dedicated Apple chip?",
+        "How do I switch AirPods between different Bluetooth devices?",
+        "Are AirPods compatible with Bluetooth-enabled TVs?",
+        "Can I connect AirPods to gaming consoles?",
+        "What steps are involved in connecting AirPods to a non-Apple device?",
+        "Do I need any special software to use AirPods with Android?",
+        "How does the pairing process work for AirPods with Windows?",
+        "Are there any features of AirPods that won’t work on Android phones?",
+        "Can AirPods be paired with multiple devices at the same time?",
+        "Is Bluetooth the only way to connect AirPods to other devices?",
+        "What version of Bluetooth do AirPods use for connectivity?",
+        "Do AirPods support connecting to multiple devices without re-pairing?",
+        "Are there any limitations to using AirPods with Linux systems?",
+        "How do AirPods perform with older Bluetooth versions?",
+        "Can AirPods automatically switch between Apple devices?",
+        "Are there any troubleshooting steps if AirPods won’t connect to a smartphone?"
       ],
       "responses": [
-        "AirPods utilize Bluetooth technology to connect with both Apple and non-Apple devices, including smartphones and laptops that support Bluetooth."
+        "AirPods utilize Bluetooth technology to connect with both Apple and non-Apple devices, including smartphones and laptops that support Bluetooth. This allows them to be versatile and functional across a wide range of devices without needing specific support from the device's operating system, although some features like automatic switching are limited to Apple devices."
       ],
       "context_set": ""
     },
@@ -1160,42 +1906,6 @@
       "responses": [
         "Check our website regularly for promotions and discounts on the Canon EOS 80D. Bundle offers might include additional lenses or accessories at a discounted price. Keep an eye on seasonal sales and special photography events for potential savings."
       ],
-      "context_set": ""
-    },
-
-    {
-      "tag": "iphone_13_pro_price",
-      "questions": [
-        "iPhone 13 Pro price?",
-        "How much is iPhone 13 Pro?",
-        "Price of iPhone 13 Pro?",
-        "What is the price of iPhone 13 Pro?",
-        "How expensive is iPhone 13 Pro?",
-        "What's the cost of iPhone 13 Pro?",
-        "Can you tell me the price of iPhone 13 Pro?",
-        "What's the price tag on iPhone 13 Pro?",
-        "iPhone 13 Pro - how much?",
-        "What's the price range for iPhone 13 Pro?",
-        "I'm interested in iPhone 13 Pro, what's the pricing?",
-        "How affordable is iPhone 13 Pro?",
-        "Is iPhone 13 Pro expensive?",
-        "What's the price point for iPhone 13 Pro?",
-        "I need to know the price of iPhone 13 Pro, can you help?",
-        "iPhone 13 Pro pricing, please?",
-        "What's the pricing like for iPhone 13 Pro?",
-        "Do you have any information on iPhone 13 Pro pricing?",
-        "Price for iPhone 13 Pro, please?",
-        "Can you give me a quote for iPhone 13 Pro?",
-        "How much do I need to budget for iPhone 13 Pro?",
-        "iPhone 13 Pro - how much does it go for?",
-        "iPhone 13 Pro - what's the cost?",
-        "What's the market price for iPhone 13 Pro?",
-        "How much money should I prepare for iPhone 13 Pro?",
-        "What's the current price for iPhone 13 Pro?",
-        "Can you provide pricing details for iPhone 13 Pro?",
-        "iPhone 13 Pro - how much will it set me back?"
-      ],
-      "responses": ["The price of iPhone 13 Pro 256GB Memory is $599.99."],
       "context_set": ""
     },
 
