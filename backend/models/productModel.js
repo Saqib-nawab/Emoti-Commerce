@@ -1,12 +1,5 @@
 import mongoose from 'mongoose';
 
-// const sentimentSchema = mongoose.Schema({
-//   // Define the schema for the detail_sentiment object
-//   // You can adjust this based on the actual structure of your objects
-//   label: { type: String },
-//   score: { type: Number },
-// });
-
 const reviewSchema = mongoose.Schema(
   {
     name: { type: String, required: true },

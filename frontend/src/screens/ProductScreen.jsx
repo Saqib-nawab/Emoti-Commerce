@@ -96,59 +96,6 @@ const ProductScreen = () => {
     }
   };
 
-
-  // useEffect(() => {
-  //   if (product) {
-  //     const reviews = product.reviews;
-  //     const barChartCtx = barChartRef.current.getContext('2d');
-  //     const pieChartCtx = pieChartRef.current.getContext('2d');
-
-  //     // Extract detail_sentiment from each review in the array of reviews
-  //     const allSentiments = reviews.flatMap(review => review.detail_sentiment).flat();
-
-  //     // Extract labels and scores from allSentiments
-  //     const labels = allSentiments.map(item => item.label);
-  //     const scores = allSentiments.map(item => item.score);
-
-  //     const barChart = new Chart(barChartCtx, {
-  //       type: 'bar',
-  //       data: {
-  //         labels: labels,
-  //         datasets: [{
-  //           label: 'Sentiment Score',
-  //           data: scores,
-  //           backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)'],
-  //           borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)'],
-  //           borderWidth: 1
-  //         }]
-  //       },
-  //       options: {
-  //         scales: {
-  //           y: {
-  //             beginAtZero: true
-  //           }
-  //         }
-  //       }
-  //     });
-
-  //     const pieChart = new Chart(pieChartCtx, {
-  //       type: 'doughnut',
-  //       data: {
-  //         labels: labels,
-  //         datasets: [{
-  //           data: scores,
-  //           backgroundColor: ['rgba(255, 99, 132, 0.5)', 'rgba(54, 162, 235, 0.5)']
-  //         }]
-  //       }
-  //     });
-
-  //     return () => {
-  //       barChart.destroy();
-  //       pieChart.destroy();
-  //     };
-  //   }
-  // }, [product]);
-
   return (
     <>
       <Link className='btn btn-light my-3' to='/'>

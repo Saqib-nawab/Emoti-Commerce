@@ -6,7 +6,7 @@ import {
     createCallHistory,
     updateCallHistory,
     deleteCallHistory,
-} from '../controllers/callHistoryController.js';
+} from '../controllers/callController.js';
 import { protect, admin } from '../middleware/authMiddleware.js';
 import checkObjectId from '../middleware/checkObjectId.js';
 

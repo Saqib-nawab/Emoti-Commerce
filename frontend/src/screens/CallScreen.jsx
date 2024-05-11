@@ -3,6 +3,7 @@ import './CallScreen.css'; // Make sure to create a corresponding CSS file for s
 import defaultImage from './default.jpeg';
 import axios from 'axios';
 import { useSelector } from 'react-redux';
+import CallHistoryComponent from './CallHistoryComponent';
 
 
 const CallScreen = () => {
@@ -22,6 +23,7 @@ const CallScreen = () => {
     const [follow, setFollow] = useState(false);
     const [isCallConnected, setCallConnected] = useState(false);
     const [speaking, setSpeaking] = useState(false);
+
 
     const handleCallConnect = () => {
         setCallConnected(true);
@@ -119,6 +121,24 @@ const CallScreen = () => {
                             .then(sentimentResponse => {
                                 console.log('Sentiment analysis result:', sentimentResponse.data);
                                 // Handle sentiment analysis result if needed
+
+                                // Extract sentiment analysis data
+                                const { sentiment, detail_sentiment } = sentimentResponse.data;
+
+                                // Send sentiment analysis result to the backend for storage
+                                axios.post('http://localhost:3001/api/callHistories', {
+                                    username: "User", // Replace with actual username
+                                    userPrompt: userPrompt,
+                                    sentiment: sentiment,
+                                    detail_sentiment: detail_sentiment
+                                })
+                                    .then(response => {
+                                        console.log('Sentiment analysis result saved to database:', response.data);
+                                        // Handle response if needed
+                                    })
+                                    .catch(error => {
+                                        console.error('Error saving sentiment analysis result to database:', error);
+                                    });
                             })
                             .catch(sentimentError => {
                                 console.error('Sentiment analysis request failed:', sentimentError);
@@ -188,96 +208,100 @@ const CallScreen = () => {
     }
 
     return (
-        <div className="callscreen-wrapper">
-            <div className="callscreen-header">
-                <div className="left-content">
-                    <span className="name"><i className="fa-solid fa-person"></i>    {name}</span>
+        <div>
+            <div className="callscreen-wrapper">
+                <div className="callscreen-header">
+                    <div className="left-content">
+                        <span className="name"><i className="fa-solid fa-person"></i>    {name}</span>
 
-                    <span className="phone"><i className="fa-solid fa-phone"></i>  +92-310-6241365</span>
-                </div>
-
-                {speaking ? (
-                    <p className='speaking' ><i class="fa-solid fa-bullhorn"></i></p>
-                ) : (
-                    <p className='speaking' ><i class="fa-solid fa-hourglass-start"></i></p>
-                )}
-
-
-                <div className="right-content">
-                    <div className="controls">
-                        {reminder ? (
-                            <button className="genreal-button" onClick={handleReminder}>
-                                <i className="fa-solid fa-bell"></i>
-                            </button>
-                        ) : (
-                            <button className="genreal-off-button" onClick={handleReminder}>
-                                <i className="fa-solid fa-bell-slash"></i>
-                            </button>
-                        )}
+                        <span className="phone"><i className="fa-solid fa-phone"></i>  +92-310-6241365</span>
                     </div>
 
-                    <div className="controls">
-                        {follow ? (
-                            <button className="vvibrant-followed-button" onClick={handleFollow}>
-                                Followed
-                            </button>
-                        ) : (
-                            <button className="vibrant-follow-us-button" onClick={handleFollow}>
-                                Follow Us
-                            </button>
-                        )}
+                    {speaking ? (
+                        <p className='speaking' ><i class="fa-solid fa-bullhorn"></i></p>
+                    ) : (
+                        <p className='speaking' ><i class="fa-solid fa-hourglass-start"></i></p>
+                    )}
+
+
+                    <div className="right-content">
+                        <div className="controls">
+                            {reminder ? (
+                                <button className="genreal-button" onClick={handleReminder}>
+                                    <i className="fa-solid fa-bell"></i>
+                                </button>
+                            ) : (
+                                <button className="genreal-off-button" onClick={handleReminder}>
+                                    <i className="fa-solid fa-bell-slash"></i>
+                                </button>
+                            )}
+                        </div>
+
+                        <div className="controls">
+                            {follow ? (
+                                <button className="vvibrant-followed-button" onClick={handleFollow}>
+                                    Followed
+                                </button>
+                            ) : (
+                                <button className="vibrant-follow-us-button" onClick={handleFollow}>
+                                    Follow Us
+                                </button>
+                            )}
+                        </div>
                     </div>
                 </div>
+
+                <div className="callscreen-container">
+                    <div className={`profile-image ${rippleClass}`}>
+                        <img src={defaultImage} alt="Profile" />
+                    </div>
+                </div>
+
+                <div className="callscreen-footer">
+                    <p></p>
+                    <div className='callscreen-footer-mid'>
+                        <div className="controls">
+                            {!callActive ? (
+                                <button className="call-button" onClick={startCall}>
+                                    <i className="fa-solid fa-phone-volume"></i>
+                                </button>
+                            ) : (
+                                <button className="end-call-button" onClick={endCall}>
+                                    <i className="fa-solid fa-phone-volume"></i>
+                                </button>
+                            )}
+                        </div>
+                        <div className="controls">
+                            {!callPause ? (
+                                <button className="genreal-button" onClick={handlePause}>
+                                    <i className="fa-solid fa-pause"></i>
+                                </button>
+                            ) : (
+                                <button className="genreal-off-button" onClick={handlePause}>
+                                    <i className="fa-solid fa-play"></i>
+                                </button>
+                            )}
+                        </div>
+                        <div className="controls">
+                            {!callMute ? (
+                                <button className="genreal-button" onClick={handleMute}>
+                                    <i className="fa-solid fa-microphone-lines"></i>
+                                </button>
+                            ) : (
+                                <button className="genreal-off-button" onClick={handleMute}>
+                                    <i className="fa-solid fa-microphone-lines-slash"></i>
+                                </button>
+                            )}
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div className="callscreen-container">
-                <div className={`profile-image ${rippleClass}`}>
-                    <img src={defaultImage} alt="Profile" />
-                </div>
-            </div>
-
-            <div className="callscreen-footer">
-                <p></p>
-                <div className='callscreen-footer-mid'>
-                    <div className="controls">
-                        {!callActive ? (
-                            <button className="call-button" onClick={startCall}>
-                                <i className="fa-solid fa-phone-volume"></i>
-                            </button>
-                        ) : (
-                            <button className="end-call-button" onClick={endCall}>
-                                <i className="fa-solid fa-phone-volume"></i>
-                            </button>
-                        )}
-                    </div>
-                    <div className="controls">
-                        {!callPause ? (
-                            <button className="genreal-button" onClick={handlePause}>
-                                <i className="fa-solid fa-pause"></i>
-                            </button>
-                        ) : (
-                            <button className="genreal-off-button" onClick={handlePause}>
-                                <i className="fa-solid fa-play"></i>
-                            </button>
-                        )}
-                    </div>
-                    <div className="controls">
-                        {!callMute ? (
-                            <button className="genreal-button" onClick={handleMute}>
-                                <i className="fa-solid fa-microphone-lines"></i>
-                            </button>
-                        ) : (
-                            <button className="genreal-off-button" onClick={handleMute}>
-                                <i className="fa-solid fa-microphone-lines-slash"></i>
-                            </button>
-                        )}
-                    </div>
-                </div>
-                <p></p>
-            </div>
+            <p className='my-3'>call-log</p>
+            <div >{(userInfo.isAdmin)
+                && <CallHistoryComponent />}</div>
         </div>
     );
 };
-
-
 export default CallScreen;

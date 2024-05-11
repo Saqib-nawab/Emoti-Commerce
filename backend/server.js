@@ -9,6 +9,8 @@ import userRoutes from './routes/userRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
+import callRoutes from './routes/callRoutes.js'
+import cors from 'cors';
 
 const port = process.env.PORT || 5000;
 
@@ -24,6 +26,9 @@ app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/upload', uploadRoutes);
+app.use('/api/callHistories', callRoutes);
+// Allow all origins for CORS (replace this with specific origins in production)
+app.use(cors());
 
 app.get('/api/config/paypal', (req, res) =>
   res.send({ clientId: process.env.PAYPAL_CLIENT_ID })
