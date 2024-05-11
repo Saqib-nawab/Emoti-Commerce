@@ -1492,7 +1492,32 @@
       "questions": [
         "How long do AirPods last on a single charge?",
         "What is the battery life of AirPods with the charging case?",
-        "How do I check the battery level on my AirPods?"
+        "How do I check the battery level on my AirPods?",
+        "What is the duration of AirPods' battery when fully charged?",
+        "How many hours can I use AirPods before needing to recharge?",
+        "Can AirPods be used for extended periods without recharging?",
+        "Are AirPods designed for long-lasting battery performance?",
+        "How much usage time can I get out of AirPods on a single charge?",
+        "How many hours of playback do AirPods provide on a full charge?",
+        "How frequently do I need to recharge AirPods for optimal performance?",
+        "What is the typical battery lifespan of AirPods?",
+        "Can AirPods be used continuously for several hours?",
+        "What is the average battery longevity of AirPods?",
+        "Do AirPods offer extended battery life compared to other earphones?",
+        "How many times can AirPods be charged with their case?",
+        "What is the expected battery capacity of AirPods?",
+        "Do AirPods provide consistent battery performance over time?",
+        "Is the battery life of AirPods affected by usage patterns?",
+        "How often should I charge my AirPods for optimal battery health?",
+        "Do AirPods have a built-in battery indicator?",
+        "Are AirPods known for their long-lasting battery performance?",
+        "How do I maximize the battery life of my AirPods?",
+        "Do AirPods automatically power off when not in use to save battery?",
+        "What measures can I take to preserve the battery life of my AirPods?",
+        "Are there any tips for extending the battery life of AirPods?",
+        "Can I use AirPods while they are charging?",
+        "What are some indicators that my AirPods need to be recharged?",
+        "Are there any ways to optimize AirPods' battery usage?"
       ],
       "responses": [
         "AirPods offer several hours of listening time on a single charge, and with the charging case, you can expect multiple additional charges, giving you all-day use. Battery levels can be checked on your connected device or by opening the charging case near your device."
@@ -1504,7 +1529,29 @@
       "questions": [
         "How do I pair my AirPods with my phone?",
         "Can I control music and calls directly from my AirPods?",
-        "Do AirPods automatically connect to my devices?"
+        "Do AirPods automatically connect to my devices?",
+        "What is the process for connecting AirPods to a smartphone?",
+        "How can I link my AirPods with my mobile device?",
+        "Are there any specific steps to pair AirPods with a phone?",
+        "Can AirPods manage music playback and call handling independently?",
+        "Is it possible to control music and phone calls using AirPods?",
+        "Do AirPods support hands-free operation for calls and music?",
+        "How do I activate the music control feature on AirPods?",
+        "Are AirPods designed to connect seamlessly with devices?",
+        "What actions can be performed directly from AirPods?",
+        "Is there a manual process for establishing AirPods connection?",
+        "Are AirPods compatible with various devices for automatic connection?",
+        "Do AirPods sync automatically with previously paired devices?",
+        "What steps are involved in the initial setup of AirPods?",
+        "Can AirPods be linked to multiple devices simultaneously?",
+        "What is the range within which AirPods connect automatically?",
+        "Are there any prerequisites for AirPods to connect to devices?",
+        "Do AirPods require any software installation for connectivity?",
+        "How do I ensure that AirPods connect seamlessly with my devices?",
+        "Can AirPods be connected to devices other than smartphones?",
+        "What are the advantages of AirPods' automatic connectivity?",
+        "Are there any troubleshooting steps for AirPods connection issues?",
+        "Do AirPods offer any customization options for connectivity?"
       ],
       "responses": [
         "AirPods can be paired with your phone by placing them close to your device and following the on-screen instructions. Once paired, they connect automatically. You can manage music playback and answer calls with simple gestures on the AirPods themselves."
@@ -1516,13 +1563,36 @@
       "questions": [
         "What should I do if my AirPods won't connect?",
         "Why is one AirPod not charging?",
-        "How can I reset my AirPods?"
+        "How can I reset my AirPods?",
+        "What steps should I take if my AirPods fail to connect?",
+        "What could be the reason behind one of my AirPods not charging?",
+        "Are there any solutions for AirPods connection issues?",
+        "How do I troubleshoot AirPods connectivity problems?",
+        "What measures can I take to resolve AirPods pairing difficulties?",
+        "Is there a common fix for AirPods not connecting to devices?",
+        "Why might one AirPod not be charging properly?",
+        "Do AirPods have any built-in diagnostic tools for troubleshooting?",
+        "How do I identify the cause of AirPods charging issues?",
+        "What are the possible reasons for AirPods not pairing with my device?",
+        "Can software updates fix AirPods connectivity problems?",
+        "Are there any specific troubleshooting steps for AirPods charging?",
+        "What should I do if my AirPods are not detected by my device?",
+        "How do I perform a factory reset on my AirPods?",
+        "Are there any alternative methods for resetting AirPods?",
+        "Do I need to remove AirPods from my device before resetting them?",
+        "What happens to the stored data on AirPods when they are reset?",
+        "Are there any precautions to take before resetting AirPods?",
+        "How long does it take for AirPods to reset?",
+        "Can resetting AirPods fix connectivity and charging issues?",
+        "What are the indicators that AirPods have been successfully reset?",
+        "Do I need to pair AirPods again after resetting them?"
       ],
       "responses": [
         "If your AirPods won't connect, ensure they're charged and within range of your device, and Bluetooth is on. If one AirPod isn't charging, check for debris in the charging case or on the AirPod. To reset AirPods, press and hold the setup button on the charging case for a few seconds until the status light flashes white."
       ],
       "context_set": ""
     },
+
     {
       "tag": "playstation_5_general_features",
       "questions": [
@@ -1531,7 +1601,25 @@
         "What are the features of PlayStation 5?",
         "Can you give me details about Sony PS5?",
         "Tell me about the PlayStation 5 gaming console.",
-        "What sets Sony PlayStation 5 apart?"
+        "What sets Sony PlayStation 5 apart?",
+        "What are the key characteristics of the PS5?",
+        "What distinguishes Sony PlayStation 5 from previous models?",
+        "How does the PS5 differ from other gaming consoles?",
+        "What are the main selling points of the PlayStation 5?",
+        "Can you outline the specifications of the PS5?",
+        "What makes the Sony PS5 stand out in the gaming market?",
+        "Are there any unique features of the PlayStation 5?",
+        "What advancements does the PS5 bring to gaming technology?",
+        "How does the PS5 innovate in terms of hardware and software?",
+        "What are some notable improvements of the PS5 over its predecessors?",
+        "How does the PS5 controller enhance the gaming experience?",
+        "What are the advantages of the PS5's high-speed SSD?",
+        "How does the PS5's custom RDNA 2 GPU contribute to gaming performance?",
+        "Can you elaborate on the graphical capabilities of the PS5?",
+        "What benefits does ray tracing bring to gaming on the PS5?",
+        "How does the PS5 support 4K resolution and high frame rates?",
+        "What is the significance of the PS5's support for up to 120 frames per second?",
+        "What role does haptic feedback play in the PS5 gaming experience?"
       ],
       "responses": [
         "The PlayStation 5 features a custom RDNA 2 GPU that powers incredible graphical performance, including support for ray tracing and 4K resolution at up to 120 frames per second. It's designed with a high-speed SSD for rapid load times, and an innovative DualSense controller that offers haptic feedback and adaptive triggers to enhance the gaming experience."
@@ -1581,7 +1669,26 @@
         "Tell me about PS5's backward compatibility.",
         "Is PS5 backward compatible with PS3 games?",
         "What accessories are compatible with PlayStation 5?",
-        "Does PS5 support old PlayStation games?"
+        "Does PS5 support old PlayStation games?",
+        "Can I play PlayStation 4 games on PS5?",
+        "What games can I play on PS5 from previous PlayStation consoles?",
+        "Are there any limitations to PS5's backward compatibility?",
+        "Which PlayStation accessories work with the PS5?",
+        "Are there any new accessories specifically designed for PS5?",
+        "Is there any way to play PS3 games on PS5?",
+        "Do PS5 controllers work with older PlayStation consoles?",
+        "Are there any adapters available for using older accessories with PS5?",
+        "What benefits does backward compatibility on PS5 offer?",
+        "Can I transfer my saved game data from PS4 to PS5?",
+        "Does PS5 enhance the performance of PS4 games?",
+        "Are all PS4 games compatible with PS5?",
+        "How does backward compatibility on PS5 differ from previous PlayStation consoles?",
+        "What steps do I need to take to play PS4 games on PS5?",
+        "Can I use my existing PlayStation Network account on PS5?",
+        "Is there any option to emulate PS3 games on PS5?",
+        "What is the compatibility status of PS5 with older PlayStation peripherals?",
+        "Are there any plans to expand PS5's backward compatibility in the future?",
+        "Are there any software updates planned to improve PS5's backward compatibility?"
       ],
       "responses": [
         "The PlayStation 5 boasts extensive backward compatibility with most PlayStation 4 titles, offering enhanced gameplay features and improved load times on the new console. However, it does not natively support PlayStation 3 games. PS5 is compatible with PS4 controllers for playing PS4 games and introduces a range of new accessories like the Pulse 3D wireless headset and HD camera for an immersive gaming experience."
@@ -1596,7 +1703,26 @@
         "Does PS5 support 4K gaming?",
         "What is the storage capacity of PlayStation 5?",
         "Can you tell me about the design of PS5?",
-        "Does PS5 have a disc drive?"
+        "Does PS5 have a disc drive?",
+        "What hardware components are included in the PlayStation 5?",
+        "Is PlayStation 5 capable of running games in 4K resolution?",
+        "How much storage space does PS5 offer?",
+        "What type of storage technology does PS5 use?",
+        "Can you describe the appearance of the PS5 console?",
+        "What colors are available for the PS5 console?",
+        "Does the design of PS5 support vertical positioning?",
+        "What are the dimensions of the PS5 console?",
+        "Is there any special cooling system implemented in the PS5?",
+        "Does the PS5 console have any LED lighting effects?",
+        "What are the advantages of having an ultra-fast NVMe SSD in PS5?",
+        "Can PS5 games be played without using physical discs?",
+        "What media formats are supported by the PS5 disc drive?",
+        "Does PS5 have any expandable storage options?",
+        "How does the storage capacity of PS5 compare to previous PlayStation consoles?",
+        "Are there any limitations to the storage capacity of PS5?",
+        "Does PS5 support external storage devices?",
+        "What are the benefits of having a disc drive in PS5?",
+        "Can PS5 play movies and other media from discs?"
       ],
       "responses": [
         "The PlayStation 5 is equipped with a powerful 8-core AMD Zen 2 processor, a custom AMD RDNA 2 GPU, and 16GB of GDDR6 memory. It offers a base storage of 825GB on an ultra-fast NVMe SSD. The console supports both digital and physical media with its Ultra HD Blu-ray disc drive. Its sleek, vertical design features a striking white and black color scheme that stands out in any entertainment setup."
@@ -1617,7 +1743,20 @@
         "Price for Echo Dot, please?",
         "What's the current price for Echo Dot?",
         "Can you provide pricing details for Echo Dot?",
-        "Echo Dot - how much will it set me back?"
+        "Echo Dot - how much will it set me back?",
+        "How much does the Echo Dot 3rd Generation cost?",
+        "What is the retail price of the Echo Dot?",
+        "Do you have information about the pricing of the Echo Dot?",
+        "What is the price tag on the Echo Dot?",
+        "Could you let me know the pricing of the Echo Dot?",
+        "Is there any discount available on the Echo Dot?",
+        "Where can I find the Echo Dot for purchase?",
+        "Is there any difference in pricing for different colors or variants of Echo Dot?",
+        "Are there any special offers available for the Echo Dot?",
+        "Can I purchase the Echo Dot online?",
+        "What is the price range for Echo Dot in different markets?",
+        "Is the pricing of Echo Dot inclusive of taxes?",
+        "Are there any additional fees associated with buying the Echo Dot?"
       ],
       "responses": [
         "The price of Amazon Echo Dot 3rd Generation is $29.99. Prices may vary based on promotions and availability."
@@ -1649,6 +1788,7 @@
       ],
       "context_set": ""
     },
+
     {
       "tag": "echo_dot_3rd_gen_features",
       "questions": [
@@ -1656,7 +1796,26 @@
         "What are the main features of Echo Dot?",
         "How does Echo Dot work?",
         "Can Echo Dot control smart home devices?",
-        "What voice commands does Echo Dot recognize?"
+        "What voice commands does Echo Dot recognize?",
+        "What functionalities does the Echo Dot offer?",
+        "How does the Echo Dot interact with users?",
+        "Can Echo Dot perform tasks beyond voice commands?",
+        "What capabilities does the Echo Dot possess?",
+        "Does Echo Dot have any unique features compared to other smart speakers?",
+        "How does Echo Dot utilize Alexa for voice interaction?",
+        "Can Echo Dot provide information on various topics?",
+        "What tasks can Echo Dot assist with in a smart home environment?",
+        "Does Echo Dot have any connectivity options?",
+        "Can Echo Dot be customized to suit individual preferences?",
+        "What is the range of voice commands supported by Echo Dot?",
+        "Are there any limitations to what Echo Dot can do?",
+        "How accurate is Echo Dot in recognizing voice commands?",
+        "Does Echo Dot require an internet connection to function?",
+        "Can Echo Dot be integrated with other smart devices?",
+        "Is there any setup required for Echo Dot to start working?",
+        "What are the privacy features of Echo Dot?",
+        "Can Echo Dot learn and adapt to user preferences over time?",
+        "How does Echo Dot handle multiple users in a household?"
       ],
       "responses": [
         "The Amazon Echo Dot 3rd Generation is a smart speaker that supports voice interaction using Alexa. It can play music, answer questions, set alarms, control smart home devices, and more through voice commands. It’s equipped with a speaker for audio playback and a microphone array for voice detection."
@@ -1669,7 +1828,27 @@
         "How do I set up my Echo Dot?",
         "What are the steps to install Echo Dot?",
         "Do I need an app to use Echo Dot?",
-        "How to connect Echo Dot to WiFi?"
+        "How to connect Echo Dot to WiFi?",
+        "What is the setup process for Echo Dot?",
+        "Can you guide me through the Echo Dot installation?",
+        "Is there a specific method for connecting Echo Dot to WiFi?",
+        "Do I require any additional devices for Echo Dot setup?",
+        "Are there any prerequisites for setting up Echo Dot?",
+        "Does Echo Dot come with setup instructions?",
+        "Is there any troubleshooting guide available for Echo Dot setup?",
+        "What should I do if I encounter issues during Echo Dot installation?",
+        "Can Echo Dot be set up without a smartphone?",
+        "Are there any alternatives to using the Alexa app for Echo Dot setup?",
+        "Can Echo Dot be connected to a different WiFi network after setup?",
+        "Is there a setup wizard for Echo Dot?",
+        "Are there any security measures in place during Echo Dot setup?",
+        "How long does it take to complete the setup process for Echo Dot?",
+        "What information do I need to provide during Echo Dot setup?",
+        "Does Echo Dot require any firmware updates during setup?",
+        "Can I customize settings during Echo Dot setup?",
+        "What is the role of the Alexa app in Echo Dot setup?",
+        "Can Echo Dot be set up using a web browser?",
+        "Is there a setup fee for Echo Dot?"
       ],
       "responses": [
         "To set up your Amazon Echo Dot, download the Alexa app on your smartphone, plug in your Echo Dot, and follow the in-app instructions to connect it to WiFi and configure your settings. You’ll need the Alexa app to manage device settings and functionalities."
@@ -1682,7 +1861,27 @@
         "Why won't my Echo Dot connect to WiFi?",
         "What to do if my Echo Dot isn’t responding?",
         "How to reset Echo Dot?",
-        "Echo Dot troubleshooting steps?"
+        "Echo Dot troubleshooting steps?",
+        "How can I troubleshoot connectivity issues with Echo Dot?",
+        "What steps should I take if Echo Dot fails to respond?",
+        "Are there any specific troubleshooting methods for resetting Echo Dot?",
+        "What are the common issues with Echo Dot and their solutions?",
+        "Is there a guide available for troubleshooting Echo Dot?",
+        "What should I do if Echo Dot's light ring indicates an error?",
+        "Can I fix Echo Dot connectivity problems without resetting?",
+        "Is there any diagnostic tool available for Echo Dot troubleshooting?",
+        "Are there any online resources for resolving Echo Dot issues?",
+        "Does Echo Dot provide any error codes for troubleshooting?",
+        "How can I determine if Echo Dot's issue is with the device or the network?",
+        "What can cause Echo Dot to stop responding?",
+        "Can interference from other devices affect Echo Dot's performance?",
+        "Are there any software updates that might fix Echo Dot issues?",
+        "What should I check if Echo Dot suddenly stops working?",
+        "Is there a way to diagnose hardware problems with Echo Dot?",
+        "How often should I perform troubleshooting on Echo Dot?",
+        "Are there any common issues reported by other Echo Dot users?",
+        "Can third-party apps interfere with Echo Dot's functionality?",
+        "Is there a support hotline available for Echo Dot troubleshooting?"
       ],
       "responses": [
         "If your Echo Dot isn’t connecting to WiFi, check your internet connection and router settings. Ensure your Echo Dot is within range of your router. If it isn’t responding, try unplugging it and plugging it back in. To reset, press and hold the Action button for 25 seconds until the light ring turns orange, then blue."
@@ -1695,7 +1894,27 @@
         "Is Echo Dot compatible with iPhone?",
         "Can Echo Dot work with Android phones?",
         "What smart home devices can Echo Dot control?",
-        "What accessories can enhance my Echo Dot experience?"
+        "What accessories can enhance my Echo Dot experience?",
+        "Is Echo Dot compatible with iOS devices?",
+        "Does Echo Dot support integration with Android smartphones?",
+        "What types of smart home devices are compatible with Echo Dot?",
+        "Can Echo Dot control lights, thermostats, and security systems?",
+        "Are there any specific brands or models of smart home devices that Echo Dot works with?",
+        "How can I enhance the functionality of Echo Dot with accessories?",
+        "What accessories are available to improve the usability of Echo Dot?",
+        "Is there a recommended wall mount for Echo Dot?",
+        "Can I connect external speakers to Echo Dot for better audio quality?",
+        "Are there any third-party accessories that enhance Echo Dot's capabilities?",
+        "Does Echo Dot support voice-controlled smart home devices?",
+        "What is the range of compatibility for Echo Dot with smart home devices?",
+        "Can I control my TV or entertainment system with Echo Dot?",
+        "Is there a compatibility list available for Echo Dot and smart home devices?",
+        "Can I use Echo Dot to control appliances in my home?",
+        "Does Echo Dot support integration with popular smart home platforms?",
+        "Are there any additional features enabled by connecting Echo Dot to smart home devices?",
+        "Is there a way to customize Echo Dot's compatibility with specific devices?",
+        "Are there any software updates that expand Echo Dot's compatibility?",
+        "Can Echo Dot control devices that use different protocols or standards?"
       ],
       "responses": [
         "Echo Dot is compatible with both iPhone and Android smartphones through the Alexa app. It can control a wide range of smart home devices including lights, thermostats, and security systems. Accessories like the Echo Dot wall mount or external speakers can enhance your experience."
@@ -1707,7 +1926,27 @@
       "questions": [
         "Are there any new updates for Echo Dot?",
         "How do I update my Echo Dot?",
-        "What enhancements are available for Echo Dot?"
+        "What enhancements are available for Echo Dot?",
+        "Is there any information on recent updates for Echo Dot?",
+        "How can I ensure that my Echo Dot is up to date?",
+        "Are there any steps I need to take to install updates on Echo Dot?",
+        "Can I manually check for updates on Echo Dot?",
+        "What benefits do updates bring to Echo Dot?",
+        "Are updates for Echo Dot automatic?",
+        "Is there a way to see the changelog for Echo Dot updates?",
+        "Can I opt out of updates for Echo Dot?",
+        "What is the frequency of updates for Echo Dot?",
+        "Does Amazon announce new features and updates for Echo Dot?",
+        "Are there any new skills or functionalities added through updates?",
+        "Do updates for Echo Dot require any downtime?",
+        "Can I revert back to a previous version of Echo Dot after updating?",
+        "Is there any way to delay updates for Echo Dot?",
+        "Are there any prerequisites for installing updates on Echo Dot?",
+        "How large are the typical updates for Echo Dot?",
+        "Are there any security updates included in recent updates for Echo Dot?",
+        "Can I schedule updates for Echo Dot at specific times?",
+        "Are there any known issues with recent updates for Echo Dot?",
+        "Can I manually trigger updates for Echo Dot?"
       ],
       "responses": [
         "Amazon periodically releases updates for the Echo Dot to enhance functionality and security. Updates are automatically downloaded and installed when connected to WiFi. New skills and features are regularly added to the Alexa app, improving user experience and device capabilities."
@@ -1721,7 +1960,25 @@
         "Can Echo Dot be used as a stereo speaker?",
         "Is the audio from Echo Dot clear for music and podcasts?",
         "How do I connect Echo Dot to other speakers?",
-        "Can Echo Dot stream music from Spotify?"
+        "Can Echo Dot stream music from Spotify?",
+        "How does the audio performance of Echo Dot compare to other speakers?",
+        "Is Echo Dot suitable for listening to music in different environments?",
+        "Can Echo Dot produce enough volume for larger rooms?",
+        "What features contribute to the audio quality of Echo Dot?",
+        "Is there any customization available for audio settings on Echo Dot?",
+        "What are the benefits of connecting Echo Dot to other speakers?",
+        "Are there any recommended speakers to pair with Echo Dot?",
+        "Can Echo Dot stream music from multiple sources?",
+        "Does Echo Dot support high-quality audio streaming services?",
+        "What connectivity options are available for connecting Echo Dot to external speakers?",
+        "Is there any latency when using Echo Dot with other speakers?",
+        "Can Echo Dot be used as part of a multi-room audio setup?",
+        "Does Echo Dot support streaming music from online radio stations?",
+        "What is the maximum range for connecting Echo Dot to other speakers?",
+        "Are there any specific instructions for setting up Echo Dot with external speakers?",
+        "Can Echo Dot stream music from Apple Music?",
+        "Is there a difference in audio quality when using Bluetooth or a wired connection with Echo Dot?",
+        "Can Echo Dot be used to play audio from video streaming services?"
       ],
       "responses": [
         "The Echo Dot 3rd Generation offers improved sound quality over its predecessors, with clearer and louder audio suitable for music, podcasts, and daily interactions. It can connect to other speakers via Bluetooth or a 3.5mm audio cable for a stereo sound experience. Yes, it can stream music from services like Spotify, Amazon Music, and others."
@@ -1735,7 +1992,26 @@
         "Tips for getting the most out of my Echo Dot?",
         "How can I use Echo Dot in the kitchen?",
         "Can Echo Dot help me with fitness routines?",
-        "Echo Dot features for morning routines?"
+        "Echo Dot features for morning routines?",
+        "What are some creative ways to use Echo Dot?",
+        "Are there any lesser-known features of Echo Dot that I should know about?",
+        "How can I integrate Echo Dot into my daily routine?",
+        "What are some productivity hacks using Echo Dot?",
+        "Can Echo Dot assist with relaxation and meditation?",
+        "Are there any specific skills or commands that enhance Echo Dot's functionality?",
+        "What are the benefits of having multiple Echo Dots in different rooms?",
+        "How can I optimize Echo Dot for entertainment purposes?",
+        "Does Echo Dot have any educational features or skills?",
+        "What are some security tips for using Echo Dot?",
+        "Can Echo Dot help with time management and organization?",
+        "Are there any Echo Dot skills specifically designed for kids?",
+        "How does Echo Dot support voice-controlled routines?",
+        "Can Echo Dot be used for voice-controlled shopping?",
+        "Are there any Echo Dot features that are particularly useful for elderly users?",
+        "What are some fun activities or games I can do with Echo Dot?",
+        "Can Echo Dot provide assistance with learning new languages?",
+        "How does Echo Dot integrate with other smart devices to enhance usability?",
+        "Are there any Echo Dot accessories that improve user experience?"
       ],
       "responses": [
         "Echo Dot is versatile and can assist in many daily activities. In the kitchen, it can set timers, read recipes, and play music. For fitness routines, it can set timers, play workout music, or connect you with fitness apps. Use it in your morning routine to get weather updates, news briefings, and control smart home devices as you start your day."
@@ -1749,7 +2025,26 @@
         "Integration of Echo Dot with smart TVs?",
         "How does Echo Dot work with smart home hubs?",
         "Can I make phone calls through Echo Dot?",
-        "Using Echo Dot with external services like Uber or Domino's?"
+        "Using Echo Dot with external services like Uber or Domino's?",
+        "Is it possible to control YouTube using Echo Dot?",
+        "How can Echo Dot interact with smart TVs?",
+        "What smart home hubs are compatible with Echo Dot?",
+        "Can Echo Dot directly initiate phone calls?",
+        "Does Echo Dot support voice-activated calls?",
+        "Can Echo Dot order food or book rides from external services?",
+        "What are the limitations when using Echo Dot with external services?",
+        "Are there any setup requirements for integrating Echo Dot with smart home hubs?",
+        "Does Echo Dot require additional hardware to work with smart TVs?",
+        "Can Echo Dot control playback on streaming services like Netflix?",
+        "Is there any way to expand the functionality of Echo Dot with third-party services?",
+        "What is the process for setting up phone calling on Echo Dot?",
+        "Does Echo Dot have built-in apps for external services like Uber?",
+        "Can Echo Dot provide real-time status updates from external services?",
+        "What is the voice command to initiate a call on Echo Dot?",
+        "Are there any voice commands to order food using Echo Dot?",
+        "Can Echo Dot be used to track my Uber ride status?",
+        "Does Echo Dot support integration with navigation services like Google Maps?",
+        "Is it possible to schedule rides or food orders with Echo Dot?"
       ],
       "responses": [
         "Echo Dot can control smart TVs and devices via voice commands if they are compatible with Alexa. While it can't directly control YouTube, it can interact with devices that do. You can make hands-free calls through Echo Dot to most numbers in the US, Canada, and Mexico. It also integrates with services like Uber and Domino's for easy access to transportation and food orders."
@@ -1763,7 +2058,27 @@
         "Can I turn off the microphone on Echo Dot?",
         "How secure is my data with Echo Dot?",
         "Does Echo Dot store my voice recordings?",
-        "How can I delete my voice recordings from Echo Dot?"
+        "How can I delete my voice recordings from Echo Dot?",
+        "Is there a way to ensure privacy while using Echo Dot?",
+        "Can Echo Dot record conversations without permission?",
+        "Are there any privacy settings I should be aware of on Echo Dot?",
+        "What measures does Echo Dot take to protect user privacy?",
+        "Does Echo Dot share my data with third-party companies?",
+        "Can Echo Dot listen to conversations when not activated?",
+        "Is it safe to use Echo Dot in sensitive environments?",
+        "What information does Echo Dot collect about its users?",
+        "Are there any risks associated with using Echo Dot?",
+        "Can Echo Dot be hacked to access personal information?",
+        "Does Echo Dot store voice recordings indefinitely?",
+        "How does Amazon handle privacy concerns related to Echo Dot?",
+        "Can I review my privacy settings on Echo Dot?",
+        "Does Echo Dot anonymize voice recordings?",
+        "Are there any legal protections for user privacy with Echo Dot?",
+        "Can Echo Dot be used in businesses without compromising privacy?",
+        "Does Echo Dot have a privacy policy?",
+        "How transparent is Amazon about Echo Dot's data collection practices?",
+        "Does Echo Dot use encryption to protect user data?",
+        "Can Echo Dot be used anonymously?"
       ],
       "responses": [
         "Echo Dot is designed with privacy in mind. You can physically turn off the microphone with a button on the device. Your voice recordings are stored to improve your experience, but you can review, listen to, and delete them anytime via the Alexa app. Amazon is committed to protecting the privacy and security of your personal information."
@@ -1821,7 +2136,21 @@
         "Describe the EOS 80D.",
         "What are the features of the Canon EOS 80D?",
         "Can you give me details about the EOS 80D DSLR camera?",
-        "Tell me about the Canon 80D digital camera."
+        "Tell me about the Canon 80D digital camera.",
+        "What are the specifications of the Canon 80D DSLR?",
+        "What makes the Canon EOS 80D stand out?",
+        "How does the Canon 80D compare to other DSLR cameras?",
+        "Is the Canon 80D suitable for beginners?",
+        "What type of photography is the Canon EOS 80D best for?",
+        "Can the Canon 80D record videos?",
+        "Does the Canon EOS 80D have image stabilization?",
+        "What accessories are compatible with the Canon 80D?",
+        "What is the price range of the Canon EOS 80D?",
+        "Where can I buy the Canon 80D DSLR camera?",
+        "Is the Canon EOS 80D weather-sealed?",
+        "What are some common uses of the Canon 80D?",
+        "Does the Canon 80D have a touchscreen?",
+        "How does the Canon EOS 80D perform in low light conditions?"
       ],
       "responses": [
         "The Canon EOS 80D DSLR Camera features a 24.2 MP APS-C CMOS sensor, 45-point all cross-type autofocus system, and can shoot up to 7 frames per second. It includes built-in Wi-Fi and NFC, allowing for easy sharing and remote camera control. The EOS 80D is well-suited for both photography and videography, thanks to its versatile feature set and robust build."
@@ -1843,7 +2172,19 @@
         "Is the Canon 80D weather-sealed?",
         "Does the Canon EOS 80D have image stabilization?",
         "What type of memory card does the Canon 80D use?",
-        "Can you tell me about the battery life of the Canon EOS 80D?"
+        "Can you tell me about the battery life of the Canon EOS 80D?",
+        "What are the advantages of using EF-S lenses with the Canon 80D?",
+        "Does the Canon 80D offer any special shooting modes?",
+        "Can I use third-party lenses with the Canon EOS 80D?",
+        "Is the Canon 80D compatible with external flash units?",
+        "How does the Canon EOS 80D's autofocus system perform in low light?",
+        "What is the maximum ISO sensitivity of the Canon 80D?",
+        "Does the Canon EOS 80D have in-body image stabilization?",
+        "Can I use the Canon 80D for professional photography?",
+        "What are the dimensions and weight of the Canon 80D?",
+        "Does the Canon EOS 80D support remote shooting?",
+        "What type of viewfinder does the Canon 80D have?",
+        "Are there any optional accessories available for the Canon EOS 80D?"
       ],
       "responses": [
         "The Canon EOS 80D does not support 4K video but offers excellent Full HD video capabilities. It features a weather-sealed body, touchscreen LCD, and an APS-C sensor with a resolution of 24.2 megapixels. Compatible with EF and EF-S lenses, it uses SD/SDHC/SDXC memory cards and provides a sturdy build with up to 960 shots per battery charge."
@@ -1858,7 +2199,27 @@
         "How do I fix autofocus issues on my EOS 80D?",
         "What should I do if my Canon 80D is overheating?",
         "Why are my EOS 80D photos blurry?",
-        "How to resolve error messages on my Canon EOS 80D?"
+        "How to resolve error messages on my Canon EOS 80D?",
+        "What steps can I take if my EOS 80D is unresponsive?",
+        "Are there any common reasons for autofocus problems on EOS 80D?",
+        "Is there a way to prevent overheating issues with Canon 80D?",
+        "What are some techniques for capturing sharp photos with EOS 80D?",
+        "Can I troubleshoot error messages on EOS 80D without the manual?",
+        "Are there any online resources for troubleshooting EOS 80D issues?",
+        "Does Canon offer support for resolving EOS 80D problems?",
+        "How long should I wait before using EOS 80D again if it overheats?",
+        "Are there any software updates that address common issues with EOS 80D?",
+        "What should I check if EOS 80D consistently produces blurry photos?",
+        "Can I reset EOS 80D to its default settings to resolve errors?",
+        "What are the indicators that my Canon EOS 80D battery needs replacement?",
+        "How can I test if the autofocus system of my Canon 80D is working properly?",
+        "What are the signs of overheating in Canon 80D?",
+        "Is there a way to prevent dust accumulation on the lens of EOS 80D?",
+        "Are there any firmware updates available for Canon 80D?",
+        "Does Canon provide troubleshooting guides specifically for EOS 80D?",
+        "Can I diagnose EOS 80D issues using Canon's official software?",
+        "What steps should I take if I encounter an error code on EOS 80D?",
+        "Is there a warranty for EOS 80D and what does it cover?"
       ],
       "responses": [
         "If your Canon EOS 80D won't turn on, check the battery's charge level and ensure it's properly inserted. For autofocus issues, clean the lens contacts and check the autofocus settings. Overheating may occur during extended use; allow the camera to cool down. If photos are blurry, adjust the focus mode or check for lens issues. Resolve error messages by consulting the manual or resetting the camera settings."
@@ -1873,7 +2234,26 @@
         "Best settings for landscape photos with the Canon 80D?",
         "Tips for using the Canon 80D in low light conditions?",
         "How can I extend battery life while shooting outdoors with the EOS 80D?",
-        "Advanced video features of the Canon EOS 80D?"
+        "Advanced video features of the Canon EOS 80D?",
+        "What are some techniques for capturing fast-moving subjects with EOS 80D?",
+        "How can I achieve maximum depth of field in landscape photography with Canon 80D?",
+        "Are there any specific lenses recommended for low light photography with EOS 80D?",
+        "What are the advantages of using manual exposure settings in low light conditions?",
+        "Can I use external battery packs with Canon 80D for extended shooting sessions?",
+        "Is there a way to monitor battery life in real-time while using EOS 80D?",
+        "Does Canon provide any accessories to enhance video recording capabilities of EOS 80D?",
+        "How does EOS 80D handle focus tracking during video recording?",
+        "Are there any settings to optimize audio quality when recording videos with EOS 80D?",
+        "Can I shoot slow-motion videos with Canon 80D?",
+        "What are the limitations of EOS 80D in terms of video recording?",
+        "Does Canon offer any advanced shooting modes for specific shooting scenarios?",
+        "Is there a dedicated mode for astrophotography in EOS 80D?",
+        "Can I use the built-in flash for advanced lighting techniques with EOS 80D?",
+        "What are some advanced techniques for achieving creative effects with Canon 80D?",
+        "Does Canon provide any software for post-processing of images and videos captured with EOS 80D?",
+        "How does Canon EOS 80D perform in challenging lighting conditions compared to other cameras?",
+        "Are there any recommended settings for capturing moving subjects in low light with EOS 80D?",
+        "Does Canon EOS 80D offer any features specifically for wildlife photography?"
       ],
       "responses": [
         "For sports photography, set your EOS 80D to a fast shutter speed and use continuous shooting mode. For landscapes, use a small aperture and a tripod. In low light, increase ISO carefully and use a wider aperture. Extend battery life by minimizing live view use and turning off unnecessary features. Explore manual video controls to adjust focus, exposure, and frame rate for cinematic effects."
@@ -1887,21 +2267,43 @@
         "How do I update the firmware on my Canon EOS 80D?",
         "Latest software updates for the Canon 80D?",
         "Benefits of updating my EOS 80D firmware?",
-        "Where can I download the latest Canon 80D software?"
+        "Where can I download the latest Canon 80D software?",
+        "Can I revert to a previous firmware version on EOS 80D?",
+        "Does Canon notify users about firmware updates for EOS 80D?",
+        "Are firmware updates for EOS 80D free?",
+        "Is there a recommended frequency for updating EOS 80D firmware?",
+        "Can I update EOS 80D firmware using a Mac computer?",
+        "What precautions should I take before updating EOS 80D firmware?",
+        "Does updating EOS 80D firmware erase my camera settings?",
+        "Are there any compatibility issues I should be aware of when updating EOS 80D firmware?",
+        "Can I update EOS 80D firmware without a memory card?",
+        "How long does it take to update EOS 80D firmware?",
+        "What should I do if EOS 80D firmware update fails?"
       ],
       "responses": [
         "To update the firmware of your Canon EOS 80D, download the latest firmware version from the official Canon website, transfer it to your camera's memory card, and select 'Firmware Update' from the settings menu. Updating your firmware can improve performance, add new features, and fix bugs. Always ensure your battery is fully charged before starting an update."
       ],
       "context_set": ""
     },
-
     {
       "tag": "eos_80d_promotions",
       "questions": [
         "Are there any current promotions for the Canon EOS 80D?",
         "Where can I find discounts on the EOS 80D?",
         "Canon 80D bundle offers available?",
-        "Upcoming sales for Canon EOS 80D?"
+        "Upcoming sales for Canon EOS 80D?",
+        "How often does Canon offer promotions for EOS 80D?",
+        "Are there any specific retailers known for offering discounts on EOS 80D?",
+        "Can I sign up for notifications about EOS 80D promotions?",
+        "Are there any special promotions for photographers purchasing multiple Canon products?",
+        "What are some common items included in EOS 80D bundle offers?",
+        "Do promotions for EOS 80D vary by region?",
+        "Are there any loyalty programs or memberships that offer discounts on EOS 80D?",
+        "What time of year typically has the best deals on EOS 80D?",
+        "Can I combine multiple promotions or discounts when purchasing EOS 80D?",
+        "Does Canon offer trade-in deals for upgrading to EOS 80D?",
+        "Are there any limited-time offers exclusively available for EOS 80D purchasers?",
+        "How do I know if a promotion for EOS 80D is legitimate?"
       ],
       "responses": [
         "Check our website regularly for promotions and discounts on the Canon EOS 80D. Bundle offers might include additional lenses or accessories at a discounted price. Keep an eye on seasonal sales and special photography events for potential savings."
@@ -2001,7 +2403,22 @@
         "Is PayPal accepted for transactions?",
         "Can I use credit/debit cards for payment?",
         "Can I pay using mobile payment apps?",
-        "Are digital wallets accepted for payment?"
+        "Are digital wallets accepted for payment?",
+        "Which credit cards are accepted for payment?",
+        "Do you offer installment payment options?",
+        "Are there any restrictions on payment methods for certain products?",
+        "Can I use international credit cards for payment?",
+        "Do you accept prepaid cards for transactions?",
+        "Can I split payment between multiple methods?",
+        "Is there a minimum payment amount for certain payment methods?",
+        "Do you charge any additional fees for specific payment methods?",
+        "Are there any security measures in place for online payments?",
+        "Can I save my payment information for future transactions?",
+        "What encryption standards are used for online transactions?",
+        "Are there any discounts or rewards for using specific payment methods?",
+        "Do you offer refunds to the original payment method?",
+        "Can I change my payment method after placing an order?",
+        "Is there a maximum transaction limit for certain payment methods?"
       ],
       "responses": [
         "We accept a variety of payment methods including major credit/debit cards, PayPal, and selected digital wallets. Mobile payment apps like Apple Pay and Google Pay are also accepted."
@@ -2021,7 +2438,17 @@
         "Can I use prepaid cards to make a purchase?",
         "Do you accept bank transfers?",
         "Do you accept international payments?",
-        "Are there any payment methods you don't accept?"
+        "Are there any payment methods you don't accept?",
+        "In which locations do you offer cash on delivery?",
+        "What are the terms and conditions for your payment plans?",
+        "Are there any restrictions on splitting payments between methods?",
+        "Can I combine credit card and PayPal for one transaction?",
+        "What are the criteria for qualifying for installment payments?",
+        "Do you have a list of accepted prepaid card providers?",
+        "What information do I need for bank transfers?",
+        "Do you charge any fees for international payments?",
+        "Are there any countries where international payments are not accepted?",
+        "Do you have a list of prohibited payment methods?"
       ],
       "responses": [
         "We offer cash on delivery in selected locations. Payment can be split across multiple methods for some orders. We accept bank transfers and international payments but do not accept checks or money orders. Installment payments and the use of prepaid cards are available for specific products. Please check our website or contact customer service for more details on payment options and restrictions."
@@ -2110,7 +2537,27 @@
         "What shipping options do you offer?",
         "How long will it take to receive my order?",
         "Can I get an update on my order number 12345?",
-        "Can I change the size in my order before it ships?"
+        "Can I change the size in my order before it ships?",
+        "Do you offer international shipping?",
+        "What is the cost of standard shipping?",
+        "Can I track my order during shipping?",
+        "Are there any restrictions on shipping certain products?",
+        "Do you provide free shipping for large orders?",
+        "What is the cutoff time for same-day shipping?",
+        "Can I cancel my order after it has been shipped?",
+        "Do you offer weekend delivery options?",
+        "Is signature required upon delivery for all orders?",
+        "Can I ship to a different address than my billing address?",
+        "What should I do if my order is missing items upon delivery?",
+        "Are there any shipping delays expected during certain times of the year?",
+        "Do you provide shipping insurance for orders?",
+        "Can I change the shipping method after placing an order?",
+        "Is there a shipping fee for returns?",
+        "What should I do if my order is damaged during shipping?",
+        "Do you offer gift wrapping or special packaging for orders?",
+        "Can I request expedited shipping after placing an order?",
+        "What happens if I'm not available to receive my package during delivery?",
+        "How can I contact customer service regarding my order?"
       ],
       "responses": [
         "We offer standard, expedited, and overnight shipping options. Delivery times can vary from 2 to 7 business days depending on the option chosen. For order updates or changes, please log in to your account or contact our customer service immediately if your order has not yet been shipped."
@@ -2125,7 +2572,24 @@
         "How long does it take to get a refund?",
         "Can I exchange this item for a different color?",
         "What if I received an electronic item as a gift and want to return it?",
-        "Are there restocking fees for returning electronics?"
+        "Are there restocking fees for returning electronics?",
+        "Do you accept returns on opened electronic items?",
+        "What is the process for initiating a return for electronics?",
+        "Can I return electronics purchased online in-store?",
+        "Is there a time limit for returning electronics?",
+        "Are there any exceptions to your electronics return policy?",
+        "Do I need the original packaging to return electronics?",
+        "Can I return refurbished electronic items?",
+        "How can I track the status of my return?",
+        "What should I do if my electronic item becomes defective after the return period?",
+        "Are there any specific instructions for returning large electronic items?",
+        "Can I return an electronic item if I've used it?",
+        "Is there a fee for returning electronics via mail?",
+        "What if I no longer have the receipt for the electronic item?",
+        "Can I return an electronic item purchased from a third-party seller?",
+        "Do you offer extended warranties for electronic items?",
+        "What if I change my mind after purchasing an electronic item?",
+        "Are there any restrictions on returning electronic accessories?"
       ],
       "responses": [
         "Our return policy for electronics allows for returns within 30 days of receipt, provided the items are unused and in their original packaging. For defective items, please use the prepaid return label provided and follow the detailed instructions on our returns page. Refunds typically take 5-10 business days to process once we've received the item. Exchanges are subject to item availability and can be arranged through our customer service. Gift returns can be processed if you have a gift receipt. Please note, certain electronic items may be subject to a restocking fee if returned opened but non-defective."
@@ -2138,7 +2602,19 @@
         "How do I create an account?",
         "I forgot my password, how can I reset it?",
         "How do you protect my personal information?",
-        "How can I view my past orders?"
+        "How can I view my past orders?",
+        "Is there a guest checkout option available?",
+        "Can I change my email address associated with my account?",
+        "How can I update my personal information on my account?",
+        "Do you offer two-factor authentication for account security?",
+        "What should I do if I suspect unauthorized activity on my account?",
+        "Is my payment information stored securely in my account?",
+        "Can I delete my account if I no longer wish to use it?",
+        "Is there a way to subscribe to newsletters or promotional emails through my account?",
+        "Are there any benefits to creating an account?",
+        "Can I track the status of my orders through my account?",
+        "Do you share my account information with third parties?",
+        "How can I contact customer support regarding my account?"
       ],
       "responses": [
         "You can create an account by clicking on 'Sign Up' on our website and entering the required information. If you've forgotten your password, click 'Forgot Password?' at the login screen to reset it. We protect your personal information using advanced encryption and security protocols. View past orders by logging into your account and visiting the 'Orders' section."
@@ -2147,7 +2623,33 @@
     },
     {
       "tag": "website_navigation",
-      "questions": ["How do I search for products in your store?"],
+      "questions": [
+        "How do I search for products in your store?",
+        "Where can I find the search bar on your website?",
+        "Is there a specific category I can browse for products?",
+        "Can I search for products by brand?",
+        "How do I filter search results on your website?",
+        "What if I can't find the product I'm looking for?",
+        "Do you have advanced search options?",
+        "Can I search for products using product codes or SKUs?",
+        "Is there a way to save my search for future reference?",
+        "Can I search for products using voice commands?",
+        "Are there any shortcuts for searching on your website?",
+        "What is the fastest way to find a specific product?",
+        "How accurate is the search function on your website?",
+        "Do you offer auto-complete suggestions while searching?",
+        "Can I search for products by color or size?",
+        "Is there a limit to the number of search results displayed?",
+        "Do you prioritize certain products in search results?",
+        "Can I refine my search based on customer reviews?",
+        "Are search results updated in real-time?",
+        "Can I search for products available for international shipping?",
+        "How do I clear my search history on your website?",
+        "Do you offer search filters for sale items or discounts?",
+        "Can I search for products based on availability in nearby stores?",
+        "Is there a way to search for related products or accessories?",
+        "How can I provide feedback on the search experience on your website?"
+      ],
       "responses": [
         "To search for products in our store, use the search bar at the top of our homepage. Simply enter a keyword, product name, or category, and our site will display relevant results. You can also use filters to refine your search by price, brand, or rating."
       ],
@@ -2155,7 +2657,32 @@
     },
     {
       "tag": "checkout_problems",
-      "questions": ["I’m having trouble checking out, what should I do?"],
+      "questions": [
+        "I’m having trouble checking out, what should I do?",
+        "What should I do if I encounter errors during the checkout process?",
+        "How can I troubleshoot checkout problems on your website?",
+        "What are common reasons for checkout failures?",
+        "Is there a way to save my cart if I encounter checkout problems?",
+        "Do you offer guest checkout for users experiencing checkout issues?",
+        "Are there any specific steps I should follow to resolve checkout problems?",
+        "How do I know if my payment was successfully processed?",
+        "What if I receive an error message during the checkout process?",
+        "Can I retry checkout if it fails the first time?",
+        "Is there a timeout period during checkout?",
+        "What if my shipping address is not being accepted during checkout?",
+        "Do you have a troubleshooting guide for checkout issues?",
+        "Are there any browser requirements for smooth checkout?",
+        "Can I edit my cart contents during the checkout process?",
+        "What if I accidentally close the checkout window?",
+        "Is there a customer service hotline for urgent checkout problems?",
+        "Can I request assistance for checkout problems via email?",
+        "Do you offer live chat support for checkout issues?",
+        "Is there a limit to the number of checkout attempts?",
+        "Can I use multiple payment methods for a single checkout?",
+        "What should I do if my order is not reflecting in my account after checkout?",
+        "Are there any known issues with the checkout process on mobile devices?",
+        "Is there a way to save my progress if I need to leave during checkout?"
+      ],
       "responses": [
         "If you're experiencing issues during checkout, please ensure all required fields are filled correctly and that your payment information is up-to-date. Clearing your browser's cache or trying a different browser may also resolve the issue. If problems persist, please contact our customer support for immediate assistance."
       ],
@@ -2163,7 +2690,29 @@
     },
     {
       "tag": "error_messages",
-      "questions": ["I'm getting an error message when I try to log in."],
+      "questions": [
+        "I'm getting an error message when I try to log in.",
+        "What should I do if I encounter an error message during login?",
+        "How can I troubleshoot error messages while logging in?",
+        "Why am I receiving an error message when attempting to log in?",
+        "Is there a specific error code associated with the message?",
+        "Can I still access my account if I receive an error message?",
+        "Are there any steps I can take to resolve login errors?",
+        "What if I receive multiple error messages during login attempts?",
+        "Do you have a list of common error messages and their solutions?",
+        "Is there a way to report login errors for further investigation?",
+        "Are there any server maintenance schedules that might affect login?",
+        "How do I know if the error message is due to a system issue?",
+        "Can I contact customer support for assistance with login errors?",
+        "Is there a limit to the number of login attempts?",
+        "What if I receive an error message after successfully logging in?",
+        "Do error messages during login affect account security?",
+        "Can I provide feedback on the error message experience?",
+        "Are there any known issues with certain browsers causing login errors?",
+        "What if the error message persists despite following troubleshooting steps?",
+        "Do you have a dedicated support team for handling login-related issues?",
+        "Can I log in using alternative methods if I encounter an error message?"
+      ],
       "responses": [
         "If you receive an error message while trying to log in, check to ensure your username and password are entered correctly. If you've forgotten your password, use the 'Forgot Password' link to reset it. For persistent issues, clearing your browser cache or attempting to log in from another browser may help."
       ],
@@ -2171,7 +2720,32 @@
     },
     {
       "tag": "browser_compatibility",
-      "questions": ["Which browsers does your website support?"],
+      "questions": [
+        "Which browsers does your website support?",
+        "Is your website compatible with all web browsers?",
+        "Can I access your website using any browser?",
+        "What browsers are recommended for optimal website performance?",
+        "Does your website work well on mobile browsers?",
+        "Is there a specific browser version requirement for accessing your website?",
+        "Are there any known issues with certain browsers on your website?",
+        "Can I still use your website if I have an older browser version?",
+        "Do you have browser-specific features or optimizations?",
+        "What if I encounter issues while using your website on a particular browser?",
+        "Is there a browser compatibility guide available for your website?",
+        "How frequently do you update your website for browser compatibility?",
+        "Does your website support browser extensions or plugins?",
+        "Is there a preference for a particular browser when accessing your website?",
+        "Can I provide feedback on website performance across different browsers?",
+        "Are there any browser-specific settings I should adjust for better website experience?",
+        "Do you offer technical support for browser compatibility issues?",
+        "Are there any differences in website functionality across different browsers?",
+        "Can I use your website on mobile browsers like Chrome on Android or Safari on iOS?",
+        "How do you ensure consistent website performance across various browsers?",
+        "Do you conduct browser compatibility testing for each website update?",
+        "Can I expect the same website experience regardless of the browser I use?",
+        "What if I encounter browser-specific errors or glitches on your website?",
+        "Is there a list of supported browsers available on your website?"
+      ],
       "responses": [
         "Our website is designed to work best with the latest versions of major browsers such as Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. For optimal performance and security, we recommend keeping your browser up to date."
       ],

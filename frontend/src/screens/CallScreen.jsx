@@ -112,6 +112,17 @@ const CallScreen = () => {
                         const responseText = response.data.response;
                         console.log('Chatbot response:', responseText);
                         handleResponse(responseText);
+
+
+                        // Perform sentiment analysis on the user's speech
+                        axios.post('http://127.0.0.1:3000/analyze_sentiment', { comment: userPrompt })
+                            .then(sentimentResponse => {
+                                console.log('Sentiment analysis result:', sentimentResponse.data);
+                                // Handle sentiment analysis result if needed
+                            })
+                            .catch(sentimentError => {
+                                console.error('Sentiment analysis request failed:', sentimentError);
+                            });
                     })
                     .catch(error => console.error('Error making the API call:', error));
             }

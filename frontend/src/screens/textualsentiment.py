@@ -44,7 +44,7 @@ def analyze_sentiment_route():
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-with open("prompts-old.json") as f:
+with open("prompts.json") as f:
   data = json.load(f)
 
 tags = []
@@ -186,7 +186,7 @@ def train_or_val(model, optimizer, dataloader, train):
 
     return loss, accuracy, precision, recall, f1, all_labels, all_preds
 
-model_path = "chatbot.pth"  
+model_path = "chatbotupdate.pth"  
 model.load_state_dict(torch.load(model_path, map_location=torch.device(device)))
 
 

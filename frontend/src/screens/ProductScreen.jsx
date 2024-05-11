@@ -1,8 +1,11 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import Chart from 'chart.js/auto';
 import axios from 'axios';
+import ReviewCharts from './ReviewCharts';
+
 import {
   Row,
   Col,
@@ -34,6 +37,9 @@ const ProductScreen = () => {
   const [loading, setLoading] = useState(false);
   const [sentimentState, setSentiment] = useState('');
   const [detail_sentimentState, setDetailSentiment] = useState('');
+
+  const barChartRef = useRef(null);
+  const pieChartRef = useRef(null);
 
   const addToCartHandler = () => {
     dispatch(addToCart({ ...product, qty }));
@@ -67,8 +73,6 @@ const ProductScreen = () => {
       const { sentiment, detail_sentiment } = sentimentResponse.data;
       setSentiment(sentiment);
       setDetailSentiment(detail_sentiment);
-      console.log(sentiment);
-      console.log(detail_sentiment);
 
       // Wait for sentiment analysis to complete
       if (!sentiment || !detail_sentiment) {
@@ -91,6 +95,59 @@ const ProductScreen = () => {
       setLoading(false);
     }
   };
+
+
+  // useEffect(() => {
+  //   if (product) {
+  //     const reviews = product.reviews;
+  //     const barChartCtx = barChartRef.current.getContext('2d');
+  //     const pieChartCtx = pieChartRef.current.getContext('2d');
+
+  //     // Extract detail_sentiment from each review in the array of reviews
+  //     const allSentiments = reviews.flatMap(review => review.detail_sentiment).flat();
+
+  //     // Extract labels and scores from allSentiments
+  //     const labels = allSentiments.map(item => item.label);
+  //     const scores = allSentiments.map(item => item.score);
+
+  //     const barChart = new Chart(barChartCtx, {
+  //       type: 'bar',
+  //       data: {
+  //         labels: labels,
+  //         datasets: [{
+  //           label: 'Sentiment Score',
+  //           data: scores,
+  //           backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)'],
+  //           borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)'],
+  //           borderWidth: 1
+  //         }]
+  //       },
+  //       options: {
+  //         scales: {
+  //           y: {
+  //             beginAtZero: true
+  //           }
+  //         }
+  //       }
+  //     });
+
+  //     const pieChart = new Chart(pieChartCtx, {
+  //       type: 'doughnut',
+  //       data: {
+  //         labels: labels,
+  //         datasets: [{
+  //           data: scores,
+  //           backgroundColor: ['rgba(255, 99, 132, 0.5)', 'rgba(54, 162, 235, 0.5)']
+  //         }]
+  //       }
+  //     });
+
+  //     return () => {
+  //       barChart.destroy();
+  //       pieChart.destroy();
+  //     };
+  //   }
+  // }, [product]);
 
   return (
     <>
@@ -209,11 +266,16 @@ const ProductScreen = () => {
                               {review.detail_sentiment[0].map((sentimentItem, index) => (
                                 <li key={index}>
                                   <strong>{sentimentItem.label}</strong>: {sentimentItem.score}
+                                  <ReviewCharts detailSentiment={review.detail_sentiment[0]} />
                                 </li>
                               ))}
+                              {/* <ReviewCharts detailSentiment={review.detail_sentiment[0]} /> */}
                             </ul>
                           </div>
                         )}
+                        {/* <ReviewCharts />
+                        <canvas ref={barChartRef}></canvas>
+                        <canvas ref={pieChartRef}></canvas> */}
                       </>
                     )}
                   </ListGroup.Item>
