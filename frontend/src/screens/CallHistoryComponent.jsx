@@ -13,12 +13,19 @@ import Collapse from '@mui/material/Collapse';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-
+import { useSelector } from 'react-redux';
 import ReviewCharts from './ReviewCharts'
 
 const CallHistoryComponent = () => {
     const [callHistory, setCallHistory] = useState([]);
+    // const userInfo = useSelector((state) => state.auth.userInfo);
+    // const [name, setName] = useState('User');
 
+    // useEffect(() => {
+    //     if (userInfo && userInfo.name) {
+    //         setName(userInfo.name);
+    //     }
+    // }, [userInfo]);
 
 
     useEffect(() => {
@@ -36,17 +43,6 @@ const CallHistoryComponent = () => {
 
     const Row = ({ row }) => {
         const [open, setOpen] = useState(false);
-        //extracting lables and scores from detail_sentiment for easy rendering in reviewCharts
-        // const labels = [];
-        // const scores = [];
-        // row.detail_sentiment.forEach(subArray => {
-        //     subArray.forEach(item => {
-        //         labels.push(item.label);
-        //         scores.push(item.score);
-        //     });
-        // });
-
-
         return (
             <React.Fragment>
                 <TableRow>

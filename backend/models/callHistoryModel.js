@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const callHistorySchema = mongoose.Schema({
-    username: String,
+    name: String,
     userPrompt: String,
     sentiment: String,
     detail_sentiment: [[{

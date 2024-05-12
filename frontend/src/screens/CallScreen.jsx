@@ -127,7 +127,7 @@ const CallScreen = () => {
 
                                 // Send sentiment analysis result to the backend for storage
                                 axios.post('http://localhost:3001/api/callHistories', {
-                                    username: "User", // Replace with actual username
+                                    username: name,
                                     userPrompt: userPrompt,
                                     sentiment: sentiment,
                                     detail_sentiment: detail_sentiment
@@ -297,9 +297,7 @@ const CallScreen = () => {
                 </div>
 
             </div>
-
-            <p className='my-3'>call-log</p>
-            <div >{(userInfo.isAdmin)
+            <div className='my-3'>{(userInfo.isAdmin)
                 && <CallHistoryComponent />}</div>
         </div>
     );

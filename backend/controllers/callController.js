@@ -1,6 +1,8 @@
 import asyncHandler from 'express-async-handler';
 import CallHistory from '../models/callHistoryModel.js';
 
+import { useSelector } from 'react-redux';
+
 // @desc    Fetch all call histories
 // @route   GET /api/callHistories
 // @access  Private/Admin
@@ -27,6 +29,9 @@ const getCallHistoryById = asyncHandler(async (req, res) => {
 // @route   POST /api/callHistories
 // @access  Private/Admin
 const createCallHistory = asyncHandler(async (req, res) => {
+
+
+
     const { username, userPrompt, sentiment, detail_sentiment } = req.body;
 
     const callHistory = await CallHistory.create({

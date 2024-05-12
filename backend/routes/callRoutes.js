@@ -10,7 +10,7 @@ import {
 import { protect, admin } from '../middleware/authMiddleware.js';
 import checkObjectId from '../middleware/checkObjectId.js';
 
-router.route('/').get(protect, admin, getCallHistories).post(protect, createCallHistory);
+router.route('/').get(protect, getCallHistories).post(protect, createCallHistory);
 router
     .route('/:id')
     .get(protect, admin, checkObjectId, getCallHistoryById)
