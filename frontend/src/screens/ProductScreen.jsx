@@ -213,16 +213,18 @@ const ProductScreen = () => {
                               {review.detail_sentiment[0].map((sentimentItem, index) => (
                                 <li key={index}>
                                   <strong>{sentimentItem.label}</strong>: {sentimentItem.score}
-                                  <ReviewCharts detailSentiment={review.detail_sentiment[0]} />
                                 </li>
                               ))}
-                              {/* <ReviewCharts detailSentiment={review.detail_sentiment[0]} /> */}
                             </ul>
                           </div>
                         )}
-                        {/* <ReviewCharts />
-                        <canvas ref={barChartRef}></canvas>
-                        <canvas ref={pieChartRef}></canvas> */}
+                        {/* Extract labels and scores */}
+                        {review.detail_sentiment.length > 0 && (
+                          <ReviewCharts
+                            labels={review.detail_sentiment[0].map(item => item.label)}
+                            scores={review.detail_sentiment[0].map(item => item.score)}
+                          />
+                        )}
                       </>
                     )}
                   </ListGroup.Item>

@@ -1,18 +1,14 @@
 import React, { useRef, useEffect } from 'react';
 import Chart from 'chart.js/auto';
+import './CallScreen.css'
 
-function ReviewCharts({ detailSentiment }) {
+function ReviewCharts({ labels, scores }) {
     const barChartRef = useRef(null);
     const pieChartRef = useRef(null);
 
     useEffect(() => {
-        console.log(detailSentiment);
         const barChartCtx = barChartRef.current.getContext('2d');
         const pieChartCtx = pieChartRef.current.getContext('2d');
-
-        // Assuming detailSentiment is an array of { label, score }
-        const labels = detailSentiment.map(item => item.label);
-        const scores = detailSentiment.map(item => item.score);
 
         const barChart = new Chart(barChartCtx, {
             type: 'bar',
@@ -54,7 +50,7 @@ function ReviewCharts({ detailSentiment }) {
             barChart.destroy();
             pieChart.destroy();
         };
-    }, [detailSentiment]);
+    }, [labels, scores]);
 
     return (
         <div>

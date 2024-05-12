@@ -1,8 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import TableContainer from '@mui/material/TableContainer';
+import Table from '@mui/material/Table';
+import TableHead from '@mui/material/TableHead';
+import TableBody from '@mui/material/TableBody';
+import TableRow from '@mui/material/TableRow';
+import TableCell from '@mui/material/TableCell';
+import IconButton from '@mui/material/IconButton';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import Collapse from '@mui/material/Collapse';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+
+import ReviewCharts from './ReviewCharts'
 
 const CallHistoryComponent = () => {
     const [callHistory, setCallHistory] = useState([]);
+
+
 
     useEffect(() => {
         const fetchCallHistory = async () => {
@@ -17,34 +34,108 @@ const CallHistoryComponent = () => {
         fetchCallHistory();
     }, []);
 
-    return (
-        <div>
-            <ul>
-                {callHistory.map((call) => (
-                    <li key={call._id}>
-                        <p>Username: {call.username}</p>
-                        <p>User Prompt: {call.userPrompt}</p>
-                        <p>Sentiment: {call.sentiment}</p>
-                        <p>Detail Sentiment:</p>
-                        <ul>
-                            {call.detail_sentiment.map((subArray, index) => (
-                                <li key={index}>
-                                    <p>Array {index + 1}:</p>
-                                    <ul>
-                                        {subArray.map((item, subIndex) => (
-                                            <li key={subIndex}>
-                                                <p>Label: {item.label}</p>
-                                                <p>Score: {item.score}</p>
-                                            </li>
+    const Row = ({ row }) => {
+        const [open, setOpen] = useState(false);
+        //extracting lables and scores from detail_sentiment for easy rendering in reviewCharts
+        // const labels = [];
+        // const scores = [];
+        // row.detail_sentiment.forEach(subArray => {
+        //     subArray.forEach(item => {
+        //         labels.push(item.label);
+        //         scores.push(item.score);
+        //     });
+        // });
+
+
+        return (
+            <React.Fragment>
+                <TableRow>
+                    <TableCell>
+                        <IconButton
+                            aria-label="expand row"
+                            size="small"
+                            onClick={() => setOpen(!open)}
+                        >
+                            {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+                        </IconButton>
+                    </TableCell>
+                    <TableCell>{row.username}</TableCell>
+                    <TableCell>{row.userPrompt}</TableCell>
+                    <TableCell>{row.sentiment}</TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={4}>
+                        <Collapse in={open} timeout="auto" unmountOnExit>
+                            <Box sx={{ margin: 1 }}>
+                                <Typography variant="h6" gutterBottom component="div">
+                                    Detail Sentiment
+                                </Typography>
+                                <Table size="small" aria-label="purchases">
+                                    <TableHead>
+                                        <TableRow>
+                                            <TableCell>Label</TableCell>
+                                            <TableCell>Score</TableCell>
+                                            <TableCell>Diagrams</TableCell>
+                                        </TableRow>
+                                    </TableHead>
+                                    <TableBody>
+                                        {/* Iterate over detail_sentiment and map only the first two cells */}
+                                        {row.detail_sentiment.map((subArray, index) => (
+                                            <TableRow key={index}>
+                                                {/* Map only the first cell for labels */}
+                                                <TableCell>
+                                                    <ul>
+                                                        {subArray.map((item, subIndex) => (
+                                                            <li key={subIndex}>{item.label}</li>
+                                                        ))}
+                                                    </ul>
+                                                </TableCell>
+                                                {/* Map only the second cell for scores */}
+                                                <TableCell>
+                                                    <ul>
+                                                        {subArray.map((item, subIndex) => (
+                                                            <li key={subIndex}>{item.score}</li>
+                                                        ))}
+                                                    </ul>
+                                                </TableCell>
+                                                {/* Render ReviewCharts without mapping for the third cell */}
+                                                <TableCell>
+                                                    <ReviewCharts
+                                                        labels={row.detail_sentiment[0].map(item => item.label)}
+                                                        scores={row.detail_sentiment[0].map(item => item.score)}
+                                                    />
+                                                </TableCell>
+                                            </TableRow>
                                         ))}
-                                    </ul>
-                                </li>
-                            ))}
-                        </ul>
-                    </li>
-                ))}
-            </ul>
-        </div>
+                                    </TableBody>
+
+                                </Table>
+                            </Box>
+                        </Collapse>
+                    </TableCell>
+                </TableRow>
+            </React.Fragment>
+        );
+    };
+
+    return (
+        <TableContainer component={Paper}>
+            <Table>
+                <TableHead>
+                    <TableRow>
+                        <TableCell />
+                        <TableCell>Username</TableCell>
+                        <TableCell>User Prompt</TableCell>
+                        <TableCell>Sentiment</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {callHistory.map((row) => (
+                        <Row key={row._id} row={row} />
+                    ))}
+                </TableBody>
+            </Table>
+        </TableContainer>
     );
 };
 
