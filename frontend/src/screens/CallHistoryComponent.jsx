@@ -14,19 +14,10 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { useSelector } from 'react-redux';
-import ReviewCharts from './ReviewCharts'
+import ReviewCharts from './ReviewCharts';
 
 const CallHistoryComponent = () => {
     const [callHistory, setCallHistory] = useState([]);
-    // const userInfo = useSelector((state) => state.auth.userInfo);
-    // const [name, setName] = useState('User');
-
-    // useEffect(() => {
-    //     if (userInfo && userInfo.name) {
-    //         setName(userInfo.name);
-    //     }
-    // }, [userInfo]);
-
 
     useEffect(() => {
         const fetchCallHistory = async () => {
@@ -43,6 +34,16 @@ const CallHistoryComponent = () => {
 
     const Row = ({ row }) => {
         const [open, setOpen] = useState(false);
+        const [conversationData, setConversationData] = useState({ userPromptsArr: [], chatbotResponsesArr: [] });
+
+        const handleConversation = () => {
+            setConversationData({
+                userPromptsArr: row.userPromptsArr,
+                chatbotResponsesArr: row.chatbotResponsesArr
+            });
+            setOpen(!open);
+        };
+
         return (
             <React.Fragment>
                 <TableRow>
@@ -56,7 +57,7 @@ const CallHistoryComponent = () => {
                         </IconButton>
                     </TableCell>
                     <TableCell>{row.username}</TableCell>
-                    <TableCell>{row.userPrompt}</TableCell>
+                    <TableCell onClick={handleConversation}>conversation</TableCell>
                     <TableCell>{row.sentiment}</TableCell>
                 </TableRow>
                 <TableRow>
@@ -104,12 +105,42 @@ const CallHistoryComponent = () => {
                                             </TableRow>
                                         ))}
                                     </TableBody>
-
                                 </Table>
                             </Box>
                         </Collapse>
                     </TableCell>
                 </TableRow>
+                {open && (
+                    <TableRow>
+                        <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={4}>
+                            <Collapse in={open} timeout="auto" unmountOnExit>
+                                <Box sx={{ margin: 1 }}>
+                                    <Typography variant="h6" gutterBottom component="div">
+                                        Conversation Data
+                                    </Typography>
+                                    <Table size="small" aria-label="conversation-data">
+                                        <TableHead>
+                                            <TableRow>
+                                                <TableCell>User Prompts</TableCell>
+                                                <TableCell>Chatbot Responses</TableCell>
+                                            </TableRow>
+                                        </TableHead>
+                                        <TableBody>
+                                            {Array.isArray(row.userPromptsArr) && Array.isArray(row.chatbotResponsesArr) &&
+                                                row.userPromptsArr.map((userPrompt, index) => (
+                                                    <TableRow key={index}>
+                                                        <TableCell>{userPrompt}</TableCell>
+                                                        <TableCell>{row.chatbotResponsesArr[index]}</TableCell>
+                                                    </TableRow>
+                                                ))
+                                            }
+                                        </TableBody>
+                                    </Table>
+                                </Box>
+                            </Collapse>
+                        </TableCell>
+                    </TableRow>
+                )}
             </React.Fragment>
         );
     };
@@ -121,7 +152,7 @@ const CallHistoryComponent = () => {
                     <TableRow>
                         <TableCell />
                         <TableCell>Username</TableCell>
-                        <TableCell>User Prompt</TableCell>
+                        <TableCell>Conversation</TableCell>
                         <TableCell>Sentiment</TableCell>
                     </TableRow>
                 </TableHead>

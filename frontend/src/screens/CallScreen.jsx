@@ -25,6 +25,10 @@ const CallScreen = () => {
     const [speaking, setSpeaking] = useState(false);
 
 
+    const [userPromptsArr, setUserPromptsArr] = useState([]);
+    const [chatbotResponsesArr, setChatbotResponsesArr] = useState([]);
+
+
     const handleCallConnect = () => {
         setCallConnected(true);
     };
@@ -39,7 +43,7 @@ const CallScreen = () => {
     const recognitionRef = useRef(null);
     const speechSynthRef = useRef(window.speechSynthesis);
 
-    // React useEffect hook that runs when the callActive state changes
+    //React useEffect hook that runs when the callActive state changes
     useEffect(() => {
         if (callActive) {
             // Log and announce the start of an active call
@@ -56,8 +60,48 @@ const CallScreen = () => {
             }
             // Speak out a goodbye message when the call is deactivated
             // speakOut("Thank you for using our service. Goodbye!");
+            const finalText = userPromptsArr.join(' ');
+            console.log(finalText);
+
+            // Perform sentiment analysis on the user's speech
+            axios.post('http://127.0.0.1:3000/analyze_sentiment', { comment: finalText })
+                .then(sentimentResponse => {
+                    console.log('Sentiment analysis result:', sentimentResponse.data);
+                    // Handle sentiment analysis result if needed
+
+                    // Extract sentiment analysis data
+                    const { sentiment, detail_sentiment } = sentimentResponse.data;
+                    setCallActive(false);
+                    // Send sentiment analysis result to the backend for storage
+                    console.log(userPromptsArr);
+                    console.log(chatbotResponsesArr);
+                    console.log(name);
+                    axios.post('http://localhost:3001/api/callHistories', {
+                        username: name,
+                        sentiment: sentiment,
+                        detail_sentiment: detail_sentiment,
+                        userPromptsArr: userPromptsArr,
+                        chatbotResponsesArr: chatbotResponsesArr
+                    }).then(response => {
+                        console.log('Sentiment analysis result saved to database:', response.data);
+                        // Handle response if needed
+                    })
+                        .catch(error => {
+                            console.error('Error saving sentiment analysis result to database:', error);
+                        });
+                })
+                .catch(sentimentError => {
+                    console.error('Sentiment analysis request failed:', sentimentError);
+                });
+
+
+
         }
     }, [callActive]);  // Depend on callActive to trigger this effect
+
+
+
+
 
     // Function to handle speech synthesis
     const speakOut = (text, callback) => {
@@ -72,8 +116,8 @@ const CallScreen = () => {
 
     // Function to handle the chatbot's response
     const handleResponse = (responseText) => {
-        // Log the response from the chatbot
-        console.log('Response from chatbot:', responseText);
+
+
         // Speak out the response and start listening again after a delay
         speakOut(responseText, () => {
             if (callActive) {
@@ -83,6 +127,14 @@ const CallScreen = () => {
                 }, 1000);
             }
         });
+
+        // Update the chatbot response array
+        setChatbotResponsesArr(prevText => {
+            const updatedResponses = [...prevText, responseText];
+            console.log("Updated ChatBot Response Array: ", updatedResponses);
+            return updatedResponses;
+        });
+
     };
 
     // Function to start speech recognition
@@ -107,42 +159,17 @@ const CallScreen = () => {
             if (lastResult.isFinal) {
                 const userPrompt = lastResult[0].transcript;
                 console.log('Recognized Speech:', userPrompt);
-                recognitionRef.current.stop();  // Stop recognition to process speech
-                // Send the user's speech to the backend
+                recognitionRef.current.stop();
+                setUserPromptsArr(prevPrompts => [...prevPrompts, userPrompt]); //concatenating the previous prompts array with the new prompts array
+
                 axios.post('http://127.0.0.1:3000/chatbot', { prompt: userPrompt })
                     .then(response => {
                         const responseText = response.data.response;
-                        console.log('Chatbot response:', responseText);
                         handleResponse(responseText);
+                        console.log("Response Text: ", responseText);
 
 
-                        // Perform sentiment analysis on the user's speech
-                        axios.post('http://127.0.0.1:3000/analyze_sentiment', { comment: userPrompt })
-                            .then(sentimentResponse => {
-                                console.log('Sentiment analysis result:', sentimentResponse.data);
-                                // Handle sentiment analysis result if needed
 
-                                // Extract sentiment analysis data
-                                const { sentiment, detail_sentiment } = sentimentResponse.data;
-
-                                // Send sentiment analysis result to the backend for storage
-                                axios.post('http://localhost:3001/api/callHistories', {
-                                    username: name,
-                                    userPrompt: userPrompt,
-                                    sentiment: sentiment,
-                                    detail_sentiment: detail_sentiment
-                                })
-                                    .then(response => {
-                                        console.log('Sentiment analysis result saved to database:', response.data);
-                                        // Handle response if needed
-                                    })
-                                    .catch(error => {
-                                        console.error('Error saving sentiment analysis result to database:', error);
-                                    });
-                            })
-                            .catch(sentimentError => {
-                                console.error('Sentiment analysis request failed:', sentimentError);
-                            });
                     })
                     .catch(error => console.error('Error making the API call:', error));
             }

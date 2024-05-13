@@ -29,20 +29,24 @@ const getCallHistoryById = asyncHandler(async (req, res) => {
 // @route   POST /api/callHistories
 // @access  Private/Admin
 const createCallHistory = asyncHandler(async (req, res) => {
+    const { username, sentiment, detail_sentiment, userPromptsArr, chatbotResponsesArr } = req.body;
+    console.log('username in controller', username);
+    try {
+        const callHistory = await CallHistory.create({
+            username, // Assuming username should populate the 'name' field
+            sentiment,
+            detail_sentiment,
+            userPromptsArr, // Add the new arrays directly to the creation
+            chatbotResponsesArr
+        });
 
-
-
-    const { username, userPrompt, sentiment, detail_sentiment } = req.body;
-
-    const callHistory = await CallHistory.create({
-        username,
-        userPrompt,
-        sentiment,
-        detail_sentiment,
-    });
-
-    res.status(201).json(callHistory);
+        res.status(201).json(callHistory);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: 'Error creating call history' });
+    }
 });
+
 
 // @desc    Update a call history
 // @route   PUT /api/callHistories/:id
